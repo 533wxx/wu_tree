@@ -291,6 +291,8 @@ body::before {
   .search-box { flex: 1; min-width: 0; }
   .title-block { flex: 1; min-width: 0; }
 
+  .layout { z-index: 270; }
+
   .sidebar {
     position: fixed; top: 0; left: 0; bottom: 0; width: 260px;
     z-index: 260; background: var(--bg);
