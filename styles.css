@@ -262,17 +262,19 @@ body::before {
 .menu-btn {
   display: none;
   flex-direction: column; justify-content: center; align-items: center;
-  gap: 5px; width: 40px; height: 40px; padding: 8px;
-  background: transparent; border: 1px solid var(--border);
+  gap: 5px; width: 44px; height: 44px; padding: 10px;
+  background: var(--surface); border: 1px solid var(--border-light);
   border-radius: var(--radius); cursor: pointer; z-index: 300;
-  transition: border-color 0.2s;
+  transition: border-color 0.2s, background 0.2s;
+  flex-shrink: 0;
 }
 .menu-btn span {
-  display: block; width: 20px; height: 2px;
-  background: var(--text-muted); border-radius: 1px;
+  display: block; width: 22px; height: 2px;
+  background: var(--accent); border-radius: 1px;
   transition: all 0.3s ease;
 }
-.menu-btn:hover { border-color: var(--accent-dim); }
+.menu-btn:hover { border-color: var(--accent); background: var(--surface-2); }
+.menu-btn:active { transform: scale(0.95); }
 .menu-btn.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
 .menu-btn.open span:nth-child(2) { opacity: 0; }
 .menu-btn.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
