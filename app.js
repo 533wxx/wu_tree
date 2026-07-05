@@ -30,7 +30,7 @@ function renderSidebar() {
     const btn = document.createElement('button');
     btn.className = 'branch-btn' + (i === currentBranch ? ' active' : '');
     btn.innerHTML = `<span>${fd.branch}</span><span class="branch-count">${count}人</span>`;
-    btn.onclick = () => { currentBranch = i; render(); };
+    btn.onclick = () => { currentBranch = i; render(); closeSidebar(); };
     list.appendChild(btn);
   });
 }
@@ -414,6 +414,32 @@ document.getElementById('modalOverlay').addEventListener('click', function(e) {
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') closeModal();
 });
+
+// ===== MOBILE SIDEBAR TOGGLE =====
+function toggleSidebar() {
+  const sidebar = document.getElementById('sidebar');
+  const overlay = document.getElementById('sidebarOverlay');
+  const menuBtn = document.getElementById('menuBtn');
+  const isOpen = sidebar.classList.contains('open');
+  if (isOpen) {
+    sidebar.classList.remove('open');
+    overlay.classList.remove('active');
+    menuBtn.classList.remove('open');
+  } else {
+    sidebar.classList.add('open');
+    overlay.classList.add('active');
+    menuBtn.classList.add('open');
+  }
+}
+
+function closeSidebar() {
+  const sidebar = document.getElementById('sidebar');
+  const overlay = document.getElementById('sidebarOverlay');
+  const menuBtn = document.getElementById('menuBtn');
+  sidebar.classList.remove('open');
+  overlay.classList.remove('active');
+  menuBtn.classList.remove('open');
+}
 
 // ===== RENDER ALL =====
 function render() {
