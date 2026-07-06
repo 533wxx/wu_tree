@@ -19,12 +19,11 @@
   --radius: 6px;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
-html { overflow-x: hidden; }
+html, body { overflow: hidden; height: 100%; }
 body {
   font-family: 'Noto Sans SC', sans-serif;
   background: var(--bg); color: var(--text);
-  min-height: 100vh;
-  padding-top: 93px;
+  padding-top: 0;
 }
 body::before {
   content: ''; position: fixed; inset: 0;
@@ -87,12 +86,14 @@ body::before {
 .search-result-item .info { font-size: 12px; color: var(--text-muted); }
 .layout {
   display: flex; max-width: 1600px; margin: 0 auto;
-  min-height: calc(100vh - 100px); position: relative; z-index: 1;
+  height: 100vh; height: 100dvh;
+  overflow-y: auto; -webkit-overflow-scrolling: touch;
+  padding-top: 93px; position: relative; z-index: 1;
 }
 .sidebar {
   width: 220px; min-width: 220px; padding: 24px 16px;
   border-right: 1px solid var(--border); position: sticky;
-  top: 93px; height: calc(100vh - 93px); overflow-y: auto; flex-shrink: 0;
+  top: 0; height: calc(100vh - 93px); overflow-y: auto; flex-shrink: 0;
 }
 .sidebar::-webkit-scrollbar { width: 3px; }
 .sidebar::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
@@ -299,7 +300,7 @@ body::before {
   .search-box { flex: 1; min-width: 0; }
   .title-block { flex: 1; min-width: 0; }
 
-  .layout { z-index: 270; }
+  .layout { padding-top: 100px; z-index: 270; }
 
   .sidebar {
     position: fixed; top: 0; left: 0; bottom: 0; width: 260px;
@@ -322,6 +323,8 @@ body::before {
 }
 @media (max-width: 600px) {
   .title { font-size: 20px; }
+  .layout { padding-top: 110px; }
+  .sidebar { padding-top: 110px; }
   .nodes-row { padding-left: 16px; }
   .node-card { max-width: 100%; padding: 10px 12px; }
   .children-container { padding-left: 16px; margin-left: 4px; }
