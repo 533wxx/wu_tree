@@ -322,14 +322,14 @@ body::before {
   .sidebar-overlay { display: none !important; }
 }
 @media (max-width: 600px) {
-  .title { font-size: 16px; white-space: nowrap; }
-  .subtitle { font-size: 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .title-block { flex-direction: row; align-items: baseline; gap: 4px; }
+  .title { font-size: 17px; white-space: nowrap; }
+  .subtitle { font-size: 11px; white-space: nowrap; }
+  .title-block { order: 1; flex-basis: 100%; flex-direction: row; align-items: baseline; gap: 6px; }
+  .menu-btn { order: 2; width: 34px; height: 34px; padding: 5px; flex-shrink: 0; }
+  .menu-btn span { width: 18px; height: 2px; }
+  .search-box { order: 3; flex: 1; min-width: 0; }
   .header { padding: 6px 8px 8px; }
   .header-inner { gap: 6px; }
-  .menu-btn { width: 34px; height: 34px; padding: 5px; }
-  .menu-btn span { width: 18px; height: 2px; }
-  .search-box { flex-basis: 100%; width: 100%; }
   .search-box input { padding: 6px 8px 6px 28px; font-size: 13px; }
   .search-icon { left: 8px; font-size: 13px; }
   .layout { padding-top: 160px; }

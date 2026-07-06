@@ -9,7 +9,7 @@
 <title>高橋吳氏宗譜 · 卷十三世系</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=14">
+<link rel="stylesheet" href="styles.css?v=15">
 <style>
   /* ★ 内联样式在外部 CSS 之后加载，确保优先级最高 ★ */
   html, body { overflow: hidden; height: 100%; }
@@ -36,16 +36,16 @@
     .layout { padding-top: 130px !important; }
     .sidebar { padding-top: 130px !important; }
   }
-  /* 手机小屏 + 大字体：搜索框单独一行，标题菜单在一行 */
+  /* 手机：第1行标题+副标题，第2行菜单+搜索框 */
   @media (max-width: 600px) {
     .header { padding: 6px 8px 8px !important; }
     .header-inner { gap: 6px !important; }
-    .menu-btn { width: 34px !important; height: 34px !important; padding: 5px !important; }
+    .title-block { order: 1 !important; flex-basis: 100% !important; flex-direction: row !important; align-items: baseline !important; gap: 6px !important; }
+    .title { font-size: 17px !important; white-space: nowrap !important; }
+    .subtitle { font-size: 11px !important; white-space: nowrap !important; }
+    .menu-btn { order: 2 !important; width: 34px !important; height: 34px !important; padding: 5px !important; flex-shrink: 0 !important; }
     .menu-btn span { width: 18px !important; height: 2px !important; }
-    .title-block { flex-direction: row !important; align-items: baseline !important; gap: 4px !important; flex: 1 !important; min-width: 0 !important; }
-    .title { font-size: 16px !important; white-space: nowrap !important; }
-    .subtitle { font-size: 10px !important; white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important; }
-    .search-box { flex-basis: 100% !important; width: 100% !important; }
+    .search-box { order: 3 !important; flex: 1 !important; min-width: 0 !important; }
     .search-box input { padding: 6px 8px 6px 28px !important; font-size: 13px !important; }
     .search-icon { left: 8px !important; font-size: 13px !important; }
     .layout { padding-top: 160px !important; }
@@ -91,6 +91,6 @@
     <div class="modal-body" id="modalBody"></div>
   </div>
 </div><script src="data.js?v=13"></script>
-<script src="app.js?v=16"></script>
+<script src="app.js?v=17"></script>
 </body>
 </html>
