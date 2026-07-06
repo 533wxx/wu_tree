@@ -160,7 +160,7 @@ function createNodeCard(person, delay = 0) {
   if (person.hao) ziHtml += ` 号${person.hao}`;
 
   let detailHtml = '';
-  if (person.birthSolar) detailHtml += `<div>生于 ${person.birthSolar}</div>`;
+  if (person.birthDisplay) detailHtml += `<div>生于 ${person.birthDisplay}</div>`;
   else if (person.birth) detailHtml += `<div>生于 ${person.birth}</div>`;
   if (person.wife) detailHtml += `<div class="highlight">${person.wife}</div>`;
   if (person.adoptNote) detailHtml += `<div class="adopt-badge">${person.adoptNote}</div>`;
@@ -306,8 +306,8 @@ function openModal(person) {
   if (person.birthOrder) html += field('排行', person.birthOrder);
   if (person.zi) html += field('字', person.zi);
   if (person.hao) html += field('号', person.hao);
-  if (person.birthSolar) {
-    html += field('生于', person.birthSolar + (person.birth ? '（' + person.birth + '）' : ''));
+  if (person.birthDisplay) {
+    html += field('生于', person.birthDisplay);
   } else if (person.birth) {
     html += field('生于', person.birth);
   }

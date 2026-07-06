@@ -53,19 +53,29 @@ const familyData = [
                       "gender": "M",
                       "birth": "公元2013年癸巳二月廿八日辰时",
                       "children": [],
-                      "birthSolar": "2013-04-08"
+                      "birthSolar": "2013-04-08",
+                      "birthYear": "2013",
+                      "birthDisplay": "2013年(癸巳)二月廿八日辰时"
                     }
                   ],
-                  "birthSolar": "1991-03-12"
+                  "birthSolar": "1991-03-12",
+                  "birthYear": "1991",
+                  "birthDisplay": "1991年(辛未)正月廿六日巳时"
                 }
               ],
-              "birthSolar": "1963-07-26"
+              "birthSolar": "1963-07-26",
+              "birthYear": "1963",
+              "birthDisplay": "1963年六月初六日酉时"
             }
           ],
-          "birthSolar": "1920-05-08"
+          "birthSolar": "1920-05-08",
+          "birthYear": "1920",
+          "birthDisplay": "1920年(庚申)三月二十日寅时"
         }
       ],
-      "birthSolar": "1878-12-23"
+      "birthSolar": "1878-12-23",
+      "birthYear": "1878",
+      "birthDisplay": "1878年(戊寅)十一月三十日亥时"
     },
     "siblings": [
       {
@@ -108,16 +118,24 @@ const familyData = [
                       "菲菲（公元2016年丙申农历十一月十五日辰时生）"
                     ],
                     "children": [],
-                    "birthSolar": "1996-04-14"
+                    "birthSolar": "1996-04-14",
+                    "birthYear": "1996",
+                    "birthDisplay": "1996年(丙子)二月廿七日亥时"
                   }
                 ],
-                "birthSolar": "1966-10-10"
+                "birthSolar": "1966-10-10",
+                "birthYear": "1966",
+                "birthDisplay": "1966年(丙午)八月廿六日午时"
               }
             ],
-            "birthSolar": "1926-01-02"
+            "birthSolar": "1926-01-02",
+            "birthYear": "1925",
+            "birthDisplay": "1925年(乙丑)十一月十八日丑时"
           }
         ],
-        "birthSolar": "1883-01-21"
+        "birthSolar": "1883-01-21",
+        "birthYear": "1882",
+        "birthDisplay": "1882年(壬午)十二月十三日巳时"
       },
       {
         "id": "m110_3",
@@ -173,7 +191,9 @@ const familyData = [
                     "birth": "公元2001年辛巳十月初二日申时",
                     "children": [],
                     "birthSolar": "2001-11-16",
-                    "birthOrder": "长子"
+                    "birthOrder": "长子",
+                    "birthYear": "2001",
+                    "birthDisplay": "2001年(辛巳)十月初二日申时"
                   },
                   {
                     "id": "w113_4",
@@ -184,16 +204,24 @@ const familyData = [
                     "birth": "公元2009年己丑九月十五日卯时",
                     "children": [],
                     "birthSolar": "2009-11-01",
-                    "birthOrder": "幼子"
+                    "birthOrder": "幼子",
+                    "birthYear": "2009",
+                    "birthDisplay": "2009年(己丑)九月十五日卯时"
                   }
                 ],
-                "birthSolar": "1974-04-30"
+                "birthSolar": "1974-04-30",
+                "birthYear": "1974",
+                "birthDisplay": "1974年(甲寅)四月初九日卯时"
               }
             ],
-            "birthSolar": "1932-10-08"
+            "birthSolar": "1932-10-08",
+            "birthYear": "1932",
+            "birthDisplay": "1932年(壬申)九月初九日午时"
           }
         ],
-        "birthSolar": "1885-09-11"
+        "birthSolar": "1885-09-11",
+        "birthYear": "1885",
+        "birthDisplay": "1885年(乙酉)八月初三日巳时"
       }
     ]
   },
@@ -219,7 +247,9 @@ const familyData = [
           "note": "幼歿",
           "children": [],
           "birthSolar": "1881-10-20",
-          "birthOrder": "长子"
+          "birthOrder": "长子",
+          "birthYear": "1881",
+          "birthDisplay": "1881年(辛巳)八月廿八日午时"
         },
         {
           "id": "l111_11",
@@ -270,7 +300,9 @@ const familyData = [
                       ],
                       "children": [],
                       "birthSolar": "1968-03-25",
-                      "birthOrder": "长子"
+                      "birthOrder": "长子",
+                      "birthYear": "1968",
+                      "birthDisplay": "1968年(戊申)二月廿七日亥时"
                     },
                     {
                       "id": "b114_11",
@@ -285,7 +317,9 @@ const familyData = [
                       ],
                       "children": [],
                       "birthSolar": "1969-11-10",
-                      "birthOrder": "次子"
+                      "birthOrder": "次子",
+                      "birthYear": "1969",
+                      "birthDisplay": "1969年(己酉)十月初一日亥时"
                     },
                     {
                       "id": "b114_12",
@@ -305,7 +339,9 @@ const familyData = [
                           "birth": "公元1999年己卯十一月廿七日丑时",
                           "children": [],
                           "birthSolar": "2000-01-03",
-                          "birthOrder": "长子"
+                          "birthOrder": "长子",
+                          "birthYear": "1999",
+                          "birthDisplay": "1999年(己卯)十一月廿七日丑时"
                         },
                         {
                           "id": "g115_2",
@@ -316,11 +352,15 @@ const familyData = [
                           "birth": "公元2003年癸未九月初九日巳时",
                           "children": [],
                           "birthSolar": "2003-10-04",
-                          "birthOrder": "幼子"
+                          "birthOrder": "幼子",
+                          "birthYear": "2003",
+                          "birthDisplay": "2003年(癸未)九月初九日巳时"
                         }
                       ],
                       "birthSolar": "1973-12-15",
-                      "birthOrder": "三子"
+                      "birthOrder": "三子",
+                      "birthYear": "1973",
+                      "birthDisplay": "1973年(癸丑)十一月廿一日酉时"
                     },
                     {
                       "id": "b114_13",
@@ -338,11 +378,15 @@ const familyData = [
                           "gender": "M",
                           "birth": "公元2000年庚辰四月廿九日午时",
                           "children": [],
-                          "birthSolar": "2000-06-01"
+                          "birthSolar": "2000-06-01",
+                          "birthYear": "2000",
+                          "birthDisplay": "2000年(庚辰)四月廿九日午时"
                         }
                       ],
                       "birthSolar": "1975-10-20",
-                      "birthOrder": "四子"
+                      "birthOrder": "四子",
+                      "birthYear": "1975",
+                      "birthDisplay": "1975年(乙卯)九月十六日戌时"
                     },
                     {
                       "id": "b114_14",
@@ -361,18 +405,26 @@ const familyData = [
                           "gender": "M",
                           "birth": "公元2000年庚辰八月十三日酉时",
                           "children": [],
-                          "birthSolar": "2000-09-10"
+                          "birthSolar": "2000-09-10",
+                          "birthYear": "2000",
+                          "birthDisplay": "2000年(庚辰)八月十三日酉时"
                         }
                       ],
                       "birthSolar": "1979-08-25",
-                      "birthOrder": "幼子"
+                      "birthOrder": "幼子",
+                      "birthYear": "1979",
+                      "birthDisplay": "1979年(己未)七月初三日午时"
                     }
                   ],
-                  "birthSolar": "1941-11-08"
+                  "birthSolar": "1941-11-08",
+                  "birthYear": "1941",
+                  "birthDisplay": "1941年(辛巳)九月二十日"
                 }
               ],
               "birthSolar": "1907-10-28",
-              "birthOrder": "长子"
+              "birthOrder": "长子",
+              "birthYear": "1907",
+              "birthDisplay": "1907年(丁未)九月廿二日子时"
             },
             {
               "id": "x112_11",
@@ -432,7 +484,9 @@ const familyData = [
                               "birth": "公元2011年辛卯腊月十三日申时",
                               "children": [],
                               "birthSolar": "2012-01-06",
-                              "birthOrder": "长子"
+                              "birthOrder": "长子",
+                              "birthYear": "2011",
+                              "birthDisplay": "2011年(辛卯)腊月十三日申时"
                             },
                             {
                               "id": "c116_2",
@@ -443,11 +497,15 @@ const familyData = [
                               "birth": "公元2005年乙酉七月十一日子时",
                               "children": [],
                               "birthSolar": "2005-08-15",
-                              "birthOrder": "幼子"
+                              "birthOrder": "幼子",
+                              "birthYear": "2005",
+                              "birthDisplay": "2005年(乙酉)七月十一日子时"
                             }
                           ],
                           "birthSolar": "1989-07-24",
-                          "birthOrder": "长子"
+                          "birthOrder": "长子",
+                          "birthYear": "1989",
+                          "birthDisplay": "1989年(己巳)六月廿二日戌时"
                         },
                         {
                           "id": "g115_11",
@@ -470,15 +528,21 @@ const familyData = [
                               "gender": "M",
                               "birth": "公元2014年甲午正月十一日戌时",
                               "children": [],
-                              "birthSolar": "2014-02-10"
+                              "birthSolar": "2014-02-10",
+                              "birthYear": "2014",
+                              "birthDisplay": "2014年(甲午)正月十一日戌时"
                             }
                           ],
                           "birthSolar": "1992-04-28",
-                          "birthOrder": "幼子"
+                          "birthOrder": "幼子",
+                          "birthYear": "1992",
+                          "birthDisplay": "1992年(壬申)三月廿六日未时"
                         }
                       ],
                       "birthSolar": "1967-12-04",
-                      "birthOrder": "长子"
+                      "birthOrder": "长子",
+                      "birthYear": "1967",
+                      "birthDisplay": "1967年(丁未)十一月初三日丑时"
                     },
                     {
                       "id": "b114_21",
@@ -497,11 +561,15 @@ const familyData = [
                           "gender": "M",
                           "birth": "公元1998年戊寅四月十七日未时",
                           "children": [],
-                          "birthSolar": "1998-05-12"
+                          "birthSolar": "1998-05-12",
+                          "birthYear": "1998",
+                          "birthDisplay": "1998年(戊寅)四月十七日未时"
                         }
                       ],
                       "birthSolar": "1973-05-25",
-                      "birthOrder": "次子"
+                      "birthOrder": "次子",
+                      "birthYear": "1973",
+                      "birthDisplay": "1973年(癸丑)四月廿三日寅时"
                     },
                     {
                       "id": "b114_22",
@@ -523,15 +591,21 @@ const familyData = [
                           "gender": "M",
                           "birth": "公元2005年乙酉生",
                           "children": [],
-                          "birthSolar": "2005"
+                          "birthSolar": "2005",
+                          "birthYear": "2005",
+                          "birthDisplay": "2005年(乙酉)生"
                         }
                       ],
                       "birthSolar": "1977-07-22",
-                      "birthOrder": "幼子"
+                      "birthOrder": "幼子",
+                      "birthYear": "1977",
+                      "birthDisplay": "1977年(丁巳)六月初七日丑时"
                     }
                   ],
                   "birthSolar": "1941-01-31",
-                  "birthOrder": "长子"
+                  "birthOrder": "长子",
+                  "birthYear": "1941",
+                  "birthDisplay": "1941年(辛巳)正月初五日亥时"
                 },
                 {
                   "id": "w113_21",
@@ -565,11 +639,15 @@ const familyData = [
                           "gender": "M",
                           "birth": "公元2013年癸巳九月初一日未时",
                           "children": [],
-                          "birthSolar": "2013-10-05"
+                          "birthSolar": "2013-10-05",
+                          "birthYear": "2013",
+                          "birthDisplay": "2013年(癸巳)九月初一日未时"
                         }
                       ],
                       "birthSolar": "1988-04-19",
-                      "birthOrder": "长子"
+                      "birthOrder": "长子",
+                      "birthYear": "1988",
+                      "birthDisplay": "1988年(戊辰)三月初四日亥时"
                     },
                     {
                       "id": "b114_31",
@@ -588,15 +666,21 @@ const familyData = [
                           "gender": "M",
                           "birth": "公元2018年戊戌十月廿八日寅时",
                           "children": [],
-                          "birthSolar": "2018-12-05"
+                          "birthSolar": "2018-12-05",
+                          "birthYear": "2018",
+                          "birthDisplay": "2018年(戊戌)十月廿八日寅时"
                         }
                       ],
                       "birthSolar": "1991-05-17",
-                      "birthOrder": "幼子"
+                      "birthOrder": "幼子",
+                      "birthYear": "1991",
+                      "birthDisplay": "1991年(辛未)四月初四日辰时"
                     }
                   ],
                   "birthSolar": "1953-11-14",
-                  "birthOrder": "次子"
+                  "birthOrder": "次子",
+                  "birthYear": "1953",
+                  "birthDisplay": "1953年(癸巳)十月初八日亥时"
                 },
                 {
                   "id": "w113_22",
@@ -638,14 +722,20 @@ const familyData = [
                           "birth": "公元2017年丁酉腊月十六日",
                           "children": [],
                           "birthSolar": "2018-02-01",
-                          "birthOrder": "幼子"
+                          "birthOrder": "幼子",
+                          "birthYear": "2017",
+                          "birthDisplay": "2017年(丁酉)腊月十六日"
                         }
                       ],
-                      "birthSolar": "1987-10-06"
+                      "birthSolar": "1987-10-06",
+                      "birthYear": "1987",
+                      "birthDisplay": "1987年(丁卯)八月十四日丑时"
                     }
                   ],
                   "birthSolar": "1958-04-16",
-                  "birthOrder": "三子"
+                  "birthOrder": "三子",
+                  "birthYear": "1958",
+                  "birthDisplay": "1958年(戊戌)二月廿八日戌时"
                 },
                 {
                   "id": "w113_23",
@@ -669,7 +759,9 @@ const familyData = [
                       ],
                       "children": [],
                       "birthSolar": "1989-11-07",
-                      "birthOrder": "长子"
+                      "birthOrder": "长子",
+                      "birthYear": "1989",
+                      "birthDisplay": "1989年(己巳)十月初十日寅时"
                     },
                     {
                       "id": "b114_51",
@@ -680,11 +772,15 @@ const familyData = [
                       "birth": "公元1996年丙子十二月十五日卯时",
                       "children": [],
                       "birthSolar": "1997-01-23",
-                      "birthOrder": "幼子"
+                      "birthOrder": "幼子",
+                      "birthYear": "1996",
+                      "birthDisplay": "1996年(丙子)十二月十五日卯时"
                     }
                   ],
                   "birthSolar": "1962-12-05",
-                  "birthOrder": "四子"
+                  "birthOrder": "四子",
+                  "birthYear": "1962",
+                  "birthDisplay": "1962年(壬寅)十一月初九日子时"
                 },
                 {
                   "id": "w113_24",
@@ -715,18 +811,26 @@ const familyData = [
                           "gender": "M",
                           "birth": "公元2024年甲辰十月十九日巳时",
                           "children": [],
-                          "birthSolar": "2024-11-19"
+                          "birthSolar": "2024-11-19",
+                          "birthYear": "2024",
+                          "birthDisplay": "2024年(甲辰)十月十九日巳时"
                         }
                       ],
-                      "birthSolar": "1994-02-27"
+                      "birthSolar": "1994-02-27",
+                      "birthYear": "1994",
+                      "birthDisplay": "1994年(甲戌)正月十八日寅时"
                     }
                   ],
                   "birthSolar": "1967-09-12",
-                  "birthOrder": "幼子"
+                  "birthOrder": "幼子",
+                  "birthYear": "1967",
+                  "birthDisplay": "1967年(丁未)八月初九日丑时"
                 }
               ],
               "birthSolar": "1912-01-31",
-              "birthOrder": "次子"
+              "birthOrder": "次子",
+              "birthYear": "1911",
+              "birthDisplay": "1911年(辛亥)十二月十三日申时"
             },
             {
               "id": "x112_12",
@@ -740,10 +844,14 @@ const familyData = [
             }
           ],
           "birthSolar": "1886-01-13",
-          "birthOrder": "幼子"
+          "birthOrder": "幼子",
+          "birthYear": "1885",
+          "birthDisplay": "1885年(乙酉)十二月初九日卯时"
         }
       ],
-      "birthSolar": "1857-06-23"
+      "birthSolar": "1857-06-23",
+      "birthYear": "1857",
+      "birthDisplay": "1857年(丁巳)又五月初二日午时"
     },
     "siblings": [
       {
@@ -819,11 +927,15 @@ const familyData = [
                             "gender": "M",
                             "birth": "公元2000年庚辰六月十四日申时",
                             "children": [],
-                            "birthSolar": "2000-07-15"
+                            "birthSolar": "2000-07-15",
+                            "birthYear": "2000",
+                            "birthDisplay": "2000年(庚辰)六月十四日申时"
                           }
                         ],
                         "birthSolar": "1976-11-11",
-                        "birthOrder": "长子"
+                        "birthOrder": "长子",
+                        "birthYear": "1976",
+                        "birthDisplay": "1976年(丙辰)九月二十日巳时"
                       },
                       {
                         "id": "b114_71",
@@ -847,15 +959,21 @@ const familyData = [
                             "gender": "M",
                             "birth": "公元2011年辛卯七月初三日亥时",
                             "children": [],
-                            "birthSolar": "2011-08-02"
+                            "birthSolar": "2011-08-02",
+                            "birthYear": "2011",
+                            "birthDisplay": "2011年(辛卯)七月初三日亥时"
                           }
                         ],
                         "birthSolar": "1978-12-07",
-                        "birthOrder": "幼子"
+                        "birthOrder": "幼子",
+                        "birthYear": "1978",
+                        "birthDisplay": "1978年(戊午)十一月初八日酉时"
                       }
                     ],
                     "birthSolar": "1952-09-07",
-                    "birthOrder": "长子"
+                    "birthOrder": "长子",
+                    "birthYear": "1952",
+                    "birthDisplay": "1952年(壬辰)七月十九日巳时"
                   },
                   {
                     "id": "w113_31",
@@ -878,11 +996,15 @@ const familyData = [
                         "hao": "见球",
                         "birth": "公元1990年庚午三月廿一日亥时",
                         "children": [],
-                        "birthSolar": "1990-04-16"
+                        "birthSolar": "1990-04-16",
+                        "birthYear": "1990",
+                        "birthDisplay": "1990年(庚午)三月廿一日亥时"
                       }
                     ],
                     "birthSolar": "1952-09-07",
-                    "birthOrder": "次子"
+                    "birthOrder": "次子",
+                    "birthYear": "1952",
+                    "birthDisplay": "1952年(壬辰)七月十九日午时"
                   },
                   {
                     "id": "w113_32",
@@ -898,7 +1020,9 @@ const familyData = [
                     ],
                     "children": [],
                     "birthSolar": "1955-10-26",
-                    "birthOrder": "三子"
+                    "birthOrder": "三子",
+                    "birthYear": "1955",
+                    "birthDisplay": "1955年(乙未)九月十一日巳时"
                   },
                   {
                     "id": "w113_33",
@@ -925,11 +1049,15 @@ const familyData = [
                         "gender": "M",
                         "birth": "公元2017年丁酉八月十二日",
                         "children": [],
-                        "birthSolar": "2017-10-01"
+                        "birthSolar": "2017-10-01",
+                        "birthYear": "2017",
+                        "birthDisplay": "2017年(丁酉)八月十二日"
                       }
                     ],
                     "birthSolar": "1958-09-18",
-                    "birthOrder": "四子"
+                    "birthOrder": "四子",
+                    "birthYear": "1958",
+                    "birthDisplay": "1958年(戊戌)八月初六日寅时"
                   },
                   {
                     "id": "w113_34",
@@ -941,16 +1069,24 @@ const familyData = [
                     "note": "幼歿",
                     "children": [],
                     "birthSolar": "1963-03-18",
-                    "birthOrder": "幼子"
+                    "birthOrder": "幼子",
+                    "birthYear": "1963",
+                    "birthDisplay": "1963年(癸卯)二月廿三日午时"
                   }
                 ],
-                "birthSolar": "1919-03-08"
+                "birthSolar": "1919-03-08",
+                "birthYear": "1919",
+                "birthDisplay": "1919年(己未)二月初七日亥时"
               }
             ],
-            "birthSolar": "1898-05-10"
+            "birthSolar": "1898-05-10",
+            "birthYear": "1898",
+            "birthDisplay": "1898年(戊戌)又三月二十日子时"
           }
         ],
-        "birthSolar": "1860-07-15"
+        "birthSolar": "1860-07-15",
+        "birthYear": "1860",
+        "birthDisplay": "1860年(庚申)五月廿七日亥时"
       },
       {
         "id": "m110_12",
@@ -1041,11 +1177,15 @@ const familyData = [
                             "gender": "M",
                             "birth": "公元2006年丙戌闰七月十六日巳时",
                             "children": [],
-                            "birthSolar": "2006-09-08"
+                            "birthSolar": "2006-09-08",
+                            "birthYear": "2006",
+                            "birthDisplay": "2006年(丙戌)闰七月十六日巳时"
                           }
                         ],
                         "birthSolar": "1983-12-21",
-                        "birthOrder": "长子"
+                        "birthOrder": "长子",
+                        "birthYear": "1983",
+                        "birthDisplay": "1983年(癸亥)十一月十八日未时"
                       },
                       {
                         "id": "b114_81",
@@ -1068,15 +1208,21 @@ const familyData = [
                             "gender": "M",
                             "birth": "公元2016年丙申八月十八日未时",
                             "children": [],
-                            "birthSolar": "2016-09-18"
+                            "birthSolar": "2016-09-18",
+                            "birthYear": "2016",
+                            "birthDisplay": "2016年(丙申)八月十八日未时"
                           }
                         ],
                         "birthSolar": "1986-03-23",
-                        "birthOrder": "幼子"
+                        "birthOrder": "幼子",
+                        "birthYear": "1986",
+                        "birthDisplay": "1986年(丙寅)二月十四日申时"
                       }
                     ],
                     "birthSolar": "1959-04-27",
-                    "birthOrder": "长子"
+                    "birthOrder": "长子",
+                    "birthYear": "1959",
+                    "birthDisplay": "1959年(己亥)三月二十日巳时"
                   },
                   {
                     "id": "w113_41",
@@ -1109,14 +1255,20 @@ const familyData = [
                             "gender": "M",
                             "birth": "公元2021年辛丑七月十二日未时",
                             "children": [],
-                            "birthSolar": "2021-08-19"
+                            "birthSolar": "2021-08-19",
+                            "birthYear": "2021",
+                            "birthDisplay": "2021年(辛丑)七月十二日未时"
                           }
                         ],
-                        "birthSolar": "1987-10-11"
+                        "birthSolar": "1987-10-11",
+                        "birthYear": "1987",
+                        "birthDisplay": "1987年(丁卯)八月十九日亥时"
                       }
                     ],
                     "birthSolar": "1963-02-28",
-                    "birthOrder": "次子"
+                    "birthOrder": "次子",
+                    "birthYear": "1963",
+                    "birthDisplay": "1963年(癸卯)二月初五日卯时"
                   },
                   {
                     "id": "w113_42",
@@ -1143,15 +1295,21 @@ const familyData = [
                           "次女（公元2021年辛丑生）"
                         ],
                         "children": [],
-                        "birthSolar": "1999-11-01"
+                        "birthSolar": "1999-11-01",
+                        "birthYear": "1999",
+                        "birthDisplay": "1999年(己卯)九月廿四日子时"
                       }
                     ],
                     "birthSolar": "1968-06-18",
-                    "birthOrder": "幼子"
+                    "birthOrder": "幼子",
+                    "birthYear": "1968",
+                    "birthDisplay": "1968年(戊申)五月廿三日辰时"
                   }
                 ],
                 "birthSolar": "1933-09-02",
-                "birthOrder": "三子"
+                "birthOrder": "三子",
+                "birthYear": "1933",
+                "birthDisplay": "1933年(癸酉)七月十三日亥时"
               },
               {
                 "id": "x112_33",
@@ -1198,11 +1356,15 @@ const familyData = [
                             "gender": "M",
                             "birth": "公元2014年甲午正月十五日巳时",
                             "children": [],
-                            "birthSolar": "2014-02-14"
+                            "birthSolar": "2014-02-14",
+                            "birthYear": "2014",
+                            "birthDisplay": "2014年(甲午)正月十五日巳时"
                           }
                         ],
                         "birthSolar": "1988-08-06",
-                        "birthOrder": "长子"
+                        "birthOrder": "长子",
+                        "birthYear": "1988",
+                        "birthDisplay": "1988年(戊辰)六月廿四日巳时"
                       },
                       {
                         "id": "b114_91",
@@ -1214,11 +1376,15 @@ const familyData = [
                         "birth": "公元1991年辛未二月十一日子时",
                         "children": [],
                         "birthSolar": "1991-03-26",
-                        "birthOrder": "幼子"
+                        "birthOrder": "幼子",
+                        "birthYear": "1991",
+                        "birthDisplay": "1991年(辛未)二月十一日子时"
                       }
                     ],
                     "birthSolar": "1962-10-08",
-                    "birthOrder": "长子"
+                    "birthOrder": "长子",
+                    "birthYear": "1962",
+                    "birthDisplay": "1962年(壬寅)九月初十日丑时"
                   },
                   {
                     "id": "w113_51",
@@ -1234,7 +1400,9 @@ const familyData = [
                     ],
                     "children": [],
                     "birthSolar": "1964-12-20",
-                    "birthOrder": "次子"
+                    "birthOrder": "次子",
+                    "birthYear": "1964",
+                    "birthDisplay": "1964年(甲辰)十一月十七日亥时"
                   },
                   {
                     "id": "w113_52",
@@ -1256,11 +1424,15 @@ const familyData = [
                         "gender": "M",
                         "birth": "公元1989年己巳正月初二日卯时",
                         "children": [],
-                        "birthSolar": "1989-02-07"
+                        "birthSolar": "1989-02-07",
+                        "birthYear": "1989",
+                        "birthDisplay": "1989年(己巳)正月初二日卯时"
                       }
                     ],
                     "birthSolar": "1967-11-05",
-                    "birthOrder": "三子"
+                    "birthOrder": "三子",
+                    "birthYear": "1967",
+                    "birthDisplay": "1967年(丁未)十月初四日亥时"
                   },
                   {
                     "id": "w113_53",
@@ -1285,7 +1457,9 @@ const familyData = [
                         "birth": "公元2006年丙戌七月廿一日未时",
                         "children": [],
                         "birthSolar": "2006-08-14",
-                        "birthOrder": "长子"
+                        "birthOrder": "长子",
+                        "birthYear": "2006",
+                        "birthDisplay": "2006年(丙戌)七月廿一日未时"
                       },
                       {
                         "id": "b114_94",
@@ -1296,19 +1470,27 @@ const familyData = [
                         "birth": "公元2013年癸巳二月初六日巳时",
                         "children": [],
                         "birthSolar": "2013-03-17",
-                        "birthOrder": "幼子"
+                        "birthOrder": "幼子",
+                        "birthYear": "2013",
+                        "birthDisplay": "2013年(癸巳)二月初六日巳时"
                       }
                     ],
                     "birthSolar": "1978-04-15",
-                    "birthOrder": "幼子"
+                    "birthOrder": "幼子",
+                    "birthYear": "1978",
+                    "birthDisplay": "1978年(戊午)三月初九日子时"
                   }
                 ],
                 "birthSolar": "1938-10-25",
-                "birthOrder": "幼子"
+                "birthOrder": "幼子",
+                "birthYear": "1938",
+                "birthDisplay": "1938年(戊寅)九月初三日丑时"
               }
             ],
             "birthSolar": "1901-10-16",
-            "birthOrder": "长子"
+            "birthOrder": "长子",
+            "birthYear": "1901",
+            "birthDisplay": "1901年(辛丑)九月初五日寅时"
           },
           {
             "id": "l111_31",
@@ -1373,7 +1555,9 @@ const familyData = [
                           }
                         ],
                         "birthSolar": "1984-12-21",
-                        "birthOrder": "长子"
+                        "birthOrder": "长子",
+                        "birthYear": "1984",
+                        "birthDisplay": "1984年(甲子)又十月廿九日申时"
                       },
                       {
                         "id": "b114_101",
@@ -1399,11 +1583,15 @@ const familyData = [
                           }
                         ],
                         "birthSolar": "1987-04-29",
-                        "birthOrder": "幼子"
+                        "birthOrder": "幼子",
+                        "birthYear": "1987",
+                        "birthDisplay": "1987年(丁卯)四月初二日卯时"
                       }
                     ],
                     "birthSolar": "1957-05-05",
-                    "birthOrder": "长子"
+                    "birthOrder": "长子",
+                    "birthYear": "1957",
+                    "birthDisplay": "1957年(丁酉)四月初六日午时"
                   },
                   {
                     "id": "w113_61",
@@ -1429,11 +1617,15 @@ const familyData = [
                           "开洋（公元2022年壬寅生）"
                         ],
                         "children": [],
-                        "birthSolar": "1992-04-04"
+                        "birthSolar": "1992-04-04",
+                        "birthYear": "1992",
+                        "birthDisplay": "1992年(壬申)三月初二日寅时"
                       }
                     ],
                     "birthSolar": "1964-10-22",
-                    "birthOrder": "次子"
+                    "birthOrder": "次子",
+                    "birthYear": "1964",
+                    "birthDisplay": "1964年(甲辰)九月十七日卯时"
                   },
                   {
                     "id": "w113_62",
@@ -1453,15 +1645,21 @@ const familyData = [
                         "hao": "子睿",
                         "birth": "公元2012年壬辰七月廿八日亥时",
                         "children": [],
-                        "birthSolar": "2012-09-13"
+                        "birthSolar": "2012-09-13",
+                        "birthYear": "2012",
+                        "birthDisplay": "2012年(壬辰)七月廿八日亥时"
                       }
                     ],
                     "birthSolar": "1973-07-20",
-                    "birthOrder": "幼子"
+                    "birthOrder": "幼子",
+                    "birthYear": "1973",
+                    "birthDisplay": "1973年(癸丑)六月廿一日巳时"
                   }
                 ],
                 "birthSolar": "1935-02-03",
-                "birthOrder": "长子"
+                "birthOrder": "长子",
+                "birthYear": "1934",
+                "birthDisplay": "1934年(甲戌)十二月三十日辰时"
               },
               {
                 "id": "x112_41",
@@ -1507,17 +1705,25 @@ const familyData = [
                             "gender": "M",
                             "birth": "公元2022年壬寅农历三月初一戌时",
                             "children": [],
-                            "birthSolar": "2022-04-01"
+                            "birthSolar": "2022-04-01",
+                            "birthYear": "2022",
+                            "birthDisplay": "2022年(壬寅)三月初一戌时"
                           }
                         ],
-                        "birthSolar": "1992-09-17"
+                        "birthSolar": "1992-09-17",
+                        "birthYear": "1992",
+                        "birthDisplay": "1992年(壬申)八月廿一日未时"
                       }
                     ],
-                    "birthSolar": "1969-10-25"
+                    "birthSolar": "1969-10-25",
+                    "birthYear": "1969",
+                    "birthDisplay": "1969年(己酉)九月十五日辰时"
                   }
                 ],
                 "birthSolar": "1937-11-07",
-                "birthOrder": "次子"
+                "birthOrder": "次子",
+                "birthYear": "1937",
+                "birthDisplay": "1937年(丁丑)十月初五日酉时"
               },
               {
                 "id": "x112_42",
@@ -1554,11 +1760,15 @@ const familyData = [
                         "gender": "M",
                         "birth": "公元1997年丁丑十月十四日巳时",
                         "children": [],
-                        "birthSolar": "1997-11-13"
+                        "birthSolar": "1997-11-13",
+                        "birthYear": "1997",
+                        "birthDisplay": "1997年(丁丑)十月十四日巳时"
                       }
                     ],
                     "birthSolar": "1966-12-31",
-                    "birthOrder": "长子"
+                    "birthOrder": "长子",
+                    "birthYear": "1966",
+                    "birthDisplay": "1966年(丙午)十一月二十日辰时"
                   },
                   {
                     "id": "w113_65",
@@ -1574,11 +1784,15 @@ const familyData = [
                     ],
                     "children": [],
                     "birthSolar": "1981-08-15",
-                    "birthOrder": "幼子"
+                    "birthOrder": "幼子",
+                    "birthYear": "1981",
+                    "birthDisplay": "1981年(辛酉)七月十六日未时"
                   }
                 ],
                 "birthSolar": "1942-10-22",
-                "birthOrder": "三子"
+                "birthOrder": "三子",
+                "birthYear": "1942",
+                "birthDisplay": "1942年(壬午)九月十三日辰时"
               },
               {
                 "id": "x112_43",
@@ -1592,10 +1806,14 @@ const familyData = [
               }
             ],
             "birthSolar": "1908-10-11",
-            "birthOrder": "幼子"
+            "birthOrder": "幼子",
+            "birthYear": "1908",
+            "birthDisplay": "1908年(戊申)九月十七日寅时"
           }
         ],
-        "birthSolar": "1871-02-24"
+        "birthSolar": "1871-02-24",
+        "birthYear": "1871",
+        "birthDisplay": "1871年(辛未)正月初六日未时"
       }
     ]
   },
@@ -1688,14 +1906,20 @@ const familyData = [
                               "gender": "M",
                               "birth": "公元2016年丙申十月十八日午时",
                               "children": [],
-                              "birthSolar": "2016-11-17"
+                              "birthSolar": "2016-11-17",
+                              "birthYear": "2016",
+                              "birthDisplay": "2016年(丙申)十月十八日午时"
                             }
                           ],
-                          "birthSolar": "1993-02-18"
+                          "birthSolar": "1993-02-18",
+                          "birthYear": "1993",
+                          "birthDisplay": "1993年(癸酉)正月廿七日寅时"
                         }
                       ],
                       "birthSolar": "1973-01-05",
-                      "birthOrder": "长子"
+                      "birthOrder": "长子",
+                      "birthYear": "1972",
+                      "birthDisplay": "1972年(壬子)十二月初二日酉时"
                     },
                     {
                       "id": "b114_111",
@@ -1718,7 +1942,9 @@ const familyData = [
                           "birth": "公元1998年戊寅九月十九日寅时",
                           "children": [],
                           "birthSolar": "1998-11-07",
-                          "birthOrder": "长子"
+                          "birthOrder": "长子",
+                          "birthYear": "1998",
+                          "birthDisplay": "1998年(戊寅)九月十九日寅时"
                         },
                         {
                           "id": "g115_92",
@@ -1729,15 +1955,21 @@ const familyData = [
                           "birth": "公元2023年癸卯五月初三日戌时",
                           "children": [],
                           "birthSolar": "2023-06-20",
-                          "birthOrder": "幼子"
+                          "birthOrder": "幼子",
+                          "birthYear": "2023",
+                          "birthDisplay": "2023年(癸卯)五月初三日戌时"
                         }
                       ],
                       "birthSolar": "1975",
-                      "birthOrder": "幼子"
+                      "birthOrder": "幼子",
+                      "birthYear": "1975",
+                      "birthDisplay": "1975年(乙卯)五月三十日未时"
                     }
                   ],
                   "birthSolar": "1947-06-12",
-                  "birthOrder": "长子"
+                  "birthOrder": "长子",
+                  "birthYear": "1947",
+                  "birthDisplay": "1947年(丁亥)四月廿四日巳时"
                 },
                 {
                   "id": "w113_71",
@@ -1772,11 +2004,15 @@ const familyData = [
                             "吴瑶（公元2003年癸未生）"
                           ],
                           "children": [],
-                          "birthSolar": "2001"
+                          "birthSolar": "2001",
+                          "birthYear": "2001",
+                          "birthDisplay": "2001年(辛巳)生"
                         }
                       ],
                       "birthSolar": "1979-07-22",
-                      "birthOrder": "长子"
+                      "birthOrder": "长子",
+                      "birthYear": "1979",
+                      "birthDisplay": "1979年(乙未)六月廿九日申时"
                     },
                     {
                       "id": "b114_113",
@@ -1798,15 +2034,21 @@ const familyData = [
                           "gender": "M",
                           "birth": "公元2004年甲申九月初六日丑时",
                           "children": [],
-                          "birthSolar": "2004-10-19"
+                          "birthSolar": "2004-10-19",
+                          "birthYear": "2004",
+                          "birthDisplay": "2004年(甲申)九月初六日丑时"
                         }
                       ],
                       "birthSolar": "1981-03-17",
-                      "birthOrder": "幼子"
+                      "birthOrder": "幼子",
+                      "birthYear": "1981",
+                      "birthDisplay": "1981年(辛酉)二月十二日亥时"
                     }
                   ],
                   "birthSolar": "1954-01-08",
-                  "birthOrder": "次子"
+                  "birthOrder": "次子",
+                  "birthYear": "1953",
+                  "birthDisplay": "1953年(癸巳)十二月初四日卯时"
                 },
                 {
                   "id": "w113_72",
@@ -1838,18 +2080,26 @@ const familyData = [
                           "gender": "M",
                           "birth": "公元2011年辛卯十一月初八日子时",
                           "children": [],
-                          "birthSolar": "2011-12-02"
+                          "birthSolar": "2011-12-02",
+                          "birthYear": "2011",
+                          "birthDisplay": "2011年(辛卯)十一月初八日子时"
                         }
                       ],
-                      "birthSolar": "1988-10-02"
+                      "birthSolar": "1988-10-02",
+                      "birthYear": "1988",
+                      "birthDisplay": "1988年(戊辰)八月廿二日亥时"
                     }
                   ],
                   "birthSolar": "1960-11-01",
-                  "birthOrder": "幼子"
+                  "birthOrder": "幼子",
+                  "birthYear": "1960",
+                  "birthDisplay": "1960年(庚子)九月十三日寅时"
                 }
               ],
               "birthSolar": "1920-06-28",
-              "birthOrder": "长子"
+              "birthOrder": "长子",
+              "birthYear": "1920",
+              "birthDisplay": "1920年(庚申)五月十三日申时"
             },
             {
               "id": "x112_51",
@@ -1900,14 +2150,20 @@ const familyData = [
                           "children": []
                         }
                       ],
-                      "birthSolar": "1987-09-25"
+                      "birthSolar": "1987-09-25",
+                      "birthYear": "1987",
+                      "birthDisplay": "1987年(丁卯)八月初三日酉时"
                     }
                   ],
-                  "birthSolar": "1962-09-22"
+                  "birthSolar": "1962-09-22",
+                  "birthYear": "1962",
+                  "birthDisplay": "1962年(壬寅)八月廿四日丑时"
                 }
               ],
               "birthSolar": "1933-07-27",
-              "birthOrder": "次子"
+              "birthOrder": "次子",
+              "birthYear": "1933",
+              "birthDisplay": "1933年(癸酉)六月初五日酉时"
             },
             {
               "id": "x112_52",
@@ -1943,20 +2199,30 @@ const familyData = [
                       "gender": "M",
                       "birth": "公元2002年壬午五月十一日亥时",
                       "children": [],
-                      "birthSolar": "2002-06-21"
+                      "birthSolar": "2002-06-21",
+                      "birthYear": "2002",
+                      "birthDisplay": "2002年(壬午)五月十一日亥时"
                     }
                   ],
-                  "birthSolar": "1978-11-18"
+                  "birthSolar": "1978-11-18",
+                  "birthYear": "1978",
+                  "birthDisplay": "1978年(戊午)十月十八日子时"
                 }
               ],
               "birthSolar": "1937-12-25",
-              "birthOrder": "幼子"
+              "birthOrder": "幼子",
+              "birthYear": "1937",
+              "birthDisplay": "1937年(丁丑)十一月廿三日酉时"
             }
           ],
-          "birthSolar": "1900-10-01"
+          "birthSolar": "1900-10-01",
+          "birthYear": "1900",
+          "birthDisplay": "1900年(庚子)又八月初八日酉时"
         }
       ],
-      "birthSolar": "1864-06-01"
+      "birthSolar": "1864-06-01",
+      "birthYear": "1864",
+      "birthDisplay": "1864年(甲子)四月廿七日巳时"
     },
     "siblings": [
       {
@@ -2030,14 +2296,20 @@ const familyData = [
                             "gender": "M",
                             "birth": "公元2015年乙未十一月十五日未时",
                             "children": [],
-                            "birthSolar": "2015-12-25"
+                            "birthSolar": "2015-12-25",
+                            "birthYear": "2015",
+                            "birthDisplay": "2015年(乙未)十一月十五日未时"
                           }
                         ],
-                        "birthSolar": "1997-08-21"
+                        "birthSolar": "1997-08-21",
+                        "birthYear": "1997",
+                        "birthDisplay": "1997年(丁丑)七月十九日巳时"
                       }
                     ],
                     "birthSolar": "1977-03-20",
-                    "birthOrder": "长子"
+                    "birthOrder": "长子",
+                    "birthYear": "1977",
+                    "birthDisplay": "1977年(丁巳)二月初一日子时"
                   },
                   {
                     "id": "w113_76",
@@ -2048,11 +2320,15 @@ const familyData = [
                     "birth": "公元1989年己巳八月十一日戌时",
                     "children": [],
                     "birthSolar": "1989-09-10",
-                    "birthOrder": "幼子"
+                    "birthOrder": "幼子",
+                    "birthYear": "1989",
+                    "birthDisplay": "1989年(己巳)八月十一日戌时"
                   }
                 ],
                 "birthSolar": "1944-11-14",
-                "birthOrder": "长子"
+                "birthOrder": "长子",
+                "birthYear": "1944",
+                "birthDisplay": "1944年(甲申)九月廿九日申时"
               },
               {
                 "id": "x112_54",
@@ -2064,13 +2340,19 @@ const familyData = [
                 "birth": "公元1955年乙未十月初八日亥时",
                 "children": [],
                 "birthSolar": "1955-11-21",
-                "birthOrder": "幼子"
+                "birthOrder": "幼子",
+                "birthYear": "1955",
+                "birthDisplay": "1955年(乙未)十月初八日亥时"
               }
             ],
-            "birthSolar": "1911-06-20"
+            "birthSolar": "1911-06-20",
+            "birthYear": "1911",
+            "birthDisplay": "1911年(辛亥)五月廿四日辰时"
           }
         ],
-        "birthSolar": "1881-03-11"
+        "birthSolar": "1881-03-11",
+        "birthYear": "1881",
+        "birthDisplay": "1881年(辛巳)二月十二日戌时"
       }
     ]
   },
@@ -2118,11 +2400,15 @@ const familyData = [
                   "children": []
                 }
               ],
-              "birthSolar": "1920-07-29"
+              "birthSolar": "1920-07-29",
+              "birthYear": "1920",
+              "birthDisplay": "1920年(庚申)六月十四日未时"
             }
           ],
           "birthSolar": "1904-05-23",
-          "birthOrder": "长子"
+          "birthOrder": "长子",
+          "birthYear": "1904",
+          "birthDisplay": "1904年(甲辰)四月初九日午时"
         },
         {
           "id": "l111_61",
@@ -2170,11 +2456,15 @@ const familyData = [
                       "gender": "M",
                       "birth": "公元2007年丁亥二月廿九日午时",
                       "children": [],
-                      "birthSolar": "2007-04-16"
+                      "birthSolar": "2007-04-16",
+                      "birthYear": "2007",
+                      "birthDisplay": "2007年(丁亥)二月廿九日午时"
                     }
                   ],
                   "birthSolar": "1982-12-07",
-                  "birthOrder": "长子"
+                  "birthOrder": "长子",
+                  "birthYear": "1982",
+                  "birthDisplay": "1982年(壬戌)十月廿三日午时"
                 },
                 {
                   "id": "w113_81",
@@ -2193,15 +2483,21 @@ const familyData = [
                       "gender": "M",
                       "birth": "公元2012年壬辰正月廿七日辰时",
                       "children": [],
-                      "birthSolar": "2012-02-18"
+                      "birthSolar": "2012-02-18",
+                      "birthYear": "2012",
+                      "birthDisplay": "2012年(壬辰)正月廿七日辰时"
                     }
                   ],
                   "birthSolar": "1984-12-09",
-                  "birthOrder": "幼子"
+                  "birthOrder": "幼子",
+                  "birthYear": "1984",
+                  "birthDisplay": "1984年(甲子)又十月十七日戌时"
                 }
               ],
               "birthSolar": "1951-11-25",
-              "birthOrder": "长子"
+              "birthOrder": "长子",
+              "birthYear": "1951",
+              "birthDisplay": "1951年(辛卯)十月廿七日丑时"
             },
             {
               "id": "x112_62",
@@ -2235,11 +2531,15 @@ const familyData = [
                       "gender": "M",
                       "birth": "公元2011年壬辰正月廿二日戌时",
                       "children": [],
-                      "birthSolar": "2011-02-24"
+                      "birthSolar": "2011-02-24",
+                      "birthYear": "2011",
+                      "birthDisplay": "2011年(壬辰)正月廿二日戌时"
                     }
                   ],
                   "birthSolar": "1982-02-24",
-                  "birthOrder": "长子"
+                  "birthOrder": "长子",
+                  "birthYear": "1982",
+                  "birthDisplay": "1982年(壬戌)二月初一日戌时"
                 },
                 {
                   "id": "w113_83",
@@ -2250,7 +2550,9 @@ const familyData = [
                   "birth": "公元1983年癸亥七月十五日午时",
                   "children": [],
                   "birthSolar": "1983-08-23",
-                  "birthOrder": "次子"
+                  "birthOrder": "次子",
+                  "birthYear": "1983",
+                  "birthDisplay": "1983年(癸亥)七月十五日午时"
                 },
                 {
                   "id": "w113_84",
@@ -2261,11 +2563,15 @@ const familyData = [
                   "birth": "公元1985年乙丑七月十五日丑时",
                   "children": [],
                   "birthSolar": "1985-08-30",
-                  "birthOrder": "幼子"
+                  "birthOrder": "幼子",
+                  "birthYear": "1985",
+                  "birthDisplay": "1985年(乙丑)七月十五日丑时"
                 }
               ],
               "birthSolar": "1953-10-24",
-              "birthOrder": "次子"
+              "birthOrder": "次子",
+              "birthYear": "1953",
+              "birthDisplay": "1953年(癸巳)九月十七日亥时"
             },
             {
               "id": "x112_63",
@@ -2301,14 +2607,20 @@ const familyData = [
                       "gender": "M",
                       "birth": "公元2006年丙戌三月初十日巳时",
                       "children": [],
-                      "birthSolar": "2006-04-07"
+                      "birthSolar": "2006-04-07",
+                      "birthYear": "2006",
+                      "birthDisplay": "2006年(丙戌)三月初十日巳时"
                     }
                   ],
-                  "birthSolar": "1984-05-03"
+                  "birthSolar": "1984-05-03",
+                  "birthYear": "1984",
+                  "birthDisplay": "1984年(甲子)四月初三日辰时"
                 }
               ],
               "birthSolar": "1956-09-20",
-              "birthOrder": "三子"
+              "birthOrder": "三子",
+              "birthYear": "1956",
+              "birthDisplay": "1956年(丙申)八月十六日卯时"
             },
             {
               "id": "x112_64",
@@ -2337,7 +2649,9 @@ const familyData = [
                       "birth": "公元2012年壬辰四月卅日未时",
                       "children": [],
                       "birthSolar": "2012-05-20",
-                      "birthOrder": "长子"
+                      "birthOrder": "长子",
+                      "birthYear": "2012",
+                      "birthDisplay": "2012年(壬辰)四月卅日未时"
                     },
                     {
                       "id": "b114_125",
@@ -2348,11 +2662,15 @@ const familyData = [
                       "birth": "公元2012年壬辰四月卅日未时",
                       "children": [],
                       "birthSolar": "2012-05-20",
-                      "birthOrder": "幼子"
+                      "birthOrder": "幼子",
+                      "birthYear": "2012",
+                      "birthDisplay": "2012年(壬辰)四月卅日未时"
                     }
                   ],
                   "birthSolar": "1987-05-08",
-                  "birthOrder": "长子"
+                  "birthOrder": "长子",
+                  "birthYear": "1987",
+                  "birthDisplay": "1987年(丁卯)四月十一日亥时"
                 },
                 {
                   "id": "w113_87",
@@ -2375,22 +2693,32 @@ const familyData = [
                       "gender": "M",
                       "birth": "公元2023年癸卯农历八月十二日酉时",
                       "children": [],
-                      "birthSolar": "2023-09-26"
+                      "birthSolar": "2023-09-26",
+                      "birthYear": "2023",
+                      "birthDisplay": "2023年(癸卯)八月十二日酉时"
                     }
                   ],
                   "birthSolar": "1988-10-28",
-                  "birthOrder": "幼子"
+                  "birthOrder": "幼子",
+                  "birthYear": "1988",
+                  "birthDisplay": "1988年(戊辰)九月十八日酉时"
                 }
               ],
               "birthSolar": "1966-07-02",
-              "birthOrder": "幼子"
+              "birthOrder": "幼子",
+              "birthYear": "1966",
+              "birthDisplay": "1966年(丙午)五月十四日亥时"
             }
           ],
           "birthSolar": "1922-05-26",
-          "birthOrder": "幼子"
+          "birthOrder": "幼子",
+          "birthYear": "1922",
+          "birthDisplay": "1922年(壬戌)四月三十日亥时"
         }
       ],
-      "birthSolar": "1874-11-10"
+      "birthSolar": "1874-11-10",
+      "birthYear": "1874",
+      "birthDisplay": "1874年(甲戌)十月初二日戌时"
     },
     "siblings": []
   },
@@ -2406,7 +2734,9 @@ const familyData = [
       "wife": "王氏宝兰（道光戊申年生，出醮）",
       "death": "公歿年未详",
       "children": [],
-      "birthSolar": "1847-10-14"
+      "birthSolar": "1847-10-14",
+      "birthYear": "1847",
+      "birthDisplay": "1847年(丁未)九月初六日"
     },
     "siblings": [
       {
@@ -2433,10 +2763,14 @@ const familyData = [
             "birth": "光绪乙酉年九月十九日亥时",
             "note": "幼歿",
             "children": [],
-            "birthSolar": "1885-10-26"
+            "birthSolar": "1885-10-26",
+            "birthYear": "1885",
+            "birthDisplay": "1885年(乙酉)九月十九日亥时"
           }
         ],
-        "birthSolar": "1853-01-27"
+        "birthSolar": "1853-01-27",
+        "birthYear": "1852",
+        "birthDisplay": "1852年(壬子)十二月十九日酉时"
       }
     ]
   },
@@ -2512,7 +2846,9 @@ const familyData = [
                           "birth": "公元2005年乙酉正月二十日午时",
                           "children": [],
                           "birthSolar": "2005-02-28",
-                          "birthOrder": "长子"
+                          "birthOrder": "长子",
+                          "birthYear": "2005",
+                          "birthDisplay": "2005年(乙酉)正月二十日午时"
                         },
                         {
                           "id": "g115_7",
@@ -2525,7 +2861,9 @@ const familyData = [
                         }
                       ],
                       "birthSolar": "1979-12-13",
-                      "birthOrder": "长子"
+                      "birthOrder": "长子",
+                      "birthYear": "1979",
+                      "birthDisplay": "1979年(己未)十月廿四日丑时"
                     },
                     {
                       "id": "b114_7",
@@ -2547,18 +2885,26 @@ const familyData = [
                           "gender": "M",
                           "birth": "公元2018年戊戌农历七月初四巳时",
                           "children": [],
-                          "birthSolar": "2018-08-14"
+                          "birthSolar": "2018-08-14",
+                          "birthYear": "2018",
+                          "birthDisplay": "2018年(戊戌)七月初四巳时"
                         }
                       ],
                       "birthSolar": "1985-11-23",
-                      "birthOrder": "幼子"
+                      "birthOrder": "幼子",
+                      "birthYear": "1985",
+                      "birthDisplay": "1985年(乙丑)十月十二日未时"
                     }
                   ],
-                  "birthSolar": "1954-12-29"
+                  "birthSolar": "1954-12-29",
+                  "birthYear": "1954",
+                  "birthDisplay": "1954年(甲午)十二月初五日亥时"
                 }
               ],
               "birthSolar": "1915-09-29",
-              "birthOrder": "长子"
+              "birthOrder": "长子",
+              "birthYear": "1915",
+              "birthDisplay": "1915年(乙卯)八月廿一日午时"
             },
             {
               "id": "x112_7",
@@ -2606,17 +2952,25 @@ const familyData = [
                           "hao": "星辰",
                           "birth": "公元2008年戊子三月初九日申时",
                           "children": [],
-                          "birthSolar": "2008-04-14"
+                          "birthSolar": "2008-04-14",
+                          "birthYear": "2008",
+                          "birthDisplay": "2008年(戊子)三月初九日申时"
                         }
                       ],
-                      "birthSolar": "1986-01-26"
+                      "birthSolar": "1986-01-26",
+                      "birthYear": "1985",
+                      "birthDisplay": "1985年(乙丑)十二月十七日午时"
                     }
                   ],
-                  "birthSolar": "1958-03-12"
+                  "birthSolar": "1958-03-12",
+                  "birthYear": "1958",
+                  "birthDisplay": "1958年(戊戌)正月廿三日辰时"
                 }
               ],
               "birthSolar": "1918-07-24",
-              "birthOrder": "次子"
+              "birthOrder": "次子",
+              "birthYear": "1918",
+              "birthDisplay": "1918年(戊午)六月十七日辰时"
             },
             {
               "id": "x112_8",
@@ -2655,20 +3009,30 @@ const familyData = [
                       "gender": "M",
                       "birth": "公元2003年癸未四月廿七日申时",
                       "children": [],
-                      "birthSolar": "2003-05-27"
+                      "birthSolar": "2003-05-27",
+                      "birthYear": "2003",
+                      "birthDisplay": "2003年(癸未)四月廿七日申时"
                     }
                   ],
-                  "birthSolar": "1977-04-04"
+                  "birthSolar": "1977-04-04",
+                  "birthYear": "1977",
+                  "birthDisplay": "1977年(丁巳)二月十六日亥时"
                 }
               ],
               "birthSolar": "1930-10-24",
-              "birthOrder": "幼子"
+              "birthOrder": "幼子",
+              "birthYear": "1930",
+              "birthDisplay": "1930年(庚午)九月初三日卯时"
             }
           ],
-          "birthSolar": "1887-11-27"
+          "birthSolar": "1887-11-27",
+          "birthYear": "1887",
+          "birthDisplay": "1887年(丁亥)十月十三日辰时"
         }
       ],
-      "birthSolar": "1862-05-12"
+      "birthSolar": "1862-05-12",
+      "birthYear": "1862",
+      "birthDisplay": "1862年(壬戌)四月十四日亥时"
     },
     "siblings": [
       {
@@ -2683,7 +3047,9 @@ const familyData = [
         "death": "公歿于光绪庚寅年七月廿八日酉时，葬栎树下庚山甲向",
         "adoptNote": "入继良淇双祧为嗣",
         "children": [],
-        "birthSolar": "1869-01-17"
+        "birthSolar": "1869-01-17",
+        "birthYear": "1868",
+        "birthDisplay": "1868年(戊辰)十二月初五日辰时"
       }
     ]
   },
@@ -2704,7 +3070,9 @@ const familyData = [
         "雪菊"
       ],
       "children": [],
-      "birthSolar": "1854-07-02"
+      "birthSolar": "1854-07-02",
+      "birthYear": "1854",
+      "birthDisplay": "1854年(甲寅)六月初八日戌时"
     },
     "siblings": [
       {
@@ -2758,11 +3126,15 @@ const familyData = [
                         "gender": "M",
                         "birth": "公元2016年乙未二月廿三日未时",
                         "children": [],
-                        "birthSolar": "2016-03-31"
+                        "birthSolar": "2016-03-31",
+                        "birthYear": "2016",
+                        "birthDisplay": "2016年(乙未)二月廿三日未时"
                       }
                     ],
                     "birthSolar": "1995-03-14",
-                    "birthOrder": "长子"
+                    "birthOrder": "长子",
+                    "birthYear": "1995",
+                    "birthDisplay": "1995年(乙亥)二月十四日巳时"
                   },
                   {
                     "id": "w113_9b",
@@ -2774,16 +3146,24 @@ const familyData = [
                     "birth": "公元2004年癸未八月初五日巳时",
                     "children": [],
                     "birthSolar": "2004-09-18",
-                    "birthOrder": "幼子"
+                    "birthOrder": "幼子",
+                    "birthYear": "2004",
+                    "birthDisplay": "2004年(癸未)八月初五日巳时"
                   }
                 ],
-                "birthSolar": "1971-08-25"
+                "birthSolar": "1971-08-25",
+                "birthYear": "1971",
+                "birthDisplay": "1971年(辛亥)七月初五日亥时"
               }
             ],
-            "birthSolar": "1932-09-06"
+            "birthSolar": "1932-09-06",
+            "birthYear": "1932",
+            "birthDisplay": "1932年(壬申)八月初六日辰时"
           }
         ],
-        "birthSolar": "1863-11-01"
+        "birthSolar": "1863-11-01",
+        "birthYear": "1863",
+        "birthDisplay": "1863年(癸亥)九月二十日戌时"
       },
       {
         "id": "m110_9c",
@@ -2795,7 +3175,9 @@ const familyData = [
         "wife": "徐氏冬妹（出醮）",
         "death": "公歿于光绪戊申年五月初四日未时，葬庵背东西向",
         "children": [],
-        "birthSolar": "1873-07-17"
+        "birthSolar": "1873-07-17",
+        "birthYear": "1873",
+        "birthDisplay": "1873年(癸酉)六月廿三日丑时"
       }
     ]
   },
@@ -2811,7 +3193,9 @@ const familyData = [
       "wife": "朱氏赛凤（出醮）",
       "note": "嗣子；后嗣信息不完整",
       "children": [],
-      "birthSolar": "1861-07-25"
+      "birthSolar": "1861-07-25",
+      "birthYear": "1861",
+      "birthDisplay": "1861年(辛酉)六月十八日亥时"
     },
     "siblings": []
   },
@@ -2826,7 +3210,9 @@ const familyData = [
       "birth": "咸丰乙卯年八月廿五日卯时",
       "note": "幼歿",
       "children": [],
-      "birthSolar": "1855-10-05"
+      "birthSolar": "1855-10-05",
+      "birthYear": "1855",
+      "birthDisplay": "1855年(乙卯)八月廿五日卯时"
     },
     "siblings": [
       {
@@ -2897,11 +3283,15 @@ const familyData = [
                         "gender": "M",
                         "birth": "公元1989年己巳十月十五日未时",
                         "children": [],
-                        "birthSolar": "1989-11-12"
+                        "birthSolar": "1989-11-12",
+                        "birthYear": "1989",
+                        "birthDisplay": "1989年(己巳)十月十五日未时"
                       }
                     ],
                     "birthSolar": "1957-10-17",
-                    "birthOrder": "长子"
+                    "birthOrder": "长子",
+                    "birthYear": "1957",
+                    "birthDisplay": "1957年(丁酉)又八月廿四日申时"
                   },
                   {
                     "id": "w113_30b",
@@ -2929,7 +3319,9 @@ const familyData = [
                         ],
                         "children": [],
                         "birthSolar": "1990-03-30",
-                        "birthOrder": "长子"
+                        "birthOrder": "长子",
+                        "birthYear": "1990",
+                        "birthDisplay": "1990年(庚午)三月初四日丑时"
                       },
                       {
                         "id": "b114_30c",
@@ -2941,20 +3333,30 @@ const familyData = [
                         "wife": "德兴市泗州镇王越（公元1998年戊寅生）",
                         "children": [],
                         "birthSolar": "1997-05-19",
-                        "birthOrder": "幼子"
+                        "birthOrder": "幼子",
+                        "birthYear": "1997",
+                        "birthDisplay": "1997年(丁丑)四月十三日午时"
                       }
                     ],
                     "birthSolar": "1966-09-28",
-                    "birthOrder": "幼子"
+                    "birthOrder": "幼子",
+                    "birthYear": "1966",
+                    "birthDisplay": "1966年(丙午)八月十四日丑时"
                   }
                 ],
-                "birthSolar": "1928-08-26"
+                "birthSolar": "1928-08-26",
+                "birthYear": "1928",
+                "birthDisplay": "1928年(戊辰)七月十二日戌时"
               }
             ],
-            "birthSolar": "1904-10-01"
+            "birthSolar": "1904-10-01",
+            "birthYear": "1904",
+            "birthDisplay": "1904年(甲辰)八月廿二日未时"
           }
         ],
-        "birthSolar": "1857-08-23"
+        "birthSolar": "1857-08-23",
+        "birthYear": "1857",
+        "birthDisplay": "1857年(丁巳)七月初四日亥时"
       },
       {
         "id": "m110_30c",
@@ -3018,11 +3420,15 @@ const familyData = [
                         "gender": "M",
                         "birth": "公元1988年戊辰二月廿三日丑时",
                         "children": [],
-                        "birthSolar": "1988-04-09"
+                        "birthSolar": "1988-04-09",
+                        "birthYear": "1988",
+                        "birthDisplay": "1988年(戊辰)二月廿三日丑时"
                       }
                     ],
                     "birthSolar": "1957-12-26",
-                    "birthOrder": "长子"
+                    "birthOrder": "长子",
+                    "birthYear": "1957",
+                    "birthDisplay": "1957年(丁酉)十一月初六日"
                   },
                   {
                     "id": "w113_30d",
@@ -3037,11 +3443,15 @@ const familyData = [
                     ],
                     "children": [],
                     "birthSolar": "1962-09-08",
-                    "birthOrder": "幼子"
+                    "birthOrder": "幼子",
+                    "birthYear": "1962",
+                    "birthDisplay": "1962年(壬寅)八月初十日"
                   }
                 ],
                 "birthSolar": "1933-10-08",
-                "birthOrder": "长子"
+                "birthOrder": "长子",
+                "birthYear": "1933",
+                "birthDisplay": "1933年(癸酉)八月十九日寅时"
               },
               {
                 "id": "x112_30c",
@@ -3065,15 +3475,21 @@ const familyData = [
                     "birth": "公元1991年辛未二月初二日寅时",
                     "death": "公元1992年壬申溺亡",
                     "children": [],
-                    "birthSolar": "1991-03-17"
+                    "birthSolar": "1991-03-17",
+                    "birthYear": "1991",
+                    "birthDisplay": "1991年(辛未)二月初二日寅时"
                   }
                 ],
                 "birthSolar": "1949-02-18",
-                "birthOrder": "幼子"
+                "birthOrder": "幼子",
+                "birthYear": "1949",
+                "birthDisplay": "1949年(己丑)正月廿一日巳时"
               }
             ],
             "birthSolar": "1907-09-06",
-            "birthOrder": "长子"
+            "birthOrder": "长子",
+            "birthYear": "1907",
+            "birthDisplay": "1907年(丁未)七月廿九日丑时"
           },
           {
             "id": "l111_30c",
@@ -3142,11 +3558,15 @@ const familyData = [
                             "gender": "M",
                             "birth": "公元2016年正月廿八日巳时",
                             "children": [],
-                            "birthSolar": "2016-03-06"
+                            "birthSolar": "2016-03-06",
+                            "birthYear": "2016",
+                            "birthDisplay": "2016年正月廿八日巳时"
                           }
                         ],
                         "birthSolar": "1990-12-25",
-                        "birthOrder": "长子"
+                        "birthOrder": "长子",
+                        "birthYear": "1990",
+                        "birthDisplay": "1990年(庚寅)十一月初九日戌时"
                       },
                       {
                         "id": "b114_30f",
@@ -3162,14 +3582,20 @@ const familyData = [
                         ],
                         "children": [],
                         "birthSolar": "1993-08-28",
-                        "birthOrder": "幼子"
+                        "birthOrder": "幼子",
+                        "birthYear": "1993",
+                        "birthDisplay": "1993年(癸酉)七月十一日巳时"
                       }
                     ],
-                    "birthSolar": "1968-01-20"
+                    "birthSolar": "1968-01-20",
+                    "birthYear": "1967",
+                    "birthDisplay": "1967年(丁未)十二月廿一日亥时"
                   }
                 ],
                 "birthSolar": "1938-04-25",
-                "birthOrder": "长子"
+                "birthOrder": "长子",
+                "birthYear": "1938",
+                "birthDisplay": "1938年(戊寅)三月廿五日午时"
               },
               {
                 "id": "x112_30e",
@@ -3211,14 +3637,20 @@ const familyData = [
                         "hao": "取军",
                         "birth": "公元2008年九月廿日未时",
                         "children": [],
-                        "birthSolar": "2008-10-18"
+                        "birthSolar": "2008-10-18",
+                        "birthYear": "2008",
+                        "birthDisplay": "2008年九月廿日未时"
                       }
                     ],
-                    "birthSolar": "1973-10-06"
+                    "birthSolar": "1973-10-06",
+                    "birthYear": "1973",
+                    "birthDisplay": "1973年(癸丑)九月十一日子时"
                   }
                 ],
                 "birthSolar": "1945-10-21",
-                "birthOrder": "次子"
+                "birthOrder": "次子",
+                "birthYear": "1945",
+                "birthDisplay": "1945年(乙酉)九月十六日酉时"
               },
               {
                 "id": "x112_30f",
@@ -3231,11 +3663,15 @@ const familyData = [
                 "note": "万紫双祧入继",
                 "children": [],
                 "birthSolar": "1950-02-23",
-                "birthOrder": "幼子"
+                "birthOrder": "幼子",
+                "birthYear": "1950",
+                "birthDisplay": "1950年(庚寅)正月初七日辰时"
               }
             ],
             "birthSolar": "1910-09-04",
-            "birthOrder": "次子"
+            "birthOrder": "次子",
+            "birthYear": "1910",
+            "birthDisplay": "1910年(庚戌)八月初一日酉时"
           },
           {
             "id": "l111_30d",
@@ -3280,11 +3716,15 @@ const familyData = [
                       "乐婧"
                     ],
                     "children": [],
-                    "birthSolar": "1971-01-19"
+                    "birthSolar": "1971-01-19",
+                    "birthYear": "1970",
+                    "birthDisplay": "1970年(庚戌)十二月廿三日酉时"
                   }
                 ],
                 "birthSolar": "1933-11-27",
-                "birthOrder": "长子"
+                "birthOrder": "长子",
+                "birthYear": "1933",
+                "birthDisplay": "1933年(癸酉)十月初十日辰时"
               },
               {
                 "id": "x112_30h",
@@ -3316,7 +3756,9 @@ const familyData = [
                         "birth": "公元1997年丁丑三月初五日卯时",
                         "children": [],
                         "birthSolar": "1997-04-11",
-                        "birthOrder": "长子"
+                        "birthOrder": "长子",
+                        "birthYear": "1997",
+                        "birthDisplay": "1997年(丁丑)三月初五日卯时"
                       },
                       {
                         "id": "b114_30i",
@@ -3327,11 +3769,15 @@ const familyData = [
                         "birth": "公元1998年戊寅九月初三日午时",
                         "children": [],
                         "birthSolar": "1998-10-22",
-                        "birthOrder": "幼子"
+                        "birthOrder": "幼子",
+                        "birthYear": "1998",
+                        "birthDisplay": "1998年(戊寅)九月初三日午时"
                       }
                     ],
                     "birthSolar": "1968-10-11",
-                    "birthOrder": "长子"
+                    "birthOrder": "长子",
+                    "birthYear": "1968",
+                    "birthDisplay": "1968年(戊申)八月二十日戌时"
                   },
                   {
                     "id": "w113_30j",
@@ -3353,11 +3799,15 @@ const familyData = [
                         "gender": "M",
                         "birth": "公元2001年辛巳四月廿五日寅时",
                         "children": [],
-                        "birthSolar": "2001-05-17"
+                        "birthSolar": "2001-05-17",
+                        "birthYear": "2001",
+                        "birthDisplay": "2001年(辛巳)四月廿五日寅时"
                       }
                     ],
                     "birthSolar": "1970-09-04",
-                    "birthOrder": "次子"
+                    "birthOrder": "次子",
+                    "birthYear": "1970",
+                    "birthDisplay": "1970年(庚戌)八月初四日戌时"
                   },
                   {
                     "id": "w113_30k",
@@ -3375,15 +3825,21 @@ const familyData = [
                         "gender": "M",
                         "birth": "公元2004年甲申八月廿九日子时",
                         "children": [],
-                        "birthSolar": "2004-10-12"
+                        "birthSolar": "2004-10-12",
+                        "birthYear": "2004",
+                        "birthDisplay": "2004年(甲申)八月廿九日子时"
                       }
                     ],
                     "birthSolar": "1976-03-11",
-                    "birthOrder": "幼子"
+                    "birthOrder": "幼子",
+                    "birthYear": "1976",
+                    "birthDisplay": "1976年(丙辰)二月十一日丑时"
                   }
                 ],
                 "birthSolar": "1937-07-27",
-                "birthOrder": "次子"
+                "birthOrder": "次子",
+                "birthYear": "1937",
+                "birthDisplay": "1937年(丁丑)六月二十日戌时"
               },
               {
                 "id": "x112_30i",
@@ -3420,7 +3876,9 @@ const familyData = [
                         "birth": "公元2008年戊子六月初七日寅时",
                         "children": [],
                         "birthSolar": "2008-07-09",
-                        "birthOrder": "长子"
+                        "birthOrder": "长子",
+                        "birthYear": "2008",
+                        "birthDisplay": "2008年(戊子)六月初七日寅时"
                       },
                       {
                         "id": "b114_30m",
@@ -3432,21 +3890,31 @@ const familyData = [
                         "birth": "公元2010年庚寅九月十七日寅时",
                         "children": [],
                         "birthSolar": "2010-10-24",
-                        "birthOrder": "幼子"
+                        "birthOrder": "幼子",
+                        "birthYear": "2010",
+                        "birthDisplay": "2010年(庚寅)九月十七日寅时"
                       }
                     ],
-                    "birthSolar": "1984-12-10"
+                    "birthSolar": "1984-12-10",
+                    "birthYear": "1984",
+                    "birthDisplay": "1984年(甲子)又十月十八日亥时"
                   }
                 ],
                 "birthSolar": "1954-05-09",
-                "birthOrder": "幼子"
+                "birthOrder": "幼子",
+                "birthYear": "1954",
+                "birthDisplay": "1954年(甲午)四月初七日寅时"
               }
             ],
             "birthSolar": "1912-09-11",
-            "birthOrder": "幼子"
+            "birthOrder": "幼子",
+            "birthYear": "1912",
+            "birthDisplay": "1912年(壬子)八月初一日子时"
           }
         ],
-        "birthSolar": "1860-03-18"
+        "birthSolar": "1860-03-18",
+        "birthYear": "1860",
+        "birthDisplay": "1860年(庚申)二月廿六日寅时"
       },
       {
         "id": "m110_30d",
@@ -3457,7 +3925,9 @@ const familyData = [
         "birth": "同治壬戌年十月廿三日未时",
         "note": "幼歿",
         "children": [],
-        "birthSolar": "1862-12-14"
+        "birthSolar": "1862-12-14",
+        "birthYear": "1862",
+        "birthDisplay": "1862年(壬戌)十月廿三日未时"
       },
       {
         "id": "m110_30e",
@@ -3468,7 +3938,9 @@ const familyData = [
         "birth": "同治甲子年九月十四日酉时",
         "note": "幼歿",
         "children": [],
-        "birthSolar": "1864-10-14"
+        "birthSolar": "1864-10-14",
+        "birthYear": "1864",
+        "birthDisplay": "1864年(甲子)九月十四日酉时"
       }
     ]
   },
@@ -3541,7 +4013,9 @@ const familyData = [
                       "wife": "张氏海茵（公元1994年甲戌生）",
                       "children": [],
                       "birthSolar": "1990-03-04",
-                      "birthOrder": "长子"
+                      "birthOrder": "长子",
+                      "birthYear": "1990",
+                      "birthDisplay": "1990年(庚午)二月初八日丑时"
                     },
                     {
                       "id": "b114_40b",
@@ -3553,11 +4027,15 @@ const familyData = [
                       "wife": "林氏凤枝（公元2000年庚辰生）",
                       "children": [],
                       "birthSolar": "1996-02-29",
-                      "birthOrder": "幼子"
+                      "birthOrder": "幼子",
+                      "birthYear": "1996",
+                      "birthDisplay": "1996年(丙子)正月十一日申时"
                     }
                   ],
                   "birthSolar": "1956-02-21",
-                  "birthOrder": "长子"
+                  "birthOrder": "长子",
+                  "birthYear": "1956",
+                  "birthDisplay": "1956年(丙申)正月初十日辰时"
                 },
                 {
                   "id": "w113_40b",
@@ -3581,15 +4059,21 @@ const familyData = [
                       "gender": "M",
                       "birth": "公元2002年壬午二月初七日辰时",
                       "children": [],
-                      "birthSolar": "2002-03-20"
+                      "birthSolar": "2002-03-20",
+                      "birthYear": "2002",
+                      "birthDisplay": "2002年(壬午)二月初七日辰时"
                     }
                   ],
                   "birthSolar": "1974-01-17",
-                  "birthOrder": "幼子"
+                  "birthOrder": "幼子",
+                  "birthYear": "1973",
+                  "birthDisplay": "1973年(癸丑)十二月廿五日亥时"
                 }
               ],
               "birthSolar": "1930-01-28",
-              "birthOrder": "长子"
+              "birthOrder": "长子",
+              "birthYear": "1929",
+              "birthDisplay": "1929年(己巳)十二月廿九日亥时"
             },
             {
               "id": "x112_40b",
@@ -3628,11 +4112,15 @@ const familyData = [
                         "潭雪（公元2008年戊子生）"
                       ],
                       "children": [],
-                      "birthSolar": "1985-02-01"
+                      "birthSolar": "1985-02-01",
+                      "birthYear": "1984",
+                      "birthDisplay": "1984年(甲子)十二月十二日巳时"
                     }
                   ],
                   "birthSolar": "1959-06-23",
-                  "birthOrder": "长子"
+                  "birthOrder": "长子",
+                  "birthYear": "1959",
+                  "birthDisplay": "1959年(己亥)五月十八日午时"
                 },
                 {
                   "id": "w113_40d",
@@ -3653,11 +4141,15 @@ const familyData = [
                       "gender": "M",
                       "birth": "公元1987年丁卯十月廿四日丑时",
                       "children": [],
-                      "birthSolar": "1987-12-14"
+                      "birthSolar": "1987-12-14",
+                      "birthYear": "1987",
+                      "birthDisplay": "1987年(丁卯)十月廿四日丑时"
                     }
                   ],
                   "birthSolar": "1965-09-28",
-                  "birthOrder": "次子"
+                  "birthOrder": "次子",
+                  "birthYear": "1965",
+                  "birthDisplay": "1965年(乙巳)九月初四日卯时"
                 },
                 {
                   "id": "w113_40e",
@@ -3679,21 +4171,31 @@ const familyData = [
                       "gender": "M",
                       "birth": "公元1997年丁丑五月初九日申时",
                       "children": [],
-                      "birthSolar": "1997-06-13"
+                      "birthSolar": "1997-06-13",
+                      "birthYear": "1997",
+                      "birthDisplay": "1997年(丁丑)五月初九日申时"
                     }
                   ],
                   "birthSolar": "1968-03-23",
-                  "birthOrder": "幼子"
+                  "birthOrder": "幼子",
+                  "birthYear": "1968",
+                  "birthDisplay": "1968年(戊申)二月廿五日午时"
                 }
               ],
               "birthSolar": "1933-01-15",
-              "birthOrder": "幼子"
+              "birthOrder": "幼子",
+              "birthYear": "1932",
+              "birthDisplay": "1932年(壬申)十二月二十日戌时"
             }
           ],
-          "birthSolar": "1900-06-04"
+          "birthSolar": "1900-06-04",
+          "birthYear": "1900",
+          "birthDisplay": "1900年(庚子)五月初八日午时"
         }
       ],
-      "birthSolar": "1865-09-05"
+      "birthSolar": "1865-09-05",
+      "birthYear": "1865",
+      "birthDisplay": "1865年(乙丑)七月十六日辰时"
     },
     "siblings": [
       {
@@ -3784,7 +4286,9 @@ const familyData = [
                         ],
                         "children": [],
                         "birthSolar": "1984-10-15",
-                        "birthOrder": "长子"
+                        "birthOrder": "长子",
+                        "birthYear": "1984",
+                        "birthDisplay": "1984年(甲子)九月廿一日"
                       },
                       {
                         "id": "b114_40h",
@@ -3796,11 +4300,15 @@ const familyData = [
                         "wife": "石氏秀华",
                         "children": [],
                         "birthSolar": "1991-12-04",
-                        "birthOrder": "幼子"
+                        "birthOrder": "幼子",
+                        "birthYear": "1991",
+                        "birthDisplay": "1991年(辛未)十月廿九日亥时"
                       }
                     ],
                     "birthSolar": "1962-12-03",
-                    "birthOrder": "长子"
+                    "birthOrder": "长子",
+                    "birthYear": "1962",
+                    "birthDisplay": "1962年(壬寅)十一月初七日亥时"
                   },
                   {
                     "id": "w113_40g",
@@ -3831,11 +4339,15 @@ const familyData = [
                             "gender": "M",
                             "birth": "公元2021年辛丑六月初七日寅时",
                             "children": [],
-                            "birthSolar": "2021-07-16"
+                            "birthSolar": "2021-07-16",
+                            "birthYear": "2021",
+                            "birthDisplay": "2021年(辛丑)六月初七日寅时"
                           }
                         ],
                         "birthSolar": "1991-03-06",
-                        "birthOrder": "长子"
+                        "birthOrder": "长子",
+                        "birthYear": "1991",
+                        "birthDisplay": "1991年(辛未)正月二十日未时"
                       },
                       {
                         "id": "b114_40j",
@@ -3846,21 +4358,31 @@ const familyData = [
                         "birth": "公元1993年癸酉月廿二日子时",
                         "children": [],
                         "birthSolar": "1993",
-                        "birthOrder": "幼子"
+                        "birthOrder": "幼子",
+                        "birthYear": "1993",
+                        "birthDisplay": "1993年(癸酉)月廿二日子时"
                       }
                     ],
                     "birthSolar": "1967-01-15",
-                    "birthOrder": "幼子"
+                    "birthOrder": "幼子",
+                    "birthYear": "1966",
+                    "birthDisplay": "1966年(丙午)十二月初五日寅时"
                   }
                 ],
-                "birthSolar": "1940-11-02"
+                "birthSolar": "1940-11-02",
+                "birthYear": "1940",
+                "birthDisplay": "1940年(庚辰)十月初三日午时"
               }
             ],
             "birthSolar": "1914-10-10",
-            "birthOrder": "幼子"
+            "birthOrder": "幼子",
+            "birthYear": "1914",
+            "birthDisplay": "1914年(甲寅)八月廿一日申时"
           }
         ],
-        "birthSolar": "1902-10-08"
+        "birthSolar": "1902-10-08",
+        "birthYear": "1902",
+        "birthDisplay": "1902年(壬寅)九月初七日"
       },
       {
         "id": "m110_40d",
@@ -3871,7 +4393,9 @@ const familyData = [
         "birth": "光绪乙亥年十二月廿九日寅时",
         "note": "幼歿",
         "children": [],
-        "birthSolar": "1876-01-25"
+        "birthSolar": "1876-01-25",
+        "birthYear": "1875",
+        "birthDisplay": "1875年(乙亥)十二月廿九日寅时"
       }
     ]
   },
@@ -3946,14 +4470,20 @@ const familyData = [
                           "gender": "M",
                           "birth": "公元2015年乙未正月廿日未时",
                           "children": [],
-                          "birthSolar": "2015-03-10"
+                          "birthSolar": "2015-03-10",
+                          "birthYear": "2015",
+                          "birthDisplay": "2015年(乙未)正月廿日未时"
                         }
                       ],
-                      "birthSolar": "1988-11-03"
+                      "birthSolar": "1988-11-03",
+                      "birthYear": "1988",
+                      "birthDisplay": "1988年(戊辰)九月廿四日卯时"
                     }
                   ],
                   "birthSolar": "1961-05-21",
-                  "birthOrder": "长子"
+                  "birthOrder": "长子",
+                  "birthYear": "1961",
+                  "birthDisplay": "1961年(辛丑)四月初七日午时"
                 },
                 {
                   "id": "w113_70b",
@@ -3984,11 +4514,15 @@ const familyData = [
                           "gender": "M",
                           "birth": "公元2019年乙丑生",
                           "children": [],
-                          "birthSolar": "2019"
+                          "birthSolar": "2019",
+                          "birthYear": "2019",
+                          "birthDisplay": "2019年(乙丑)生"
                         }
                       ],
                       "birthSolar": "1983-10-26",
-                      "birthOrder": "长子"
+                      "birthOrder": "长子",
+                      "birthYear": "1983",
+                      "birthDisplay": "1983年(癸亥)九月二十一日辰时"
                     },
                     {
                       "id": "b114_70c",
@@ -4010,11 +4544,15 @@ const familyData = [
                           "gender": "M",
                           "birth": "公元2019年乙亥生",
                           "children": [],
-                          "birthSolar": "2019"
+                          "birthSolar": "2019",
+                          "birthYear": "2019",
+                          "birthDisplay": "2019年(乙亥)生"
                         }
                       ],
                       "birthSolar": "1986-10-02",
-                      "birthOrder": "次子"
+                      "birthOrder": "次子",
+                      "birthYear": "1986",
+                      "birthDisplay": "1986年(丙寅)八月廿九日午时"
                     },
                     {
                       "id": "b114_70d",
@@ -4034,7 +4572,9 @@ const familyData = [
                           "birth": "公元2017年丁酉生",
                           "children": [],
                           "birthSolar": "2017",
-                          "birthOrder": "长子"
+                          "birthOrder": "长子",
+                          "birthYear": "2017",
+                          "birthDisplay": "2017年(丁酉)生"
                         },
                         {
                           "id": "g115_70e",
@@ -4045,15 +4585,21 @@ const familyData = [
                           "birth": "公元2019年乙亥生",
                           "children": [],
                           "birthSolar": "2019",
-                          "birthOrder": "幼子"
+                          "birthOrder": "幼子",
+                          "birthYear": "2019",
+                          "birthDisplay": "2019年(乙亥)生"
                         }
                       ],
                       "birthSolar": "1989-01-07",
-                      "birthOrder": "幼子"
+                      "birthOrder": "幼子",
+                      "birthYear": "1988",
+                      "birthDisplay": "1988年(戊辰)十一月三十日午时"
                     }
                   ],
                   "birthSolar": "1963-07-17",
-                  "birthOrder": "次子"
+                  "birthOrder": "次子",
+                  "birthYear": "1963",
+                  "birthDisplay": "1963年(癸卯)五月廿七日戌时"
                 },
                 {
                   "id": "w113_70c",
@@ -4084,11 +4630,15 @@ const familyData = [
                           "gender": "M",
                           "birth": "公元2015年乙未生",
                           "children": [],
-                          "birthSolar": "2015"
+                          "birthSolar": "2015",
+                          "birthYear": "2015",
+                          "birthDisplay": "2015年(乙未)生"
                         }
                       ],
                       "birthSolar": "1988-11-10",
-                      "birthOrder": "长子"
+                      "birthOrder": "长子",
+                      "birthYear": "1988",
+                      "birthDisplay": "1988年(戊辰)十月初二日申时"
                     },
                     {
                       "id": "b114_70f",
@@ -4108,7 +4658,9 @@ const familyData = [
                           "birth": "公元2011年辛卯生",
                           "children": [],
                           "birthSolar": "2011",
-                          "birthOrder": "长子"
+                          "birthOrder": "长子",
+                          "birthYear": "2011",
+                          "birthDisplay": "2011年(辛卯)生"
                         },
                         {
                           "id": "g115_70h",
@@ -4121,11 +4673,15 @@ const familyData = [
                         }
                       ],
                       "birthSolar": "1990-01-02",
-                      "birthOrder": "幼子"
+                      "birthOrder": "幼子",
+                      "birthYear": "1989",
+                      "birthDisplay": "1989年(己巳)十二月初六日巳时"
                     }
                   ],
                   "birthSolar": "1968-02-20",
-                  "birthOrder": "三子"
+                  "birthOrder": "三子",
+                  "birthYear": "1968",
+                  "birthDisplay": "1968年(戊申)正月廿二日亥时"
                 },
                 {
                   "id": "w113_70d",
@@ -4147,11 +4703,15 @@ const familyData = [
                       "gender": "M",
                       "birth": "公元1996年丙子四月初五日丑时",
                       "children": [],
-                      "birthSolar": "1996-05-21"
+                      "birthSolar": "1996-05-21",
+                      "birthYear": "1996",
+                      "birthDisplay": "1996年(丙子)四月初五日丑时"
                     }
                   ],
                   "birthSolar": "1970-04-08",
-                  "birthOrder": "四子"
+                  "birthOrder": "四子",
+                  "birthYear": "1970",
+                  "birthDisplay": "1970年(庚戌)三月初三日戌时"
                 },
                 {
                   "id": "w113_70e",
@@ -4178,20 +4738,30 @@ const familyData = [
                         "吴优（公元2022年壬寅生）"
                       ],
                       "children": [],
-                      "birthSolar": "1997-10-10"
+                      "birthSolar": "1997-10-10",
+                      "birthYear": "1997",
+                      "birthDisplay": "1997年(丁丑)九月初九日未时"
                     }
                   ],
                   "birthSolar": "1971-12-29",
-                  "birthOrder": "幼子"
+                  "birthOrder": "幼子",
+                  "birthYear": "1971",
+                  "birthDisplay": "1971年(辛亥)十一月十二日亥时"
                 }
               ],
-              "birthSolar": "1934-01-31"
+              "birthSolar": "1934-01-31",
+              "birthYear": "1933",
+              "birthDisplay": "1933年(癸酉)十二月十七日卯时"
             }
           ],
-          "birthSolar": "1920-10-08"
+          "birthSolar": "1920-10-08",
+          "birthYear": "1920",
+          "birthDisplay": "1920年(庚申)八月廿七日丑时"
         }
       ],
-      "birthSolar": "1859"
+      "birthSolar": "1859",
+      "birthYear": "1859",
+      "birthDisplay": "1859年(己未)月十三日巳时"
     },
     "siblings": [
       {
@@ -4259,22 +4829,34 @@ const familyData = [
                             "gender": "M",
                             "birth": "公元2011年辛卯八月廿二日子时",
                             "children": [],
-                            "birthSolar": "2011-09-19"
+                            "birthSolar": "2011-09-19",
+                            "birthYear": "2011",
+                            "birthDisplay": "2011年(辛卯)八月廿二日子时"
                           }
                         ],
-                        "birthSolar": "1982-07-10"
+                        "birthSolar": "1982-07-10",
+                        "birthYear": "1982",
+                        "birthDisplay": "1982年(壬戌)五月二十日午时"
                       }
                     ],
-                    "birthSolar": "1961-02-15"
+                    "birthSolar": "1961-02-15",
+                    "birthYear": "1961",
+                    "birthDisplay": "1961年(辛丑)正月初一日子时"
                   }
                 ],
-                "birthSolar": "1923-12-08"
+                "birthSolar": "1923-12-08",
+                "birthYear": "1923",
+                "birthDisplay": "1923年(癸亥)十一月初一日巳时"
               }
             ],
-            "birthSolar": "1897-08-27"
+            "birthSolar": "1897-08-27",
+            "birthYear": "1897",
+            "birthDisplay": "1897年(丁酉)七月三十日卯时"
           }
         ],
-        "birthSolar": "1862-01-21"
+        "birthSolar": "1862-01-21",
+        "birthYear": "1861",
+        "birthDisplay": "1861年(辛酉)十二月廿二日戌时"
       },
       {
         "id": "m110_70c",
@@ -4373,11 +4955,15 @@ const familyData = [
                         "梦茜"
                       ],
                       "children": [],
-                      "birthSolar": "1990-10-21"
+                      "birthSolar": "1990-10-21",
+                      "birthYear": "1990",
+                      "birthDisplay": "1990年(庚午)九月初四日酉时"
                     }
                   ],
                   "birthSolar": "1962-02-17",
-                  "birthOrder": "长子"
+                  "birthOrder": "长子",
+                  "birthYear": "1962",
+                  "birthDisplay": "1962年(壬寅)正月十三日寅时"
                 },
                 {
                   "id": "w113_80b",
@@ -4408,14 +4994,20 @@ const familyData = [
                           "gender": "M",
                           "birth": "公元2016年丙申腊月十八日卯时",
                           "children": [],
-                          "birthSolar": "2017-01-15"
+                          "birthSolar": "2017-01-15",
+                          "birthYear": "2016",
+                          "birthDisplay": "2016年(丙申)腊月十八日卯时"
                         }
                       ],
-                      "birthSolar": "1994-01-12"
+                      "birthSolar": "1994-01-12",
+                      "birthYear": "1993",
+                      "birthDisplay": "1993年(癸酉)十二月初一日酉时"
                     }
                   ],
                   "birthSolar": "1969-12-04",
-                  "birthOrder": "次子"
+                  "birthOrder": "次子",
+                  "birthYear": "1969",
+                  "birthDisplay": "1969年(己酉)十月廿五日亥时"
                 },
                 {
                   "id": "w113_80c",
@@ -4438,15 +5030,21 @@ const familyData = [
                       "gender": "M",
                       "birth": "公元1999年己卯二月初二日辰时",
                       "children": [],
-                      "birthSolar": "1999-03-19"
+                      "birthSolar": "1999-03-19",
+                      "birthYear": "1999",
+                      "birthDisplay": "1999年(己卯)二月初二日辰时"
                     }
                   ],
                   "birthSolar": "1972-06-22",
-                  "birthOrder": "幼子"
+                  "birthOrder": "幼子",
+                  "birthYear": "1972",
+                  "birthDisplay": "1972年(壬子)五月十二日巳时"
                 }
               ],
               "birthSolar": "1934-12-06",
-              "birthOrder": "长子"
+              "birthOrder": "长子",
+              "birthYear": "1934",
+              "birthDisplay": "1934年(甲戌)十月三十日亥时"
             },
             {
               "id": "x112_80b",
@@ -4474,7 +5072,9 @@ const familyData = [
                   ],
                   "children": [],
                   "birthSolar": "1974-05-05",
-                  "birthOrder": "长子"
+                  "birthOrder": "长子",
+                  "birthYear": "1974",
+                  "birthDisplay": "1974年(甲寅)四月十四日巳时"
                 },
                 {
                   "id": "w113_80e",
@@ -4507,15 +5107,21 @@ const familyData = [
                       "birth": "公元2013年癸巳生",
                       "children": [],
                       "birthSolar": "2013",
-                      "birthOrder": "幼子"
+                      "birthOrder": "幼子",
+                      "birthYear": "2013",
+                      "birthDisplay": "2013年(癸巳)生"
                     }
                   ],
                   "birthSolar": "1979-10-13",
-                  "birthOrder": "幼子"
+                  "birthOrder": "幼子",
+                  "birthYear": "1979",
+                  "birthDisplay": "1979年(己未)八月廿三日未时"
                 }
               ],
               "birthSolar": "1942-07-21",
-              "birthOrder": "次子"
+              "birthOrder": "次子",
+              "birthYear": "1942",
+              "birthDisplay": "1942年(壬午)六月初九日巳时"
             },
             {
               "id": "x112_80c",
@@ -4549,11 +5155,15 @@ const familyData = [
                       "birth": "公元1990年庚午七月初五日申时",
                       "death": "歿于公元2004年甲申溺亡广东汕头",
                       "children": [],
-                      "birthSolar": "1990-08-24"
+                      "birthSolar": "1990-08-24",
+                      "birthYear": "1990",
+                      "birthDisplay": "1990年(庚午)七月初五日申时"
                     }
                   ],
                   "birthSolar": "1967-11-05",
-                  "birthOrder": "长子"
+                  "birthOrder": "长子",
+                  "birthYear": "1967",
+                  "birthDisplay": "1967年(丁未)十月初四日申时"
                 },
                 {
                   "id": "w113_80g",
@@ -4577,7 +5187,9 @@ const familyData = [
                       "birth": "公元2002年壬午生",
                       "children": [],
                       "birthSolar": "2002",
-                      "birthOrder": "长子"
+                      "birthOrder": "长子",
+                      "birthYear": "2002",
+                      "birthDisplay": "2002年(壬午)生"
                     },
                     {
                       "id": "b114_80h",
@@ -4588,11 +5200,15 @@ const familyData = [
                       "birth": "公元2007年丁亥生",
                       "children": [],
                       "birthSolar": "2007",
-                      "birthOrder": "幼子"
+                      "birthOrder": "幼子",
+                      "birthYear": "2007",
+                      "birthDisplay": "2007年(丁亥)生"
                     }
                   ],
                   "birthSolar": "1969-10-06",
-                  "birthOrder": "次子"
+                  "birthOrder": "次子",
+                  "birthYear": "1969",
+                  "birthDisplay": "1969年(己酉)八月廿五日卯时"
                 },
                 {
                   "id": "w113_80h",
@@ -4604,7 +5220,9 @@ const familyData = [
                   "death": "公元2012年壬辰歿，葬对门",
                   "children": [],
                   "birthSolar": "1973-11-29",
-                  "birthOrder": "三子"
+                  "birthOrder": "三子",
+                  "birthYear": "1973",
+                  "birthDisplay": "1973年(癸丑)十一月初五日辰时"
                 },
                 {
                   "id": "w113_80i",
@@ -4616,17 +5234,25 @@ const familyData = [
                   "death": "公元2002年壬午歿，葬对门南北向",
                   "children": [],
                   "birthSolar": "1977-12-10",
-                  "birthOrder": "幼子"
+                  "birthOrder": "幼子",
+                  "birthYear": "1977",
+                  "birthDisplay": "1977年(丁巳)十月三十日亥时"
                 }
               ],
               "birthSolar": "1945-10-28",
-              "birthOrder": "幼子"
+              "birthOrder": "幼子",
+              "birthYear": "1945",
+              "birthDisplay": "1945年(乙酉)九月廿三日午时"
             }
           ],
-          "birthSolar": "1906-11-13"
+          "birthSolar": "1906-11-13",
+          "birthYear": "1906",
+          "birthDisplay": "1906年(丙午)九月廿七日丑时"
         }
       ],
-      "birthSolar": "1906-07-04"
+      "birthSolar": "1906-07-04",
+      "birthYear": "1906",
+      "birthDisplay": "1906年(丙午)五月十三日子时"
     },
     "siblings": []
   },
@@ -4641,7 +5267,9 @@ const familyData = [
       "birth": "咸丰丙辰年六月廿八日子时",
       "note": "幼歿",
       "children": [],
-      "birthSolar": "1856-07-29"
+      "birthSolar": "1856-07-29",
+      "birthYear": "1856",
+      "birthDisplay": "1856年(丙辰)六月廿八日子时"
     },
     "siblings": [
       {
@@ -4675,10 +5303,14 @@ const familyData = [
             "death": "公氏歿葬未详",
             "children": [],
             "birthSolar": "1908-10-11",
-            "birthOrder": "幼子"
+            "birthOrder": "幼子",
+            "birthYear": "1908",
+            "birthDisplay": "1908年(戊申)九月十七日辰时"
           }
         ],
-        "birthSolar": "1891-10-15"
+        "birthSolar": "1891-10-15",
+        "birthYear": "1891",
+        "birthDisplay": "1891年(辛卯)九月十三日午时"
       }
     ]
   },
@@ -4695,7 +5327,9 @@ const familyData = [
       "death": "公歿于光绪丁丑年七月初九日子时，葬道观",
       "note": "后嗣信息不完整",
       "children": [],
-      "birthSolar": "1861-11-22"
+      "birthSolar": "1861-11-22",
+      "birthYear": "1861",
+      "birthDisplay": "1861年(辛酉)十月二十日辰时"
     },
     "siblings": []
   }
