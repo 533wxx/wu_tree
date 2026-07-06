@@ -152,6 +152,7 @@ function createNodeCard(person, delay = 0) {
 
   let genLabel = person.gen + '世';
   let nameHtml = `<span class="name">${person.name}</span>`;
+  if (person.birthOrder) nameHtml += ` <span class="order-badge">${person.birthOrder}</span>`;
   if (person.note === '幼歿') nameHtml += ` <span class="death-badge">幼歿</span>`;
 
   let ziHtml = '';
@@ -159,7 +160,8 @@ function createNodeCard(person, delay = 0) {
   if (person.hao) ziHtml += ` 号${person.hao}`;
 
   let detailHtml = '';
-  if (person.birth) detailHtml += `<div>生于 ${person.birth}</div>`;
+  if (person.birthSolar) detailHtml += `<div>生于 ${person.birthSolar}</div>`;
+  else if (person.birth) detailHtml += `<div>生于 ${person.birth}</div>`;
   if (person.wife) detailHtml += `<div class="highlight">${person.wife}</div>`;
   if (person.adoptNote) detailHtml += `<div class="adopt-badge">${person.adoptNote}</div>`;
   if (person.death) detailHtml += `<div style="color:var(--text-dim)">${person.death}</div>`;
@@ -301,9 +303,14 @@ function openModal(person) {
   document.getElementById('modalTitle').textContent = person.name;
   let html = '<div class="modal-section"><div class="modal-section-title">基 本 信 息</div>';
   html += field('世代', person.gen + '世');
+  if (person.birthOrder) html += field('排行', person.birthOrder);
   if (person.zi) html += field('字', person.zi);
   if (person.hao) html += field('号', person.hao);
-  if (person.birth) html += field('生于', person.birth);
+  if (person.birthSolar) {
+    html += field('生于', person.birthSolar + (person.birth ? '（' + person.birth + '）' : ''));
+  } else if (person.birth) {
+    html += field('生于', person.birth);
+  }
   if (person.wife) html += field('配偶', person.wife);
   if (person.death) html += field('歿葬', person.death);
   if (person.note) html += field('备注', person.note);

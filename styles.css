@@ -213,6 +213,11 @@ body::before {
   border-color: var(--accent); color: var(--accent); background: var(--surface-3);
 }
 .node-card .death-badge { font-size: 10px; color: var(--red); opacity: 0.7; }
+.node-card .order-badge {
+  font-size: 11px; background: var(--surface-3);
+  color: var(--accent-dim); padding: 1px 6px; border-radius: 3px;
+  white-space: nowrap; font-weight: 500;
+}
 .node-card .adopt-badge { color: var(--blue); font-size: 10px; }
 .children-container {
   padding-left: 24px;
