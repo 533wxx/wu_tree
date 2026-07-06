@@ -162,9 +162,9 @@ function createNodeCard(person, delay = 0) {
   let detailHtml = '';
   if (person.birthDisplay) detailHtml += `<div>生于 ${person.birthDisplay}</div>`;
   else if (person.birth) detailHtml += `<div>生于 ${person.birth}</div>`;
-  if (person.wife) detailHtml += `<div class="highlight">${person.wife}</div>`;
+  if (person.wifeDisplay || person.wife) detailHtml += `<div class="highlight">${person.wifeDisplay || person.wife}</div>`;
   if (person.adoptNote) detailHtml += `<div class="adopt-badge">${person.adoptNote}</div>`;
-  if (person.death) detailHtml += `<div style="color:var(--text-dim)">${person.death}</div>`;
+  if (person.deathDisplay || person.death) detailHtml += `<div style="color:var(--text-dim)">${person.deathDisplay || person.death}</div>`;
 
   const childCount = (person.children ? person.children.length : 0);
   let childBtn = '';
@@ -311,8 +311,8 @@ function openModal(person) {
   } else if (person.birth) {
     html += field('生于', person.birth);
   }
-  if (person.wife) html += field('配偶', person.wife);
-  if (person.death) html += field('歿葬', person.death);
+  if (person.wifeDisplay || person.wife) html += field('配偶', person.wifeDisplay || person.wife);
+  if (person.deathDisplay || person.death) html += field('歿葬', person.deathDisplay || person.death);
   if (person.note) html += field('备注', person.note);
   if (person.adoptNote) html += field('过继', person.adoptNote);
   if (person.daughters && person.daughters.length) html += field('女儿', person.daughters.join('、'));
@@ -383,6 +383,15 @@ function expandToNode(id) {
 // ===== SEARCH =====
 const searchInput = document.getElementById('searchInput');
 const searchResults = document.getElementById('searchResults');
+const searchIcon = document.querySelector('.search-icon');
+
+// Trigger search when icon is clicked
+if (searchIcon) {
+  searchIcon.addEventListener('click', function() {
+    searchInput.focus();
+    searchInput.dispatchEvent(new Event('input'));
+  });
+}
 
 searchInput.addEventListener('input', function() {
   const q = this.value.trim();
