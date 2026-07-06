@@ -92,13 +92,13 @@ body::before {
 .layout {
   display: flex; max-width: 1600px; margin: 0 auto;
   height: 100vh; height: 100dvh;
-  overflow-y: auto; -webkit-overflow-scrolling: touch;
+  overflow: hidden;
   padding-top: 93px; position: relative; z-index: 1;
 }
 .sidebar {
   width: 220px; min-width: 220px; padding: 24px 16px;
-  border-right: 1px solid var(--border); position: sticky;
-  top: 0; overflow-y: auto; flex-shrink: 0;
+  border-right: 1px solid var(--border);
+  overflow-y: auto; flex-shrink: 0;
 }
 .sidebar::-webkit-scrollbar { width: 3px; }
 .sidebar::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
@@ -123,9 +123,9 @@ body::before {
   float: right; font-size: 11px; color: var(--text-dim);
   font-family: 'Noto Sans SC', sans-serif; font-weight: 400;
 }
-.main { flex: 1; padding: 24px 32px; }
+.main { flex: 1; padding: 24px 32px; display: flex; flex-direction: column; overflow: hidden; }
 .sticky-panel {
-  position: sticky; top: 0; z-index: 10;
+  flex-shrink: 0;
   background: var(--bg);
   padding-bottom: 12px;
   margin-bottom: 4px;
@@ -150,7 +150,7 @@ body::before {
   font-family: 'Noto Serif SC', serif; font-size: 24px;
   font-weight: 700; color: var(--accent);
 }
-.tree-container { overflow-x: auto; padding-bottom: 40px; }
+.tree-container { flex: 1; overflow: auto; padding-bottom: 40px; -webkit-overflow-scrolling: touch; }
 .gen-row { margin-bottom: 8px; }
 .gen-label {
   font-family: 'Noto Serif SC', serif; font-size: 12px;
