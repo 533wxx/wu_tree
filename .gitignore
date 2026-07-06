@@ -1,3 +1,4 @@
 node_modules/
 .idea/
-.DS_Storeconvert-dates.js
+.DS_Store
+convert-dates.js
