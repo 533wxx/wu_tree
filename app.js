@@ -212,14 +212,20 @@ function createNodeCard(person, delay = 0) {
       let row = card.closest('.children-row') || card.closest('.nodes-row');
       if (!row) return;
 
-      // Close all open children at this level
+      // Close all open children at this level and reset their arrows
       row.querySelectorAll('.children-container.show').forEach(c => c.classList.remove('show'));
-      row.querySelectorAll('.has-children.open').forEach(b => b.classList.remove('open'));
+      row.querySelectorAll('.has-children.open').forEach(b => {
+        b.classList.remove('open');
+        const count = (b.textContent.match(/\d+/) || ['0'])[0];
+        b.innerHTML = '▸ ' + count + ' 子嗣展开';
+      });
 
       // If was closed, open it
       if (isOpening) {
         targetContainer.classList.add('show');
         this.classList.add('open');
+        const count = (this.textContent.match(/\d+/) || ['0'])[0];
+        this.innerHTML = '▾ ' + count + ' 子嗣收起';
       }
     });
   }
