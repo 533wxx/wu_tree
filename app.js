@@ -462,8 +462,12 @@ function syncHeaderHeight() {
   if (!header || !layout) return;
   const h = header.offsetHeight;
   layout.style.paddingTop = h + 'px';
-  if (sidebar && window.innerWidth <= 900) {
-    sidebar.style.paddingTop = h + 'px';
+  // Update sidebar height to account for header
+  if (sidebar) {
+    sidebar.style.height = 'calc(100vh - ' + h + 'px)';
+    if (window.innerWidth <= 900) {
+      sidebar.style.paddingTop = h + 'px';
+    }
   }
 }
 
