@@ -9,7 +9,7 @@
 <title>高橋吳氏宗譜 · 卷十三世系</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=18">
+<link rel="stylesheet" href="styles.css?v=19">
 <style>
   /* ★ 内联样式，头部固定 + 布局基础 ★ */
   html, body { overflow: hidden; height: 100%; }
@@ -42,8 +42,10 @@
     .menu-btn { width: 34px !important; height: 34px !important; padding: 5px !important; flex-shrink: 0 !important; }
     .menu-btn span { width: 18px !important; height: 2px !important; }
     .search-box { flex: 1 !important; min-width: 0 !important; }
-    .search-box input { padding: 6px 8px 6px 28px !important; font-size: 13px !important; }
-    .search-icon { left: 8px !important; font-size: 13px !important; }
+    .search-box input { padding: 6px 32px 6px 10px !important; font-size: 13px !important; }
+    .search-icon { right: 8px !important; font-size: 20px !important; }
+    .sticky-panel { background: #0c0a08 !important; padding-bottom: 8px !important; }
+    .has-children { font-size: 18px !important; padding: 3px 12px !important; }
   }
 </style>
 </head>
@@ -59,8 +61,8 @@
         <span></span><span></span><span></span>
       </button>
       <div class="search-box">
-        <span class="search-icon">⌕</span>
         <input type="text" id="searchInput" placeholder="搜索姓名、字号…" autocomplete="off">
+        <span class="search-icon">⌕</span>
         <div class="search-results" id="searchResults"></div>
       </div>
     </div>
@@ -73,8 +75,10 @@
     <div id="branchList"></div>
   </aside>
   <main class="main" id="main">
-    <div class="breadcrumb" id="breadcrumb"></div>
-    <div class="stats-bar" id="statsBar"></div>
+    <div class="sticky-panel">
+      <div class="breadcrumb" id="breadcrumb"></div>
+      <div class="stats-bar" id="statsBar"></div>
+    </div>
     <div class="tree-container" id="treeContainer"></div>
   </main>
 </div>
@@ -87,6 +91,6 @@
     <div class="modal-body" id="modalBody"></div>
   </div>
 </div><script src="data.js?v=13"></script>
-<script src="app.js?v=18"></script>
+<script src="app.js?v=19"></script>
 </body>
 </html>

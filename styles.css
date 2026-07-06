@@ -61,7 +61,7 @@ body::before {
 }
 .search-box { position: relative; width: 280px; }
 .search-box input {
-  width: 100%; padding: 10px 16px 10px 40px;
+  width: 100%; padding: 10px 40px 10px 16px;
   background: var(--surface); border: 1px solid var(--border);
   border-radius: var(--radius); color: var(--text);
   font-size: 14px; font-family: 'Noto Sans SC', sans-serif;
@@ -70,8 +70,9 @@ body::before {
 .search-box input:focus { border-color: var(--accent-dim); }
 .search-box input::placeholder { color: var(--text-dim); }
 .search-icon {
-  position: absolute; left: 12px; top: 50%;
-  transform: translateY(-50%); color: var(--text-dim); font-size: 16px;
+  position: absolute; right: 12px; top: 50%;
+  transform: translateY(-50%); color: var(--text-dim);
+  font-size: 22px; cursor: pointer;
 }
 .search-results {
   position: absolute; top: 100%; left: 0; right: 0;
@@ -122,7 +123,13 @@ body::before {
   float: right; font-size: 11px; color: var(--text-dim);
   font-family: 'Noto Sans SC', sans-serif; font-weight: 400;
 }
-.main { flex: 1; padding: 24px 32px; overflow-x: auto; }
+.main { flex: 1; padding: 24px 32px; }
+.sticky-panel {
+  position: sticky; top: 0; z-index: 10;
+  background: var(--bg);
+  padding-bottom: 12px;
+  margin-bottom: 4px;
+}
 .breadcrumb {
   font-size: 13px; color: var(--text-dim); margin-bottom: 20px;
   display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
@@ -196,9 +203,9 @@ body::before {
 .node-card .detail { font-size: 11px; color: var(--text-dim); line-height: 1.6; }
 .node-card .detail .highlight { color: var(--accent-dim); }
 .node-card .has-children {
-  display: inline-block; margin-top: 8px; font-size: 11px;
+  display: inline-block; margin-top: 8px; font-size: 22px;
   color: var(--accent-dim); border: 1px solid var(--border);
-  padding: 2px 8px; border-radius: 3px; transition: all 0.2s; cursor: pointer;
+  padding: 4px 16px; border-radius: 6px; transition: all 0.2s; cursor: pointer;
   user-select: none;
 }
 .node-card:hover .has-children { border-color: var(--accent-dim); color: var(--accent); }
@@ -336,8 +343,8 @@ body::before {
   .menu-btn { width: 34px; height: 34px; padding: 5px; flex-shrink: 0; }
   .menu-btn span { width: 18px; height: 2px; }
   .search-box { flex: 1; min-width: 0; }
-  .search-box input { padding: 6px 8px 6px 28px; font-size: 13px; }
-  .search-icon { left: 8px; font-size: 13px; }
+  .search-box input { padding: 6px 32px 6px 10px; font-size: 13px; }
+  .search-icon { right: 8px; font-size: 20px; }
   .layout { padding-top: 100px; }
   .sidebar { padding-top: 100px; }
   .nodes-row { padding-left: 16px; }
