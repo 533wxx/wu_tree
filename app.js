@@ -412,7 +412,6 @@ function searchSelect(id, branch) {
     currentBranch = branchIdx;
     render();
   }
-  searchInput.value = '';
   searchResults.classList.remove('active');
   setTimeout(() => { navigateTo(id); }, 150);
 }
