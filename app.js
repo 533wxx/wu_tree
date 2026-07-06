@@ -453,8 +453,25 @@ function render() {
   renderBreadcrumb();
   renderStats();
   renderTree();
+  // Re-sync header height after content changes
+  setTimeout(syncHeaderHeight, 50);
+}
+
+// ===== DYNAMIC HEADER HEIGHT =====
+function syncHeaderHeight() {
+  const header = document.querySelector('.header');
+  const layout = document.querySelector('.layout');
+  const sidebar = document.getElementById('sidebar');
+  if (!header || !layout) return;
+  const h = header.offsetHeight;
+  layout.style.paddingTop = h + 'px';
+  if (sidebar && window.innerWidth <= 900) {
+    sidebar.style.paddingTop = h + 'px';
+  }
 }
 
 // ===== INIT =====
 buildSearchIndex();
 render();
+syncHeaderHeight();
+window.addEventListener('resize', syncHeaderHeight);

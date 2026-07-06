@@ -9,9 +9,9 @@
 <title>高橋吳氏宗譜 · 卷十三世系</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=17">
+<link rel="stylesheet" href="styles.css?v=18">
 <style>
-  /* ★ 内联样式在外部 CSS 之后加载，确保优先级最高 ★ */
+  /* ★ 内联样式，头部固定 + 布局基础 ★ */
   html, body { overflow: hidden; height: 100%; }
   body { padding-top: 0; }
   body::before { z-index: -1; }
@@ -19,7 +19,7 @@
     height: 100vh; height: 100dvh;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-    padding-top: 93px;
+    padding-top: 93px; /* 桌面端兜底，JS 会动态覆盖 */
   }
   .header {
     position: fixed !important;
@@ -31,11 +31,6 @@
     -webkit-transform: translateZ(0) !important;
   }
   .modal-overlay { z-index: 10000 !important; }
-  /* 平板/中等屏幕 */
-  @media (max-width: 900px) {
-    .layout { padding-top: 100px !important; }
-    .sidebar { padding-top: 100px !important; }
-  }
   /* 手机：第1行标题+副标题，第2行菜单+搜索框 */
   @media (max-width: 600px) {
     .header { padding: 6px 8px 8px !important; }
@@ -49,8 +44,6 @@
     .search-box { flex: 1 !important; min-width: 0 !important; }
     .search-box input { padding: 6px 8px 6px 28px !important; font-size: 13px !important; }
     .search-icon { left: 8px !important; font-size: 13px !important; }
-    .layout { padding-top: 100px !important; }
-    .sidebar { padding-top: 100px !important; }
   }
 </style>
 </head>
@@ -94,6 +87,6 @@
     <div class="modal-body" id="modalBody"></div>
   </div>
 </div><script src="data.js?v=13"></script>
-<script src="app.js?v=17"></script>
+<script src="app.js?v=18"></script>
 </body>
 </html>
