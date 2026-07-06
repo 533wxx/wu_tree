@@ -9,7 +9,25 @@
 <title>高橋吳氏宗譜 · 卷十三世系</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=7">
+<style>
+  /* 确保头部固定在视口最上层，永不滚动 */
+  html { overflow-x: hidden; }
+  body { padding-top: 93px; }
+  body::before { z-index: -1; }
+  .header {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 9999 !important;
+    background: #0c0a08 !important;
+  }
+  .modal-overlay { z-index: 10000 !important; }
+  @media (max-width: 900px) {
+    .sidebar { padding-top: 100px !important; }
+  }
+</style>
+<link rel="stylesheet" href="styles.css?v=8">
 </head>
 <body>
 <div class="header">
@@ -48,7 +66,7 @@
     </div>
     <div class="modal-body" id="modalBody"></div>
   </div>
-</div><script src="data.js?v=7"></script>
-<script src="app.js?v=7"></script>
+</div><script src="data.js?v=8"></script>
+<script src="app.js?v=8"></script>
 </body>
 </html>
