@@ -39,7 +39,7 @@ function renderSidebar() {
 function renderStats() {
   const fd = familyData[currentBranch];
   const seen = new Set();
-  let total = 0, living = 0, maxGen = 0;
+  let total = 0, maxGen = 0;
 
   function countPerson(p) {
     // Deduplicate by ID to avoid double-counting adopted children
@@ -47,8 +47,6 @@ function renderStats() {
     seen.add(p.id);
     total++;
     if (p.gen > maxGen) maxGen = p.gen;
-    // Count as living if no death record and not marked as died young
-    if (!p.death && p.note !== '幼歿') living++;
     if (p.children) p.children.forEach(countPerson);
   }
 
@@ -59,7 +57,6 @@ function renderStats() {
     <div class="stat-item"><div class="stat-label">房支</div><div class="stat-value">${fd.branch}</div></div>
     <div class="stat-item"><div class="stat-label">总人数</div><div class="stat-value">${total}</div></div>
     <div class="stat-item"><div class="stat-label">世代跨度</div><div class="stat-value">${maxGen}世</div></div>
-    <div class="stat-item"><div class="stat-label">在世后代</div><div class="stat-value">${living}</div></div>
   `;
 }
 
