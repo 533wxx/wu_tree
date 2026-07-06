@@ -38,26 +38,28 @@ function renderSidebar() {
 // ===== RENDER STATS =====
 function renderStats() {
   const fd = familyData[currentBranch];
-  let total = 0, maxGen = 0;
-  const countFn = p => {
+  const seen = new Set();
+  let total = 0, living = 0, maxGen = 0;
+
+  function countPerson(p) {
+    // Deduplicate by ID to avoid double-counting adopted children
+    if (seen.has(p.id)) return;
+    seen.add(p.id);
     total++;
     if (p.gen > maxGen) maxGen = p.gen;
-    if (p.children) p.children.forEach(countFn);
-  };
-  countFn(fd.root);
-  if (fd.siblings) fd.siblings.forEach(s => countFn(s));
-  let leafCount = 0;
-  const leafFn = p => {
-    if (!p.children || p.children.length === 0) leafCount++;
-    if (p.children) p.children.forEach(leafFn);
-  };
-  leafFn(fd.root);
-  if (fd.siblings) fd.siblings.forEach(s => leafFn(s));
+    // Count as living if no death record and not marked as died young
+    if (!p.death && p.note !== '幼歿') living++;
+    if (p.children) p.children.forEach(countPerson);
+  }
+
+  countPerson(fd.root);
+  if (fd.siblings) fd.siblings.forEach(s => countPerson(s));
+
   document.getElementById('statsBar').innerHTML = `
     <div class="stat-item"><div class="stat-label">房支</div><div class="stat-value">${fd.branch}</div></div>
     <div class="stat-item"><div class="stat-label">总人数</div><div class="stat-value">${total}</div></div>
     <div class="stat-item"><div class="stat-label">世代跨度</div><div class="stat-value">${maxGen}世</div></div>
-    <div class="stat-item"><div class="stat-label">在世后代</div><div class="stat-value">${leafCount}</div></div>
+    <div class="stat-item"><div class="stat-label">在世后代</div><div class="stat-value">${living}</div></div>
   `;
 }
 
