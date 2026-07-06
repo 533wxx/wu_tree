@@ -168,7 +168,7 @@ function createNodeCard(person, delay = 0) {
   const childCount = (person.children ? person.children.length : 0);
   let childBtn = '';
   if (childCount > 0) {
-    childBtn = `<div class="has-children" data-person-id="${person.id}">▸ ${childCount} 子嗣展开</div>`;
+    childBtn = `<div class="has-children" data-person-id="${person.id}" data-count="${childCount}">▸ ${childCount} 子嗣展开</div>`;
   }
 
   card.innerHTML = `
@@ -216,16 +216,14 @@ function createNodeCard(person, delay = 0) {
       row.querySelectorAll('.children-container.show').forEach(c => c.classList.remove('show'));
       row.querySelectorAll('.has-children.open').forEach(b => {
         b.classList.remove('open');
-        const count = (b.textContent.match(/\d+/) || ['0'])[0];
-        b.innerHTML = '▸ ' + count + ' 子嗣展开';
+        b.textContent = '▸ ' + (b.dataset.count || '0') + ' 子嗣展开';
       });
 
       // If was closed, open it
       if (isOpening) {
         targetContainer.classList.add('show');
         this.classList.add('open');
-        const count = (this.textContent.match(/\d+/) || ['0'])[0];
-        this.innerHTML = '▾ ' + count + ' 子嗣收起';
+        this.textContent = '▾ ' + (this.dataset.count || '0') + ' 子嗣收起';
       }
     });
   }
