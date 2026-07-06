@@ -300,13 +300,13 @@ body::before {
   .search-box { flex: 1; min-width: 0; }
   .title-block { flex: 1; min-width: 0; }
 
-  .layout { padding-top: 100px; z-index: 270; }
+  .layout { padding-top: 160px; z-index: 270; }
 
   .sidebar {
     position: fixed; top: 0; left: 0; bottom: 0; width: 260px;
     z-index: 260; background: var(--bg);
     border-right: 1px solid var(--border);
-    padding: 100px 16px 24px;
+    padding: 160px 16px 24px;
     transform: translateX(-100%); transition: transform 0.3s ease;
     overflow-y: auto;
   }
@@ -323,8 +323,10 @@ body::before {
 }
 @media (max-width: 600px) {
   .title { font-size: 20px; }
-  .layout { padding-top: 110px; }
-  .sidebar { padding-top: 110px; }
+  .title-block { flex-direction: column; align-items: flex-start; gap: 2px; }
+  .header { padding: 12px 12px 14px; }
+  .layout { padding-top: 210px; }
+  .sidebar { padding-top: 210px; }
   .nodes-row { padding-left: 16px; }
   .node-card { max-width: 100%; padding: 10px 12px; }
   .children-container { padding-left: 16px; margin-left: 4px; }
