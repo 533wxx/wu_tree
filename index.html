@@ -1,95 +1,17 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>高橋吳氏宗譜 · 卷十三世系</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=23">
-<style>
-  /* ★ 内联样式，头部固定 + 布局基础 ★ */
-  html, body { overflow: hidden; height: 100%; }
-  body { padding-top: 0; }
-  body::before { z-index: -1; }
-  .layout {
-    height: 100vh; height: 100dvh;
-    overflow: hidden;
-    padding-top: 93px; /* 桌面端兜底，JS 会动态覆盖 */
-  }
-  .header {
-    position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    z-index: 9999 !important;
-    background: #0c0a08 !important;
-    -webkit-transform: translateZ(0) !important;
-  }
-  .modal-overlay { z-index: 10000 !important; }
-  /* 手机：第1行标题+副标题，第2行菜单+搜索框 */
-  @media (max-width: 600px) {
-    .header { padding: 6px 8px 8px !important; }
-    .header-inner { flex-direction: column !important; gap: 3px !important; }
-    .title-block { width: 100% !important; flex-direction: row !important; align-items: baseline !important; gap: 6px !important; }
-    .title { font-size: 17px !important; white-space: nowrap !important; }
-    .subtitle { font-size: 11px !important; white-space: nowrap !important; }
-    .header-actions { display: flex !important; width: 100% !important; gap: 6px !important; align-items: center !important; }
-    .menu-btn { width: 34px !important; height: 34px !important; padding: 5px !important; flex-shrink: 0 !important; }
-    .menu-btn span { width: 18px !important; height: 2px !important; }
-    .search-box { flex: 1 !important; min-width: 0 !important; }
-    .search-box input { padding: 6px 32px 6px 10px !important; font-size: 13px !important; }
-    .search-icon { right: 8px !important; font-size: 20px !important; }
-    .sticky-panel { background: #0c0a08 !important; padding-bottom: 8px !important; }
-    .has-children { font-size: 18px !important; padding: 3px 12px !important; }
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>高橋吳氏宗譜 · 卷十三世系</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="header">
-  <div class="header-inner">
-    <div class="title-block">
-      <h1 class="title">高橋吳氏宗譜</h1>
-      <span class="subtitle">卷十三 · 世系 · 二〇二六年丙午岁重修</span>
-    </div>
-    <div class="header-actions">
-      <button class="menu-btn" id="menuBtn" onclick="toggleSidebar()" aria-label="菜单">
-        <span></span><span></span><span></span>
-      </button>
-      <div class="search-box">
-        <input type="text" id="searchInput" placeholder="搜索姓名、字号…" autocomplete="off">
-        <span class="search-icon">⌕</span>
-        <div class="search-results" id="searchResults"></div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()"></div>
-<div class="layout">
-  <aside class="sidebar" id="sidebar">
-    <div class="sidebar-title">房 支 导 航</div>
-    <div id="branchList"></div>
-  </aside>
-  <main class="main" id="main">
-    <div class="sticky-panel">
-      <div class="breadcrumb" id="breadcrumb"></div>
-      <div class="stats-bar" id="statsBar"></div>
-    </div>
-    <div class="tree-container" id="treeContainer"></div>
-  </main>
-</div>
-<div class="modal-overlay" id="modalOverlay">
-  <div class="modal" id="modal">
-    <div class="modal-header">
-      <h2 id="modalTitle"></h2>
-      <button class="close-btn" onclick="closeModal()">&times;</button>
-    </div>
-    <div class="modal-body" id="modalBody"></div>
-  </div>
-</div><script src="data.js?v=15"></script>
-<script src="app.js?v=23"></script>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
 </body>
 </html>

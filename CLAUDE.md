@@ -5,7 +5,7 @@
 ## 技术栈
 
 - **前端**: Vanilla HTML/CSS/JS — 无框架，无构建步骤
-- **数据处理**: Node.js (`convert-dates.js`) 将干支纪年转为公历
+- **数据处理**: Node.js (`convert-dates.cjs`) 将干支纪年转为公历
 - **无测试、无 linter、无 bundler**
 
 ## 文件架构
@@ -16,7 +16,7 @@
 | `data.js` | **自动生成** — `const familyData = [...]`，每个房支 `{ branch, root, siblings? }`，每个人物含 `id/name/gen/zi/hao/birth/birthDisplay/wife/death/children/adoptNote/daughters/birthOrder` |
 | `app.js` | 全部前端逻辑：侧边栏渲染、树展开/折叠、搜索（含索引）、详情弹窗（含子辈导航）、面包屑、统计栏、动态 header 高度 |
 | `styles.css` | 深色主题（CSS 自定义属性），响应式断点 900px/600px |
-| `convert-dates.js` | **gitignored** — Node.js 脚本，解析帝号纪年（光绪/道光等）和干支，生成 `birthYear`+`birthDisplay` 并标注 `birthOrder`，原地重写 `data.js` 中的 JSON |
+| `convert-dates.cjs` | **gitignored** — Node.js 脚本，解析帝号纪年（光绪/道光等）和干支，生成 `birthYear`+`birthDisplay` 并标注 `birthOrder`，原地重写 `data.js` 中的 JSON |
 | `package.json` | 仅含 `pdf-parse` 依赖（PDF 文本提取，非运行时使用） |
 | `pdf_text.txt` / `pdf_merged.txt` | 源 PDF 提取的原始文本 — 上游数据源 |
 
@@ -24,7 +24,7 @@
 
 | 路径 | 用途 |
 |------|------|
-| `.claude/settings.json` | 项目共享权限 + 提交前 hook（自动提醒运行 convert-dates.js） |
+| `.claude/settings.json` | 项目共享权限 + 提交前 hook（自动提醒运行 convert-dates.cjs） |
 | `.claude/settings.local.json` | 个人本地配置（gitignored） |
 | `.claude/agents/code-reviewer.md` | 代码审查子代理 |
 | `.claude/commands/convert.md` | `/convert` 斜杠命令 |
@@ -50,7 +50,7 @@ const familyData = [
       wife: "...",
       death: "...",
       adoptNote: "...",      // 嗣子/兼祧备注
-      birthOrder: "长子",    // 排行 — 由 convert-dates.js 标注
+      birthOrder: "长子",    // 排行 — 由 convert-dates.cjs 标注
       children: [ ... ]
     },
     siblings: [ ... ]        // 可选 — 同房支其他支系始祖
@@ -59,12 +59,12 @@ const familyData = [
 ```
 
 - ID 前缀编码世代：`m110`=明字辈 110世, `l111`=良字辈 111世, `x112`=兴字辈, `w113`=万字辈, `b114`=邦字辈
-- `convert-dates.js` 处理范围：道光/咸丰/同治/光绪/宣统，在帝号在位年内按干支序数查找对应公历年
+- `convert-dates.cjs` 处理范围：道光/咸丰/同治/光绪/宣统，在帝号在位年内按干支序数查找对应公历年
 
 ## 数据管道流程
 
 1. 编辑 `data.js` 直接修改内容
-2. 运行 `node convert-dates.js` 重新生成计算字段（`birthDisplay`、`birthOrder`、`wifeDisplay`、`deathDisplay`），原地重写 JSON
+2. 运行 `node convert-dates.cjs` 重新生成计算字段（`birthDisplay`、`birthOrder`、`wifeDisplay`、`deathDisplay`），原地重写 JSON
 3. 浏览器打开 `index.html` 验证 — 无需服务器
 
 ## 关键 UI 行为
