@@ -2,3 +2,12 @@ node_modules/
 .idea/
 .DS_Store
 convert-dates.js
+
+# Claude Code — 个人本地配置
+.claude/settings.local.json
+
+# Claude Code — 定时任务
+.claude/scheduled_tasks.json
+
+# Claude Code — 工作树
+.claude/worktrees/
