@@ -21,7 +21,7 @@ import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useBranch } from '../../composables/useBranch.js'
 import { useHeader } from '../../composables/useHeader.js'
 
-defineEmits(['select'])
+const emit = defineEmits(['select'])
 
 const { currentBranch, branches, selectBranch } = useBranch()
 const { headerHeight } = useHeader()
@@ -33,6 +33,7 @@ function onResize() { windowWidth.value = window.innerWidth }
 function onSelect(i) {
   selectBranch(i)
   isOpen.value = false
+  emit('select', i)
 }
 
 onMounted(() => window.addEventListener('resize', onResize))

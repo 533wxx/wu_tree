@@ -6,7 +6,7 @@
   />
   <div class="sidebar-overlay" :class="{ active: sidebarOpen }" @click="closeSidebar"></div>
   <div class="layout" :style="{ paddingTop: headerHeight + 'px' }">
-    <AppSidebar ref="sidebarRef" />
+    <AppSidebar ref="sidebarRef" @select="closeSidebar" />
     <MainContent @open-modal="openModal" />
   </div>
   <PersonModal @navigate="onNavigate" />
@@ -42,9 +42,13 @@ onMounted(() => {
 })
 
 function toggleSidebar() {
-  if (sidebarRef.value) {
-    sidebarRef.value.toggle()
-    sidebarOpen.value = sidebarRef.value.isOpen
+  if (!sidebarRef.value) return
+  const wasOpen = sidebarOpen.value
+  if (wasOpen) {
+    closeSidebar()
+  } else {
+    sidebarRef.value.isOpen = true
+    sidebarOpen.value = true
   }
 }
 
