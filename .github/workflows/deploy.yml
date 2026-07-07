@@ -20,8 +20,8 @@ jobs:
       - run: npm ci
       - run: npm run build
 
-      - uses: peaceiris/actions-gh-pages@v4
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          force_orphan: true
+          commit_message: Deploy docs for GitHub Pages
+          file_pattern: docs/
+          branch: master

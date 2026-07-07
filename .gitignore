@@ -2,7 +2,6 @@ node_modules/
 .idea/
 .DS_Store
 convert-dates.cjs
-dist/
 
 # Claude Code — 个人本地配置
 .claude/
