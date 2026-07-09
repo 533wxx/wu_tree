@@ -19,6 +19,8 @@ jobs:
 
       - run: npm ci
       - run: npm run build
+        env:
+          VITE_GITHUB_TOKEN: ${{ secrets.GH_DB_TOKEN }}
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:

@@ -1,12 +1,15 @@
 import { ref, computed } from 'vue'
-import { familyData } from '../data/familyData.js'
+import { useFamilyData } from './useFamilyData.js'
 
 const currentBranch = ref(0)
 
 export function useBranch() {
-  const branchData = computed(() => familyData[currentBranch.value])
+  const { familyData } = useFamilyData()
+
+  const branchData = computed(() => familyData.value[currentBranch.value])
+
   const branches = computed(() =>
-    familyData.map(fd => {
+    familyData.value.map(fd => {
       let count = 0
       const countFn = p => { count++; if (p.children) p.children.forEach(countFn) }
       countFn(fd.root)

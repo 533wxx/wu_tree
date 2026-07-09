@@ -1,5 +1,5 @@
-import { ref, computed, nextTick } from 'vue'
-import { familyData } from '../data/familyData.js'
+import { ref, computed } from 'vue'
+import { useFamilyData } from './useFamilyData.js'
 
 const allPersons = []
 
@@ -10,15 +10,13 @@ function flattenPerson(person, branch) {
   }
 }
 
-function buildIndex() {
+function buildIndex(familyData) {
   allPersons.length = 0
   familyData.forEach(fd => {
     flattenPerson(fd.root, fd.branch)
     if (fd.siblings) fd.siblings.forEach(s => flattenPerson(s, fd.branch))
   })
 }
-
-buildIndex()
 
 const query = ref('')
 
@@ -30,17 +28,18 @@ const results = computed(() => {
     .slice(0, 20)
 })
 
-function findBranchIndex(branchName) {
+function findBranchIndex(familyData, branchName) {
   return familyData.findIndex(fd => fd.branch === branchName)
 }
 
 class SearchController {
   constructor() {
-    this.onSelect = null  // callback: (branchIndex, personId) => void
+    this.onSelect = null
   }
 
   selectPerson(person) {
-    const idx = findBranchIndex(person.branch)
+    const { familyData } = useFamilyData()
+    const idx = findBranchIndex(familyData.value, person.branch)
     if (idx >= 0 && this.onSelect) {
       this.onSelect(idx, person.id)
     }
