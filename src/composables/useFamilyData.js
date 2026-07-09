@@ -1,6 +1,6 @@
 import { ref, readonly } from 'vue'
 
-const CACHE_TTL = 604_800_000 // 7 天缓存
+const CACHE_TTL = 3_600_000 // 1 小时缓存
 
 // 数据文件在 wu_tree_db 仓库中的路径
 const DATA_PATH = 'contents/collections/familyData.json'
