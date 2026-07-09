@@ -6,6 +6,7 @@ const CACHE_TTL = 604_800_000 // 7 天缓存
 const DATA_PATH = 'collections/familyData.json'
 const OWNER = '533wxx'
 const REPO = 'wu_tree_db'
+const BRANCH = 'main'
 
 // 模块级单例状态
 const familyData = ref([])
@@ -23,23 +24,32 @@ async function fetchData(force = false) {
   error.value = null
 
   try {
-    const token = import.meta.env.VITE_GITHUB_TOKEN
-    const headers = { Accept: 'application/vnd.github.v3+json' }
-    if (token) {
-      headers.Authorization = `Bearer ${token}`
-    }
+    // 公开仓库直接用 raw.githubusercontent.com，无需 token
+    const rawUrl = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/${DATA_PATH}`
+    let res = await fetch(rawUrl)
 
-    const apiUrl = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${DATA_PATH}`
-    const res = await fetch(apiUrl, { headers })
-
+    // 如果 raw 返回 404，尝试用 API（支持私有仓库 + token）
     if (!res.ok) {
+      const token = import.meta.env.VITE_GITHUB_TOKEN
+      if (token) {
+        const apiUrl = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${DATA_PATH}`
+        res = await fetch(apiUrl, {
+          headers: {
+            Accept: 'application/vnd.github.v3+json',
+            Authorization: `Bearer ${token}`,
+          },
+        })
+        if (res.ok) {
+          const json = await res.json()
+          familyData.value = JSON.parse(atob(json.content.replace(/\s/g, '')))
+          cacheTimestamp = Date.now()
+          return
+        }
+      }
       throw new Error(`HTTP ${res.status}: ${res.statusText}`)
     }
 
-    const json = await res.json()
-    // GitHub Contents API 返回 base64 编码的内容
-    const raw = atob(json.content.replace(/\s/g, ''))
-    familyData.value = JSON.parse(raw)
+    familyData.value = await res.json()
     cacheTimestamp = Date.now()
   } catch (e) {
     error.value = e.message || '数据加载失败'
