@@ -3,7 +3,7 @@ import { ref, readonly } from 'vue'
 const CACHE_TTL = 604_800_000 // 7 天缓存
 
 // 数据文件在 wu_tree_db 仓库中的路径
-const DATA_PATH = 'collections/familyData.json'
+const DATA_PATH = 'contents/collections/familyData.json'
 const OWNER = '533wxx'
 const REPO = 'wu_tree_db'
 const BRANCH = 'main'
