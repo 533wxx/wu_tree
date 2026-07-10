@@ -2,6 +2,8 @@ import { ref, readonly } from 'vue'
 import { familyData as localData } from '../data/familyData.js'
 
 const CACHE_TTL = 86_400_000 // 1 天缓存
+const STORAGE_KEY_DATA = 'wu_family_data'
+const STORAGE_KEY_TS = 'wu_family_ts'
 
 // 数据文件在 wu_tree_db 仓库中的路径
 const DATA_PATH = 'contents/collections/familyData.json'
@@ -9,18 +11,39 @@ const OWNER = '533wxx'
 const REPO = 'wu_tree_db'
 const BRANCH = 'main'
 
-// 模块级单例状态 — 初始使用本地数据，页面秒开
-const familyData = ref(localData)
+// 从 localStorage 恢复缓存
+function loadFromStorage() {
+  try {
+    const ts = localStorage.getItem(STORAGE_KEY_TS)
+    const data = localStorage.getItem(STORAGE_KEY_DATA)
+    if (data && ts) {
+      return { data: JSON.parse(data), ts: parseInt(ts) }
+    }
+  } catch {}
+  return null
+}
+
+function saveToStorage(data, ts) {
+  try {
+    localStorage.setItem(STORAGE_KEY_DATA, JSON.stringify(data))
+    localStorage.setItem(STORAGE_KEY_TS, String(ts))
+  } catch {}
+}
+
+// 模块级单例状态
+const cached = loadFromStorage()
+const familyData = ref(cached ? cached.data : localData)
 const isLoading = ref(false)
 const error = ref(null)
-let cacheTimestamp = 0 // 0 表示当前用的是本地数据，需后台更新
+let cacheTimestamp = cached ? cached.ts : Date.now() // 首次使用本地数据，开始 1 天倒计时
 
 async function fetchData(force = false) {
-  // 缓存命中：数据非空且未过期（且非本地数据占位）
-  if (!force && cacheTimestamp > 0 && Date.now() - cacheTimestamp < CACHE_TTL) {
+  // 缓存有效 → 不请求
+  if (!force && Date.now() - cacheTimestamp < CACHE_TTL) {
     return
   }
 
+  // 缓存过期 → 后台静默拉取
   isLoading.value = true
   error.value = null
 
@@ -28,7 +51,6 @@ async function fetchData(force = false) {
     const rawUrl = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/${DATA_PATH}?t=${Date.now()}`
     let res = await fetch(rawUrl, { cache: 'no-store' })
 
-    // 如果 raw 返回 404，尝试用 API（支持私有仓库 + token）
     if (!res.ok) {
       const token = import.meta.env.VITE_GITHUB_TOKEN
       if (token) {
@@ -43,6 +65,7 @@ async function fetchData(force = false) {
           const json = await res.json()
           familyData.value = JSON.parse(atob(json.content.replace(/\s/g, '')))
           cacheTimestamp = Date.now()
+          saveToStorage(familyData.value, cacheTimestamp)
           return
         }
       }
@@ -51,10 +74,10 @@ async function fetchData(force = false) {
 
     familyData.value = await res.json()
     cacheTimestamp = Date.now()
+    saveToStorage(familyData.value, cacheTimestamp)
   } catch (e) {
-    // 已有数据（本地或缓存）→ 静默失败，保留现有数据
     if (familyData.value.length > 0) {
-      console.warn('后台更新失败，使用当前数据:', e.message)
+      console.warn('后台更新失败，使用本地缓存:', e.message)
     } else {
       error.value = e.message || '数据加载失败'
       console.error('获取世系数据失败:', e)
