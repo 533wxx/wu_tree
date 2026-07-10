@@ -53,20 +53,14 @@ export const familyData = [
                       "birth": "2013年癸巳二月廿八日辰时",
                       "children": []
                     }
-                  ]
-                },
-                {
-                  "id": "n_201",
-                  "name": "秀珍",
-                  "gen": 113,
-                  "gender": "F",
-                  "children": [],
-                  "birth": "1985年六月二十一日酉时",
-                  "wife": "适本村"
+                  ],
+                  "wifeDisplay": "湖北江陵县资市金龙村丁银平（1994年（甲戌）十月初九日亥时生）"
                 }
-              ]
+              ],
+              "wifeDisplay": "徐氏晓红（1966年（乙巳）三月廿二日卯时生）"
             }
-          ]
+          ],
+          "wifeDisplay": "张氏等凤（1917年（丁巳）十一月十八日子时生）"
         }
       ]
     },
@@ -112,11 +106,14 @@ export const familyData = [
                     ],
                     "children": []
                   }
-                ]
+                ],
+                "wifeDisplay": "张氏幼玉（1970年（庚戌）八月初九日戌时生）"
               }
-            ]
+            ],
+            "wifeDisplay": "杨氏毕定（1925年（乙丑）十二月初六日丑时生）"
           }
-        ]
+        ],
+        "wifeDisplay": "李氏春娇（光绪戊子年（1888年）九月十五日寅时生，幼歿）"
       },
       {
         "id": "m110_3",
@@ -183,11 +180,16 @@ export const familyData = [
                     "children": [],
                     "birthOrder": "幼子"
                   }
-                ]
+                ],
+                "wifeDisplay": "程氏雪花（1976年（丙辰）九月廿三日辰时生）"
               }
-            ]
+            ],
+            "wifeDisplay": "高氏有兰（1933年（癸酉）八月初十日亥时生）",
+            "deathDisplay": "公殁于2007年（丁亥）十月初二日卯时；氏殁于2007年九月十九日酉时"
           }
-        ]
+        ],
+        "wifeDisplay": "张氏宝娇（光绪甲午年（1894年）五月廿一日亥时生）",
+        "deathDisplay": "张氏歿于光绪丙午年（1906年）五月初六日未时，葬三角尖；公歿于1942年（壬午）四月廿八日申时，葬庵背；氏歿于1961年（辛丑）七月初十日巳时，葬栎山上"
       }
     ]
   },
@@ -262,7 +264,8 @@ export const familyData = [
                         "次女吴蒙（公元1991年辛未生）"
                       ],
                       "children": [],
-                      "birthOrder": "长子"
+                      "birthOrder": "长子",
+                      "wifeDisplay": "曹氏雪花（1968年（戊申）生）"
                     },
                     {
                       "id": "b114_11",
@@ -276,7 +279,8 @@ export const familyData = [
                         "吴清（公元1996年丙子生）"
                       ],
                       "children": [],
-                      "birthOrder": "次子"
+                      "birthOrder": "次子",
+                      "wifeDisplay": "程氏赛英（1972年（壬子）生）"
                     },
                     {
                       "id": "b114_12",
@@ -308,7 +312,8 @@ export const familyData = [
                           "birthOrder": "幼子"
                         }
                       ],
-                      "birthOrder": "三子"
+                      "birthOrder": "三子",
+                      "wifeDisplay": "郑氏秋秀（1975年（乙卯）生）"
                     },
                     {
                       "id": "b114_13",
@@ -349,20 +354,15 @@ export const familyData = [
                           "children": []
                         }
                       ],
-                      "birthOrder": "幼子"
-                    },
-                    {
-                      "id": "n_202",
-                      "name": "金桂",
-                      "gen": 114,
-                      "gender": "F",
-                      "children": [],
-                      "birth": "1983年癸亥二月廿六日子时"
+                      "birthOrder": "幼子",
+                      "wifeDisplay": "张氏群（1979年（己未）生）"
                     }
-                  ]
+                  ],
+                  "wifeDisplay": "张氏龙英（1947年（丁亥）正月初二日亥时生）"
                 }
               ],
-              "birthOrder": "长子"
+              "birthOrder": "长子",
+              "deathDisplay": "公歿于1942年（壬午）六月廿七日未时，葬庵背东西向"
             },
             {
               "id": "x112_11",
@@ -434,7 +434,8 @@ export const familyData = [
                               "birthOrder": "幼子"
                             }
                           ],
-                          "birthOrder": "长子"
+                          "birthOrder": "长子",
+                          "wifeDisplay": "程氏秀平（1989年（己巳）生）"
                         },
                         {
                           "id": "g115_11",
@@ -459,7 +460,8 @@ export const familyData = [
                               "children": []
                             }
                           ],
-                          "birthOrder": "幼子"
+                          "birthOrder": "幼子",
+                          "wifeDisplay": "团林乡江氏玉婷（1991年生）"
                         }
                       ],
                       "birthOrder": "长子"
@@ -483,7 +485,8 @@ export const familyData = [
                           "children": []
                         }
                       ],
-                      "birthOrder": "次子"
+                      "birthOrder": "次子",
+                      "wifeDisplay": "黄氏超萌（1975年（乙卯）生）"
                     },
                     {
                       "id": "b114_22",
@@ -507,10 +510,13 @@ export const familyData = [
                           "children": []
                         }
                       ],
-                      "birthOrder": "幼子"
+                      "birthOrder": "幼子",
+                      "wifeDisplay": "胡氏丽霞（1978年（戊午）生）"
                     }
                   ],
-                  "birthOrder": "长子"
+                  "birthOrder": "长子",
+                  "wifeDisplay": "王氏换娥（1942年（壬午）生）",
+                  "deathDisplay": "公歿于2012年（壬辰）十月初四日，葬对门"
                 },
                 {
                   "id": "w113_21",
@@ -546,7 +552,8 @@ export const familyData = [
                           "children": []
                         }
                       ],
-                      "birthOrder": "长子"
+                      "birthOrder": "长子",
+                      "wifeDisplay": "胡氏敏（1989年（己巳）生）"
                     },
                     {
                       "id": "b114_31",
@@ -567,10 +574,12 @@ export const familyData = [
                           "children": []
                         }
                       ],
-                      "birthOrder": "幼子"
+                      "birthOrder": "幼子",
+                      "wifeDisplay": "本埠常颖（1992年（壬申）生）"
                     }
                   ],
-                  "birthOrder": "次子"
+                  "birthOrder": "次子",
+                  "wifeDisplay": "胡氏香桂（1962年（壬寅）生）"
                 },
                 {
                   "id": "w113_22",
@@ -613,10 +622,12 @@ export const familyData = [
                           "children": [],
                           "birthOrder": "幼子"
                         }
-                      ]
+                      ],
+                      "wifeDisplay": "本村吴氏方花号吴金妹（1993年生）"
                     }
                   ],
-                  "birthOrder": "三子"
+                  "birthOrder": "三子",
+                  "wifeDisplay": "张氏幼枝（1963年（癸卯）生）"
                 },
                 {
                   "id": "w113_23",
@@ -652,7 +663,8 @@ export const familyData = [
                       "birthOrder": "幼子"
                     }
                   ],
-                  "birthOrder": "四子"
+                  "birthOrder": "四子",
+                  "wifeDisplay": "孙坊张氏欢莲（1968年（戊申）生）"
                 },
                 {
                   "id": "w113_24",
@@ -684,13 +696,16 @@ export const familyData = [
                           "birth": "公元2024年甲辰十月十九日巳时",
                           "children": []
                         }
-                      ]
+                      ],
+                      "wifeDisplay": "浙江义乌黄氏（1996年（丙子）生）"
                     }
                   ],
                   "birthOrder": "幼子"
                 }
               ],
-              "birthOrder": "次子"
+              "birthOrder": "次子",
+              "wifeDisplay": "胡氏转英（1920年（庚申）生）",
+              "deathDisplay": "公歿于1997年（丁丑）十二月初七日酉时，葬对门南北向"
             },
             {
               "id": "x112_12",
@@ -703,9 +718,13 @@ export const familyData = [
               "birthOrder": "幼子"
             }
           ],
-          "birthOrder": "幼子"
+          "birthOrder": "幼子",
+          "wifeDisplay": "王氏连菊（光绪戊子年（1888年）九月廿五日亥时生）",
+          "deathDisplay": "公歿于1954年（甲午）十二月十六日"
         }
-      ]
+      ],
+      "wifeDisplay": "杨氏（幼歿）；继娶胡氏秋香（同治壬戌年（1862年）七月廿五日辰时生）",
+      "deathDisplay": "公歿于1934年（甲戌）八月初九日巳时，葬莲华山庵"
     },
     "siblings": [
       {
@@ -783,7 +802,8 @@ export const familyData = [
                             "children": []
                           }
                         ],
-                        "birthOrder": "长子"
+                        "birthOrder": "长子",
+                        "wifeDisplay": "戴氏先娥（1976年（丙辰）生）"
                       },
                       {
                         "id": "b114_71",
@@ -809,10 +829,12 @@ export const familyData = [
                             "children": []
                           }
                         ],
-                        "birthOrder": "幼子"
+                        "birthOrder": "幼子",
+                        "wifeDisplay": "张氏饶花（1979年（己未）生）"
                       }
                     ],
-                    "birthOrder": "长子"
+                    "birthOrder": "长子",
+                    "wifeDisplay": "王氏想枝（1957年（丁酉）生）"
                   },
                   {
                     "id": "w113_31",
@@ -837,7 +859,8 @@ export const familyData = [
                         "children": []
                       }
                     ],
-                    "birthOrder": "次子"
+                    "birthOrder": "次子",
+                    "wifeDisplay": "吴氏三妹（1950年（庚寅）生）"
                   },
                   {
                     "id": "w113_32",
@@ -881,7 +904,8 @@ export const familyData = [
                         "children": []
                       }
                     ],
-                    "birthOrder": "四子"
+                    "birthOrder": "四子",
+                    "wifeDisplay": "广东五华县陈氏春芳（1978年（戊午）生）"
                   },
                   {
                     "id": "w113_34",
@@ -894,11 +918,16 @@ export const familyData = [
                     "children": [],
                     "birthOrder": "幼子"
                   }
-                ]
+                ],
+                "wifeDisplay": "邵氏辰贵（幼歿）；继娶邵氏元贵（1922年（壬戌）生）",
+                "deathDisplay": "公歿于1980年（庚申）八月廿三日丑时，葬庵背东西向"
               }
-            ]
+            ],
+            "deathDisplay": "公歿于1961年（辛丑）"
           }
-        ]
+        ],
+        "wifeDisplay": "石氏幼莲（光绪乙亥年（1875年）生）",
+        "deathDisplay": "公歿于1933年（癸酉）九月廿一日巳时"
       },
       {
         "id": "m110_12",
@@ -991,7 +1020,8 @@ export const familyData = [
                             "children": []
                           }
                         ],
-                        "birthOrder": "长子"
+                        "birthOrder": "长子",
+                        "wifeDisplay": "湖南醴陵锺清（1983年（癸亥）生）"
                       },
                       {
                         "id": "b114_81",
@@ -1016,10 +1046,12 @@ export const familyData = [
                             "children": []
                           }
                         ],
-                        "birthOrder": "幼子"
+                        "birthOrder": "幼子",
+                        "wifeDisplay": "慕礼张氏细影（1987年生）"
                       }
                     ],
-                    "birthOrder": "长子"
+                    "birthOrder": "长子",
+                    "wifeDisplay": "吴氏年枝（1963年（癸卯）生）"
                   },
                   {
                     "id": "w113_41",
@@ -1056,7 +1088,8 @@ export const familyData = [
                         ]
                       }
                     ],
-                    "birthOrder": "次子"
+                    "birthOrder": "次子",
+                    "wifeDisplay": "程氏华玉（1966年（丙午）生）"
                   },
                   {
                     "id": "w113_42",
@@ -1085,10 +1118,13 @@ export const familyData = [
                         "children": []
                       }
                     ],
-                    "birthOrder": "幼子"
+                    "birthOrder": "幼子",
+                    "wifeDisplay": "何氏启云（1972年（壬子）生）"
                   }
                 ],
-                "birthOrder": "三子"
+                "birthOrder": "三子",
+                "wifeDisplay": "戴氏金妹（1935年（乙亥）生）",
+                "deathDisplay": "公歿于2011年（辛巳），葬江家林南北向"
               },
               {
                 "id": "x112_33",
@@ -1137,7 +1173,8 @@ export const familyData = [
                             "children": []
                           }
                         ],
-                        "birthOrder": "长子"
+                        "birthOrder": "长子",
+                        "wifeDisplay": "王氏海梅（1989年（己巳）生）"
                       },
                       {
                         "id": "b114_91",
@@ -1151,7 +1188,8 @@ export const familyData = [
                         "birthOrder": "幼子"
                       }
                     ],
-                    "birthOrder": "长子"
+                    "birthOrder": "长子",
+                    "wifeDisplay": "徐氏长鸾（1967年（丁未）生）"
                   },
                   {
                     "id": "w113_51",
@@ -1227,13 +1265,18 @@ export const familyData = [
                         "birthOrder": "幼子"
                       }
                     ],
-                    "birthOrder": "幼子"
+                    "birthOrder": "幼子",
+                    "wifeDisplay": "张氏群芳（1984年（甲子）生）"
                   }
                 ],
-                "birthOrder": "幼子"
+                "birthOrder": "幼子",
+                "wifeDisplay": "徐氏细鸾（1942年（壬午）生）",
+                "deathDisplay": "公歿于2001年（辛巳），葬江家林南北向"
               }
             ],
-            "birthOrder": "长子"
+            "birthOrder": "长子",
+            "wifeDisplay": "李氏长妹（光绪辛丑年（1901年）生）",
+            "deathDisplay": "公殁于1987年（丁卯），葬对门南北向"
           },
           {
             "id": "l111_31",
@@ -1297,7 +1340,8 @@ export const familyData = [
                             "children": []
                           }
                         ],
-                        "birthOrder": "长子"
+                        "birthOrder": "长子",
+                        "wifeDisplay": "毛氏红霞（1987年（丁卯）生）"
                       },
                       {
                         "id": "b114_101",
@@ -1322,10 +1366,12 @@ export const familyData = [
                             "children": []
                           }
                         ],
-                        "birthOrder": "幼子"
+                        "birthOrder": "幼子",
+                        "wifeDisplay": "张氏梅芳（1990年（庚午）生）"
                       }
                     ],
-                    "birthOrder": "长子"
+                    "birthOrder": "长子",
+                    "wifeDisplay": "张氏华美（1958年（戊戌）生）"
                   },
                   {
                     "id": "w113_61",
@@ -1353,7 +1399,8 @@ export const familyData = [
                         "children": []
                       }
                     ],
-                    "birthOrder": "次子"
+                    "birthOrder": "次子",
+                    "wifeDisplay": "张氏想梅（1966年（丙午）生）"
                   },
                   {
                     "id": "w113_62",
@@ -1375,10 +1422,13 @@ export const familyData = [
                         "children": []
                       }
                     ],
-                    "birthOrder": "幼子"
+                    "birthOrder": "幼子",
+                    "wifeDisplay": "四川李氏萍（1991年生）"
                   }
                 ],
-                "birthOrder": "长子"
+                "birthOrder": "长子",
+                "wifeDisplay": "王氏春娥（1936年（丙子）生）",
+                "deathDisplay": "公歿于1991年（辛未）"
               },
               {
                 "id": "x112_41",
@@ -1430,7 +1480,9 @@ export const familyData = [
                     ]
                   }
                 ],
-                "birthOrder": "次子"
+                "birthOrder": "次子",
+                "wifeDisplay": "王氏妹娥（1949年（己丑）生）",
+                "deathDisplay": "氏殁于2008年，葬上海昆山火化"
               },
               {
                 "id": "x112_42",
@@ -1484,10 +1536,13 @@ export const familyData = [
                       "钰馨（公元2017年丁酉生）"
                     ],
                     "children": [],
-                    "birthOrder": "幼子"
+                    "birthOrder": "幼子",
+                    "wifeDisplay": "张氏小霞（出殊）；续娶湖南周氏娟珠（1988年（戊辰）生）"
                   }
                 ],
-                "birthOrder": "三子"
+                "birthOrder": "三子",
+                "wifeDisplay": "张氏牡凤（1946年（丙戌）生）",
+                "deathDisplay": "公殁于2012年（壬辰）闰四月廿九日寅时，葬堂众山前南北向；氏殁于1986年（丙寅），葬江家林南北向"
               },
               {
                 "id": "x112_43",
@@ -1500,9 +1555,11 @@ export const familyData = [
                 "birthOrder": "幼子"
               }
             ],
-            "birthOrder": "幼子"
+            "birthOrder": "幼子",
+            "deathDisplay": "公歿于1934年（甲戌）十二月三十日辰时"
           }
-        ]
+        ],
+        "wifeDisplay": "张氏福娇（光绪壬午年（1882年）生）"
       }
     ]
   },
@@ -1596,10 +1653,12 @@ export const familyData = [
                               "birth": "公元2016年丙申十月十八日午时",
                               "children": []
                             }
-                          ]
+                          ],
+                          "wifeDisplay": "吴氏敏琴（1997年（丁丑）生）"
                         }
                       ],
-                      "birthOrder": "长子"
+                      "birthOrder": "长子",
+                      "wifeDisplay": "吴氏冬梅（1973年（癸丑）生）"
                     },
                     {
                       "id": "b114_111",
@@ -1634,10 +1693,12 @@ export const familyData = [
                           "birthOrder": "幼子"
                         }
                       ],
-                      "birthOrder": "幼子"
+                      "birthOrder": "幼子",
+                      "wifeDisplay": "程氏爱梅（1976年（丙辰）生）"
                     }
                   ],
-                  "birthOrder": "长子"
+                  "birthOrder": "长子",
+                  "wifeDisplay": "王氏金凤（1949年（己丑）生）"
                 },
                 {
                   "id": "w113_71",
@@ -1674,7 +1735,8 @@ export const familyData = [
                           "children": []
                         }
                       ],
-                      "birthOrder": "长子"
+                      "birthOrder": "长子",
+                      "wifeDisplay": "张氏红梅（1980年（庚申）生）"
                     },
                     {
                       "id": "b114_113",
@@ -1698,10 +1760,12 @@ export const familyData = [
                           "children": []
                         }
                       ],
-                      "birthOrder": "幼子"
+                      "birthOrder": "幼子",
+                      "wifeDisplay": "石氏秀芳（1982年（壬戌）生）"
                     }
                   ],
-                  "birthOrder": "次子"
+                  "birthOrder": "次子",
+                  "wifeDisplay": "张氏调菊（1956年（丙申）生）"
                 },
                 {
                   "id": "w113_72",
@@ -1734,13 +1798,17 @@ export const familyData = [
                           "birth": "公元2011年辛卯十一月初八日子时",
                           "children": []
                         }
-                      ]
+                      ],
+                      "wifeDisplay": "邵氏秀兰（1989年（己巳）生）"
                     }
                   ],
-                  "birthOrder": "幼子"
+                  "birthOrder": "幼子",
+                  "wifeDisplay": "王氏芳枝（1959年（己亥）生）"
                 }
               ],
-              "birthOrder": "长子"
+              "birthOrder": "长子",
+              "wifeDisplay": "何氏水枝（1921年（辛酉）生）",
+              "deathDisplay": "公歿于2006年（丙戌）又七月廿六日巳时；氏歿于1997年（丁丑），夫妇合葬对门"
             },
             {
               "id": "x112_51",
@@ -1790,12 +1858,16 @@ export const familyData = [
                           "gender": "M",
                           "children": []
                         }
-                      ]
+                      ],
+                      "wifeDisplay": "南培胡氏芳平（1990年（庚午）生）"
                     }
-                  ]
+                  ],
+                  "wifeDisplay": "程氏荷莲（1965年（乙巳）生）"
                 }
               ],
-              "birthOrder": "次子"
+              "birthOrder": "次子",
+              "wifeDisplay": "杨氏林花（1933年（癸酉）生）",
+              "deathDisplay": "公歿于1996年（丙子）十二月初三日酉时，葬江家林"
             },
             {
               "id": "x112_52",
@@ -1832,14 +1904,19 @@ export const familyData = [
                       "birth": "公元2002年壬午五月十一日亥时",
                       "children": []
                     }
-                  ]
+                  ],
+                  "wifeDisplay": "张氏爱花（1980年（庚申）生）"
                 }
               ],
-              "birthOrder": "幼子"
+              "birthOrder": "幼子",
+              "wifeDisplay": "张氏美翠（1944年（甲申）生）",
+              "deathDisplay": "公歿于2020年（庚子）农历腊月廿一日酉时，葬周家山公墓"
             }
-          ]
+          ],
+          "wifeDisplay": "杨氏贵香（光绪辛丑年（1901年）生）"
         }
-      ]
+      ],
+      "wifeDisplay": "张氏凤娇（同治癸亥年（1863年）生）"
     },
     "siblings": [
       {
@@ -1917,7 +1994,8 @@ export const familyData = [
                         ]
                       }
                     ],
-                    "birthOrder": "长子"
+                    "birthOrder": "长子",
+                    "wifeDisplay": "石氏群枝（1978年（戊午）生）"
                   },
                   {
                     "id": "w113_76",
@@ -1930,7 +2008,9 @@ export const familyData = [
                     "birthOrder": "幼子"
                   }
                 ],
-                "birthOrder": "长子"
+                "birthOrder": "长子",
+                "wifeDisplay": "刘氏桂英（1949年（己丑）生）",
+                "deathDisplay": "公歿于2011年（辛卯），葬江家陵南北向"
               },
               {
                 "id": "x112_54",
@@ -1943,9 +2023,13 @@ export const familyData = [
                 "children": [],
                 "birthOrder": "幼子"
               }
-            ]
+            ],
+            "wifeDisplay": "张氏爱环（1914年（甲寅）生）",
+            "deathDisplay": "公歿于1992年；氏歿于1990年（庚午），葬江家林南北向"
           }
-        ]
+        ],
+        "wifeDisplay": "张氏二娇（光绪乙酉年（1885年）生）",
+        "deathDisplay": "公歿于1911年（辛亥）十月廿五日申时，葬庵背东西向"
       }
     ]
   },
@@ -1992,10 +2076,13 @@ export const familyData = [
                   "gender": "M",
                   "children": []
                 }
-              ]
+              ],
+              "wifeDisplay": "张氏余凤（1921年（辛酉）十月十九日戌时生）"
             }
           ],
-          "birthOrder": "长子"
+          "birthOrder": "长子",
+          "wifeDisplay": "张氏长梅（光绪戊申年（1908年）七月三十日申时生）",
+          "deathDisplay": "公歿于1986年（丙寅）十月十一日申时，葬对门东西向；氏歿于1979年（己未）六月廿一日戌时，葬对门东西向"
         },
         {
           "id": "l111_61",
@@ -2045,7 +2132,8 @@ export const familyData = [
                       "children": []
                     }
                   ],
-                  "birthOrder": "长子"
+                  "birthOrder": "长子",
+                  "wifeDisplay": "彭家徐氏荷花（1983年（癸亥）六月廿六日寅时生）"
                 },
                 {
                   "id": "w113_81",
@@ -2066,10 +2154,12 @@ export const familyData = [
                       "children": []
                     }
                   ],
-                  "birthOrder": "幼子"
+                  "birthOrder": "幼子",
+                  "wifeDisplay": "莲青徐家徐五（1983年十月十四日辰时生）"
                 }
               ],
-              "birthOrder": "长子"
+              "birthOrder": "长子",
+              "wifeDisplay": "戴氏仁枝（1954年（甲午）十月十三日未时生）"
             },
             {
               "id": "x112_62",
@@ -2105,7 +2195,8 @@ export const familyData = [
                       "children": []
                     }
                   ],
-                  "birthOrder": "长子"
+                  "birthOrder": "长子",
+                  "wifeDisplay": "张氏红梅（1986年二月十三日辰时生）"
                 },
                 {
                   "id": "w113_83",
@@ -2128,7 +2219,8 @@ export const familyData = [
                   "birthOrder": "幼子"
                 }
               ],
-              "birthOrder": "次子"
+              "birthOrder": "次子",
+              "wifeDisplay": "李氏青云（1957年（丁酉）又八月十二日丑时生）"
             },
             {
               "id": "x112_63",
@@ -2165,10 +2257,12 @@ export const familyData = [
                       "birth": "公元2006年丙戌三月初十日巳时",
                       "children": []
                     }
-                  ]
+                  ],
+                  "wifeDisplay": "张氏成兰（1982年（壬戌）二月十三日申时生）"
                 }
               ],
-              "birthOrder": "三子"
+              "birthOrder": "三子",
+              "wifeDisplay": "张氏先英（1960年（庚子）六月初一日未时生）"
             },
             {
               "id": "x112_64",
@@ -2209,7 +2303,8 @@ export const familyData = [
                       "birthOrder": "幼子"
                     }
                   ],
-                  "birthOrder": "长子"
+                  "birthOrder": "长子",
+                  "wifeDisplay": "张氏晓燕（1991年（辛未）八月初五日辰时生）"
                 },
                 {
                   "id": "w113_87",
@@ -2234,15 +2329,19 @@ export const familyData = [
                       "children": []
                     }
                   ],
-                  "birthOrder": "幼子"
+                  "birthOrder": "幼子",
+                  "wifeDisplay": "程氏雨敏；继娶曹莹（1988年（戊辰）生）"
                 }
               ],
-              "birthOrder": "幼子"
+              "birthOrder": "幼子",
+              "wifeDisplay": "王氏爱华（1967年（丁未）三月初一日巳时生）"
             }
           ],
-          "birthOrder": "幼子"
+          "birthOrder": "幼子",
+          "deathDisplay": "公歿于1974年（甲寅）正月十四日巳时，葬对门向"
         }
-      ]
+      ],
+      "deathDisplay": "公歿于1939年（己卯）四月廿七日巳时，葬江家林南北向；氏歿于1960年（庚子）十月初七日申时，葬江家林南北向"
     },
     "siblings": []
   },
@@ -2257,7 +2356,8 @@ export const familyData = [
       "birth": "道光丁未年九月初六日",
       "wife": "王氏宝兰（道光戊申年生，出醮）",
       "death": "公歿年未详",
-      "children": []
+      "children": [],
+      "wifeDisplay": "王氏宝兰（道光戊申年（1848年）生，出醮）"
     },
     "siblings": [
       {
@@ -2285,7 +2385,9 @@ export const familyData = [
             "note": "幼歿",
             "children": []
           }
-        ]
+        ],
+        "wifeDisplay": "张氏聪环（咸丰乙卯年（1855年）生）",
+        "deathDisplay": "公歿年未详；氏歿于1923年（癸亥），葬庵西边"
       }
     ]
   },
@@ -2372,7 +2474,8 @@ export const familyData = [
                           "birthOrder": "幼子"
                         }
                       ],
-                      "birthOrder": "长子"
+                      "birthOrder": "长子",
+                      "wifeDisplay": "邵氏秀霞（1982年（壬戌）十一月十五日亥时生）"
                     },
                     {
                       "id": "b114_7",
@@ -2396,9 +2499,11 @@ export const familyData = [
                           "children": []
                         }
                       ],
-                      "birthOrder": "幼子"
+                      "birthOrder": "幼子",
+                      "wifeDisplay": "东乡县艾氏菊芳（1989年（己巳）三月十八日申时生）"
                     }
-                  ]
+                  ],
+                  "wifeDisplay": "王氏调玉（1960年（庚子）六月廿三日卯时生）"
                 }
               ],
               "birthOrder": "长子"
@@ -2450,9 +2555,11 @@ export const familyData = [
                           "birth": "公元2008年戊子三月初九日申时",
                           "children": []
                         }
-                      ]
+                      ],
+                      "wifeDisplay": "李氏海燕（1987年（丁卯）腊月廿三日辰时生）"
                     }
-                  ]
+                  ],
+                  "wifeDisplay": "张氏谋云（1964年（甲辰）二月十六日亥时生）"
                 }
               ],
               "birthOrder": "次子"
@@ -2498,11 +2605,16 @@ export const familyData = [
                   ]
                 }
               ],
-              "birthOrder": "幼子"
+              "birthOrder": "幼子",
+              "wifeDisplay": "毛氏四英（1937年（丁丑）五月廿三日子时生）",
+              "deathDisplay": "公歿于2001年（辛巳）九月廿三日子时"
             }
-          ]
+          ],
+          "wifeDisplay": "王氏三贵（光绪辛卯年（1891年）九月十七日子时生）"
         }
-      ]
+      ],
+      "wifeDisplay": "张氏冬娥（同治甲子年（1864年）十月廿八日卯时生）",
+      "deathDisplay": "公歿于光绪辛卯年（1891年）五月初六日辰时，葬三角尖东西向"
     },
     "siblings": [
       {
@@ -2516,7 +2628,8 @@ export const familyData = [
         "wife": "李氏凤娇（幼歿）",
         "death": "公歿于光绪庚寅年七月廿八日酉时，葬栎树下庚山甲向",
         "adoptNote": "入继良淇双祧为嗣",
-        "children": []
+        "children": [],
+        "deathDisplay": "公歿于光绪庚寅年（1890年）七月廿八日酉时，葬栎树下庚山甲向"
       }
     ]
   },
@@ -2536,7 +2649,9 @@ export const familyData = [
         "玉菊",
         "雪菊"
       ],
-      "children": []
+      "children": [],
+      "wifeDisplay": "鲍氏常贞（殁于光绪丙子年（1876年））；继娶张氏梅俚（光绪乙酉年（1885年）生）",
+      "deathDisplay": "公歿未详；氏殁于1921年（辛酉）"
     },
     "siblings": [
       {
@@ -2592,7 +2707,8 @@ export const familyData = [
                         "children": []
                       }
                     ],
-                    "birthOrder": "长子"
+                    "birthOrder": "长子",
+                    "wifeDisplay": "吴氏丽君（1998年（戊寅）生）"
                   },
                   {
                     "id": "w113_9b",
@@ -2605,11 +2721,15 @@ export const familyData = [
                     "children": [],
                     "birthOrder": "幼子"
                   }
-                ]
+                ],
+                "wifeDisplay": "吴氏柳金（1972年（壬子）生）"
               }
-            ]
+            ],
+            "wifeDisplay": "王氏牡枝（1935年（乙亥）生）"
           }
-        ]
+        ],
+        "wifeDisplay": "张氏娇娥（歿于1917年（丁巳））；继娶陶氏春香（光绪壬辰年（1892年）生）",
+        "deathDisplay": "公歿于2001年（辛巳），葬对门南北向"
       },
       {
         "id": "m110_9c",
@@ -2620,7 +2740,8 @@ export const familyData = [
         "birth": "同治癸酉年六月廿三日丑时",
         "wife": "徐氏冬妹（出醮）",
         "death": "公歿于光绪戊申年五月初四日未时，葬庵背东西向",
-        "children": []
+        "children": [],
+        "deathDisplay": "公歿于光绪戊申年（1908年）五月初四日未时，葬庵背东西向"
       }
     ]
   },
@@ -2722,7 +2843,8 @@ export const familyData = [
                         "children": []
                       }
                     ],
-                    "birthOrder": "长子"
+                    "birthOrder": "长子",
+                    "wifeDisplay": "张氏秀华（1966年（丙午）生）"
                   },
                   {
                     "id": "w113_30b",
@@ -2760,16 +2882,23 @@ export const familyData = [
                         "birth": "公元1997年丁丑四月十三日午时",
                         "wife": "德兴市泗州镇王越（公元1998年戊寅生）",
                         "children": [],
-                        "birthOrder": "幼子"
+                        "birthOrder": "幼子",
+                        "wifeDisplay": "德兴市泗州镇王越（1998年（戊寅）生）"
                       }
                     ],
-                    "birthOrder": "幼子"
+                    "birthOrder": "幼子",
+                    "wifeDisplay": "吴氏华凤（1969年（己酉）生）"
                   }
-                ]
+                ],
+                "wifeDisplay": "张氏转环（1930年（庚午）生）",
+                "deathDisplay": "氏歿于2017年（丁酉）十月廿六日戌时，葬江家陵朝东南向"
               }
-            ]
+            ],
+            "wifeDisplay": "张氏初娇（光绪癸卯年（1903年）生）",
+            "deathDisplay": "公歿于1920年（庚申）九月三十日亥时，葬庵西边"
           }
-        ]
+        ],
+        "deathDisplay": "公歿于1921年（辛酉）九月廿一日，葬老屋场何宅山东西向"
       },
       {
         "id": "m110_30c",
@@ -2852,7 +2981,8 @@ export const familyData = [
                     "birthOrder": "幼子"
                   }
                 ],
-                "birthOrder": "长子"
+                "birthOrder": "长子",
+                "wifeDisplay": "高氏素萍（1938年（戊寅）生）"
               },
               {
                 "id": "x112_30c",
@@ -2875,13 +3005,16 @@ export const familyData = [
                     "gender": "M",
                     "birth": "公元1991年辛未二月初二日寅时",
                     "death": "公元1992年壬申溺亡",
-                    "children": []
+                    "children": [],
+                    "deathDisplay": "1992年（壬申）溺亡"
                   }
                 ],
                 "birthOrder": "幼子"
               }
             ],
-            "birthOrder": "长子"
+            "birthOrder": "长子",
+            "wifeDisplay": "张氏银妹（光绪戊申年（1908年）生）",
+            "deathDisplay": "公歿于1958年（戊戌）五月十八日巳时"
           },
           {
             "id": "l111_30c",
@@ -2969,10 +3102,12 @@ export const familyData = [
                         "children": [],
                         "birthOrder": "幼子"
                       }
-                    ]
+                    ],
+                    "wifeDisplay": "徐氏荣鸾（1969年（己酉）生）"
                   }
                 ],
-                "birthOrder": "长子"
+                "birthOrder": "长子",
+                "wifeDisplay": "邵氏金玉（1947年（丁亥）生）"
               },
               {
                 "id": "x112_30e",
@@ -3018,7 +3153,8 @@ export const familyData = [
                     ]
                   }
                 ],
-                "birthOrder": "次子"
+                "birthOrder": "次子",
+                "deathDisplay": "公歿于2016年（丙申）八月四日酉时"
               },
               {
                 "id": "x112_30f",
@@ -3033,7 +3169,9 @@ export const familyData = [
                 "birthOrder": "幼子"
               }
             ],
-            "birthOrder": "次子"
+            "birthOrder": "次子",
+            "wifeDisplay": "戴氏二缘（1908年（戊申）生）",
+            "deathDisplay": "公殁于1999年（己卯），葬江家林"
           },
           {
             "id": "l111_30d",
@@ -3080,7 +3218,9 @@ export const familyData = [
                     "children": []
                   }
                 ],
-                "birthOrder": "长子"
+                "birthOrder": "长子",
+                "wifeDisplay": "陈氏国英（1937年（丁丑）生）",
+                "deathDisplay": "公歿于2000年（庚子）"
               },
               {
                 "id": "x112_30h",
@@ -3171,7 +3311,8 @@ export const familyData = [
                     "birthOrder": "幼子"
                   }
                 ],
-                "birthOrder": "次子"
+                "birthOrder": "次子",
+                "wifeDisplay": "张氏莲翠（1946年（丙戌）生）"
               },
               {
                 "id": "x112_30i",
@@ -3223,12 +3364,17 @@ export const familyData = [
                     ]
                   }
                 ],
-                "birthOrder": "幼子"
+                "birthOrder": "幼子",
+                "wifeDisplay": "程氏美香（1962年（壬寅）生）"
               }
             ],
-            "birthOrder": "幼子"
+            "birthOrder": "幼子",
+            "wifeDisplay": "程氏细娥（1914年（甲寅）生）",
+            "deathDisplay": "公歿于2001年（辛巳），葬江家林南北向"
           }
-        ]
+        ],
+        "wifeDisplay": "邵氏金玉（同治庚午年（1870年）二月廿六日卯时生）",
+        "deathDisplay": "公歿于1938年（戊寅）七月初二日酉时，葬小后坚王村背"
       },
       {
         "id": "m110_30d",
@@ -3320,7 +3466,8 @@ export const familyData = [
                       "birth": "公元1990年庚午二月初八日丑时",
                       "wife": "张氏海茵（公元1994年甲戌生）",
                       "children": [],
-                      "birthOrder": "长子"
+                      "birthOrder": "长子",
+                      "wifeDisplay": "张氏海茵（1994年（甲戌）生）"
                     },
                     {
                       "id": "b114_40b",
@@ -3331,10 +3478,12 @@ export const familyData = [
                       "birth": "公元1996年丙子正月十一日申时",
                       "wife": "林氏凤枝（公元2000年庚辰生）",
                       "children": [],
-                      "birthOrder": "幼子"
+                      "birthOrder": "幼子",
+                      "wifeDisplay": "林氏凤枝（2000年（庚辰）生）"
                     }
                   ],
-                  "birthOrder": "长子"
+                  "birthOrder": "长子",
+                  "wifeDisplay": "徐氏雪翠（1959年（己亥）生）"
                 },
                 {
                   "id": "w113_40b",
@@ -3360,10 +3509,12 @@ export const familyData = [
                       "children": []
                     }
                   ],
-                  "birthOrder": "幼子"
+                  "birthOrder": "幼子",
+                  "wifeDisplay": "吴氏江美（1973年（癸丑）生）"
                 }
               ],
-              "birthOrder": "长子"
+              "birthOrder": "长子",
+              "wifeDisplay": "王氏长英（1932年（壬申）生）"
             },
             {
               "id": "x112_40b",
@@ -3401,10 +3552,12 @@ export const familyData = [
                       "daughters": [
                         "潭雪（公元2008年戊子生）"
                       ],
-                      "children": []
+                      "children": [],
+                      "wifeDisplay": "本梓小娟（1986年（乙丑）生）"
                     }
                   ],
-                  "birthOrder": "长子"
+                  "birthOrder": "长子",
+                  "wifeDisplay": "张氏才玉（1963年（癸卯）生）"
                 },
                 {
                   "id": "w113_40d",
@@ -3427,7 +3580,8 @@ export const familyData = [
                       "children": []
                     }
                   ],
-                  "birthOrder": "次子"
+                  "birthOrder": "次子",
+                  "deathDisplay": "公歿于1995年又八月初四日"
                 },
                 {
                   "id": "w113_40e",
@@ -3454,11 +3608,17 @@ export const familyData = [
                   "birthOrder": "幼子"
                 }
               ],
-              "birthOrder": "幼子"
+              "birthOrder": "幼子",
+              "wifeDisplay": "徐氏梁香（1936年（丙子）生）",
+              "deathDisplay": "公歿于1995年（乙亥），葬江家林南北向"
             }
-          ]
+          ],
+          "wifeDisplay": "黄氏等菊（歿于1919年）；继娶王氏望菊（出殊）；再娶段氏望枝（1910年（庚戌）生）",
+          "deathDisplay": "公歿于1958年（戊戌），葬栎山上"
         }
-      ]
+      ],
+      "wifeDisplay": "张氏秋娇（同治己巳年（1869年）生）",
+      "deathDisplay": "公歿于光绪丁未年（1907年）十一月二十日巳时，葬道观前；氏歿于1937年（丁丑），葬庵西"
     },
     "siblings": [
       {
@@ -3562,7 +3722,8 @@ export const familyData = [
                         "birthOrder": "幼子"
                       }
                     ],
-                    "birthOrder": "长子"
+                    "birthOrder": "长子",
+                    "wifeDisplay": "程氏早翠（1961年（辛丑）生）"
                   },
                   {
                     "id": "w113_40g",
@@ -3610,12 +3771,16 @@ export const familyData = [
                     ],
                     "birthOrder": "幼子"
                   }
-                ]
+                ],
+                "wifeDisplay": "李氏腊梅（1942年（壬午）生）"
               }
             ],
-            "birthOrder": "幼子"
+            "birthOrder": "幼子",
+            "deathDisplay": "公歿于1992年（壬申），葬江家林南北向"
           }
-        ]
+        ],
+        "wifeDisplay": "张氏翠英（光绪癸未年（1883年）生）",
+        "deathDisplay": "公歿于1915年（乙卯）十一月十三日辰时，葬对门南北向"
       },
       {
         "id": "m110_40d",
@@ -3701,10 +3866,13 @@ export const familyData = [
                           "birth": "公元2015年乙未正月廿日未时",
                           "children": []
                         }
-                      ]
+                      ],
+                      "wifeDisplay": "鄱阳洪家巷张氏名婷（1993年生）"
                     }
                   ],
-                  "birthOrder": "长子"
+                  "birthOrder": "长子",
+                  "wifeDisplay": "曹氏想花（1962年（壬寅）生）",
+                  "deathDisplay": "公歿于2011年（辛卯）十一月初十日申时，葬对门东西向"
                 },
                 {
                   "id": "w113_70b",
@@ -3796,7 +3964,8 @@ export const familyData = [
                       "birthOrder": "幼子"
                     }
                   ],
-                  "birthOrder": "次子"
+                  "birthOrder": "次子",
+                  "wifeDisplay": "程氏饶玉（1962年（壬寅）生）"
                 },
                 {
                   "id": "w113_70c",
@@ -3829,7 +3998,8 @@ export const familyData = [
                           "children": []
                         }
                       ],
-                      "birthOrder": "长子"
+                      "birthOrder": "长子",
+                      "wifeDisplay": "熊氏名燕（1989年（己巳）生）"
                     },
                     {
                       "id": "b114_70f",
@@ -3860,10 +4030,12 @@ export const familyData = [
                           "birthOrder": "幼子"
                         }
                       ],
-                      "birthOrder": "幼子"
+                      "birthOrder": "幼子",
+                      "wifeDisplay": "余氏兰珍（1992年（壬申）生）"
                     }
                   ],
-                  "birthOrder": "三子"
+                  "birthOrder": "三子",
+                  "wifeDisplay": "张氏荣花（1969年（己酉）生）"
                 },
                 {
                   "id": "w113_70d",
@@ -3887,7 +4059,8 @@ export const familyData = [
                       "children": []
                     }
                   ],
-                  "birthOrder": "四子"
+                  "birthOrder": "四子",
+                  "wifeDisplay": "李氏丽平（1972年（壬子）生）"
                 },
                 {
                   "id": "w113_70e",
@@ -3913,16 +4086,21 @@ export const familyData = [
                       "daughters": [
                         "吴优（公元2022年壬寅生）"
                       ],
-                      "children": []
+                      "children": [],
+                      "wifeDisplay": "张兰（1998年（戊寅）生）"
                     }
                   ],
-                  "birthOrder": "幼子"
+                  "birthOrder": "幼子",
+                  "wifeDisplay": "石氏华枝（1972年（壬子）生）"
                 }
-              ]
+              ],
+              "wifeDisplay": "石氏银环（1935年（辛未）生）",
+              "deathDisplay": "公歿于2002年（壬午）十一月十四日辰时，葬对门南北向"
             }
           ]
         }
-      ]
+      ],
+      "deathDisplay": "公歿于1937年（丁丑）七月廿三日卯时"
     },
     "siblings": [
       {
@@ -3991,15 +4169,22 @@ export const familyData = [
                             "birth": "公元2011年辛卯八月廿二日子时",
                             "children": []
                           }
-                        ]
+                        ],
+                        "wifeDisplay": "李氏李芳（1978年（戊午）生）"
                       }
-                    ]
+                    ],
+                    "wifeDisplay": "张氏爱云（1957年（丁酉）生）"
                   }
-                ]
+                ],
+                "wifeDisplay": "余氏鸣凤（1925年（乙丑）生）",
+                "deathDisplay": "公歿于1962年（壬寅）十月十四日，葬对门南北向；氏歿于2012年（壬辰），公氏合葬"
               }
-            ]
+            ],
+            "wifeDisplay": "张氏黑妹（光绪戊戌年（1898年）生）"
           }
-        ]
+        ],
+        "wifeDisplay": "朱氏铁妹（同治壬申年（1872年）生）",
+        "deathDisplay": "氏殁于光绪戊戌年（1898年）九月廿三日酉时，葬三角尖"
       },
       {
         "id": "m110_70c",
@@ -4135,7 +4320,8 @@ export const familyData = [
                       ]
                     }
                   ],
-                  "birthOrder": "次子"
+                  "birthOrder": "次子",
+                  "wifeDisplay": "吴氏常梅（1968年（戊申）生）"
                 },
                 {
                   "id": "w113_80c",
@@ -4160,10 +4346,12 @@ export const familyData = [
                       "children": []
                     }
                   ],
-                  "birthOrder": "幼子"
+                  "birthOrder": "幼子",
+                  "deathDisplay": "公歿于2000年（庚辰），葬对门南北向"
                 }
               ],
-              "birthOrder": "长子"
+              "birthOrder": "长子",
+              "wifeDisplay": "张氏翠环（1936年（丙子）生）、臧氏金贵"
             },
             {
               "id": "x112_80b",
@@ -4225,10 +4413,12 @@ export const familyData = [
                       "birthOrder": "幼子"
                     }
                   ],
-                  "birthOrder": "幼子"
+                  "birthOrder": "幼子",
+                  "deathDisplay": "公歿于2020年（庚子）"
                 }
               ],
-              "birthOrder": "次子"
+              "birthOrder": "次子",
+              "wifeDisplay": "张氏秋兰（1949年（己丑）生）"
             },
             {
               "id": "x112_80c",
@@ -4261,7 +4451,8 @@ export const familyData = [
                       "gender": "M",
                       "birth": "公元1990年庚午七月初五日申时",
                       "death": "歿于公元2004年甲申溺亡广东汕头",
-                      "children": []
+                      "children": [],
+                      "deathDisplay": "歿于2004年（甲申）溺亡广东汕头"
                     }
                   ],
                   "birthOrder": "长子"
@@ -4311,7 +4502,8 @@ export const familyData = [
                   "birth": "公元1973年癸丑十一月初五日辰时",
                   "death": "公元2012年壬辰歿，葬对门",
                   "children": [],
-                  "birthOrder": "三子"
+                  "birthOrder": "三子",
+                  "deathDisplay": "2012年（壬辰）歿，葬对门"
                 },
                 {
                   "id": "w113_80i",
@@ -4322,14 +4514,20 @@ export const familyData = [
                   "birth": "公元1977年丁巳十月三十日亥时",
                   "death": "公元2002年壬午歿，葬对门南北向",
                   "children": [],
-                  "birthOrder": "幼子"
+                  "birthOrder": "幼子",
+                  "deathDisplay": "2002年（壬午）歿，葬对门南北向"
                 }
               ],
-              "birthOrder": "幼子"
+              "birthOrder": "幼子",
+              "deathDisplay": "氏殁于1983年（癸亥），葬对门南北向"
             }
-          ]
+          ],
+          "wifeDisplay": "胡氏菊妹；史氏龙娇（1911年（辛亥）生）",
+          "deathDisplay": "公歿于1989年（己巳）十一月初八日申时，葬对门南北向"
         }
-      ]
+      ],
+      "wifeDisplay": "胡氏秋莲（同治己巳年（1869年）生）",
+      "deathDisplay": "公歿于1941年（辛巳）又七月十七日寅时，葬道观前"
     },
     "siblings": []
   },
@@ -4378,7 +4576,8 @@ export const familyData = [
             "children": [],
             "birthOrder": "幼子"
           }
-        ]
+        ],
+        "deathDisplay": "公歿于光绪丙午年（1906年）六月初七日巳时，葬王家背"
       }
     ]
   },
@@ -4394,7 +4593,8 @@ export const familyData = [
       "wife": "张氏登秀（出醮）",
       "death": "公歿于光绪丁丑年七月初九日子时，葬道观",
       "note": "后嗣信息不完整",
-      "children": []
+      "children": [],
+      "deathDisplay": "公歿于光绪丁丑年（1877年）七月初九日子时，葬道观"
     },
     "siblings": []
   }
