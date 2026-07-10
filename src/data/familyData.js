@@ -7,7 +7,7 @@ export const familyData = [
       "zi": "彩峦",
       "gen": 110,
       "gender": "M",
-      "birth": "测试数据",
+      "birth": "光绪戊寅年十一月三十日亥时",
       "wife": "詹氏来莲（出離）",
       "death": "歿葬未详",
       "adoptNote": "入继堂弟明浚子良蔚为嗣",

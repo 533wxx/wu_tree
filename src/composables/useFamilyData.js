@@ -35,7 +35,7 @@ const cached = loadFromStorage()
 const familyData = ref(cached ? cached.data : localData)
 const isLoading = ref(false)
 const error = ref(null)
-let cacheTimestamp = cached ? cached.ts : Date.now() // 首次使用本地数据，开始 1 天倒计时
+let cacheTimestamp = cached ? cached.ts : 0 // 无缓存时标记过期，触发首次刷新
 
 async function fetchData(force = false) {
   // 缓存有效 → 不请求
