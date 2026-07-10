@@ -21,17 +21,14 @@
             <div v-if="selectedPerson?.hao" class="modal-field">
               <div class="label">号</div><div class="value">{{ selectedPerson.hao }}</div>
             </div>
-            <div v-if="selectedPerson?.birthDisplay" class="modal-field">
-              <div class="label">生于</div><div class="value">{{ selectedPerson.birthDisplay }}</div>
-            </div>
-            <div v-else-if="selectedPerson?.birth" class="modal-field">
+            <div v-if="selectedPerson?.birth" class="modal-field">
               <div class="label">生于</div><div class="value">{{ selectedPerson.birth }}</div>
             </div>
-            <div v-if="selectedPerson?.wifeDisplay || selectedPerson?.wife" class="modal-field">
-              <div class="label">配偶</div><div class="value">{{ selectedPerson.wifeDisplay || selectedPerson.wife }}</div>
+            <div v-if="selectedPerson?.wife" class="modal-field">
+              <div class="label">配偶</div><div class="value">{{ selectedPerson.wife }}</div>
             </div>
-            <div v-if="selectedPerson?.deathDisplay || selectedPerson?.death" class="modal-field">
-              <div class="label">歿葬</div><div class="value">{{ selectedPerson.deathDisplay || selectedPerson.death }}</div>
+            <div v-if="selectedPerson?.death" class="modal-field">
+              <div class="label">歿葬</div><div class="value">{{ selectedPerson.death }}</div>
             </div>
             <div v-if="selectedPerson?.note" class="modal-field">
               <div class="label">备注</div><div class="value">{{ selectedPerson.note }}</div>

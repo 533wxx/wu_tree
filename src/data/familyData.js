@@ -7,10 +7,10 @@ export const familyData = [
       "zi": "彩峦",
       "gen": 110,
       "gender": "M",
-      "birth": "光绪戊寅年十一月三十日亥时",
+      "birth": "测试数据",
       "wife": "詹氏来莲（出離）",
-      "death": "公歿葬未详",
-      "adoptNote": "入继堂弟明浚长子良蔚为嗣",
+      "death": "歿葬未详",
+      "adoptNote": "入继堂弟明浚子良蔚为嗣",
       "children": [
         {
           "id": "l111_1",
@@ -18,8 +18,8 @@ export const familyData = [
           "zi": "文炳",
           "gen": 111,
           "gender": "M",
-          "birth": "公元1920年庚申三月二十日寅时",
-          "wife": "张氏等凤（公元1917年丁巳十一月十八日子时生）",
+          "birth": "1920年庚申三月二十日寅时",
+          "wife": "张氏等凤",
           "death": "公氏歿葬未详",
           "adoptNote": "入继胞弟良清长子兴建为嗣",
           "children": [
@@ -29,11 +29,10 @@ export const familyData = [
               "zi": "玉南",
               "gen": 112,
               "gender": "M",
-              "birth": "公元1963年六月初六日酉时",
-              "wife": "徐氏晓红（公元1966年乙巳三月廿二日卯时生）",
+              "birth": "1963年六月初六日酉时",
+              "wife": "徐氏晓红",
               "daughters": [
-                "长女秀珍（公元1985年六月二十一日酉时生，适本村）",
-                "次女根珍（公元1988年十二月十九日酉时生，适瓦雪岭胡伟建）"
+                "秀珍"
               ],
               "children": [
                 {
@@ -42,8 +41,8 @@ export const familyData = [
                   "zi": "国瑞",
                   "gen": 113,
                   "gender": "M",
-                  "birth": "公元1991年辛未正月廿六日巳时",
-                  "wife": "湖北江陵县资市金龙村丁银平（公元1994年甲戌十月初九日亥时生）",
+                  "birth": "1991年辛未正月廿六日巳时",
+                  "wife": "湖北江陵县丁银平",
                   "children": [
                     {
                       "id": "b114_1",
@@ -51,34 +50,25 @@ export const familyData = [
                       "zi": "智辰",
                       "gen": 114,
                       "gender": "M",
-                      "birth": "公元2013年癸巳二月廿八日辰时",
-                      "children": [],
-                      "birthSolar": "2013-04-08",
-                      "birthYear": "2013",
-                      "birthDisplay": "2013年（癸巳）二月廿八日辰时"
+                      "birth": "2013年癸巳二月廿八日辰时",
+                      "children": []
                     }
-                  ],
-                  "birthSolar": "1991-03-12",
-                  "birthYear": "1991",
-                  "birthDisplay": "1991年（辛未）正月廿六日巳时",
-                  "wifeDisplay": "湖北江陵县资市金龙村丁银平（1994年（甲戌）十月初九日亥时生）"
+                  ]
+                },
+                {
+                  "id": "n_201",
+                  "name": "秀珍",
+                  "gen": 113,
+                  "gender": "F",
+                  "children": [],
+                  "birth": "1985年六月二十一日酉时",
+                  "wife": "适本村"
                 }
-              ],
-              "birthSolar": "1963-07-26",
-              "birthYear": "1963",
-              "birthDisplay": "1963年六月初六日酉时",
-              "wifeDisplay": "徐氏晓红（1966年（乙巳）三月廿二日卯时生）"
+              ]
             }
-          ],
-          "birthSolar": "1920-05-08",
-          "birthYear": "1920",
-          "birthDisplay": "1920年（庚申）三月二十日寅时",
-          "wifeDisplay": "张氏等凤（1917年（丁巳）十一月十八日子时生）"
+          ]
         }
-      ],
-      "birthSolar": "1878-12-23",
-      "birthYear": "1878",
-      "birthDisplay": "光绪戊寅年（1878年）十一月三十日亥时"
+      ]
     },
     "siblings": [
       {
@@ -120,28 +110,13 @@ export const familyData = [
                     "daughters": [
                       "菲菲（公元2016年丙申农历十一月十五日辰时生）"
                     ],
-                    "children": [],
-                    "birthSolar": "1996-04-14",
-                    "birthYear": "1996",
-                    "birthDisplay": "1996年（丙子）二月廿七日亥时"
+                    "children": []
                   }
-                ],
-                "birthSolar": "1966-10-10",
-                "birthYear": "1966",
-                "birthDisplay": "1966年（丙午）八月廿六日午时",
-                "wifeDisplay": "张氏幼玉（1970年（庚戌）八月初九日戌时生）"
+                ]
               }
-            ],
-            "birthSolar": "1926-01-02",
-            "birthYear": "1925",
-            "birthDisplay": "1925年（乙丑）十一月十八日丑时",
-            "wifeDisplay": "杨氏毕定（1925年（乙丑）十二月初六日丑时生）"
+            ]
           }
-        ],
-        "birthSolar": "1883-01-21",
-        "birthYear": "1882",
-        "birthDisplay": "光绪壬午年（1882年）十二月十三日巳时",
-        "wifeDisplay": "李氏春娇（光绪戊子年（1888年）九月十五日寅时生，幼歿）"
+        ]
       },
       {
         "id": "m110_3",
@@ -151,12 +126,12 @@ export const familyData = [
         "gender": "M",
         "hao": "清溪",
         "birth": "光绪乙酉年八月初三日巳时",
-        "wife": "张氏宝娇（光绪甲午年五月廿一日亥时生）",
-        "death": "张氏歿于光绪丙午年五月初六日未时，葬三角尖；公歿于公元1942年壬午四月廿八日申时，葬庵背；氏歿于公元1961年辛丑七月初十日巳时，葬栎山上",
+        "wife": "张氏宝娇",
+        "death": "歿于1942壬午四月廿八日申时葬庵背",
         "daughters": [
-          "长女雪英（幼歿）",
-          "次女转风（适王宅）",
-          "幼女贵凤（适戴选明）"
+          "雪英",
+          "转风",
+          "贵凤"
         ],
         "children": [
           {
@@ -166,13 +141,13 @@ export const familyData = [
             "gen": 111,
             "gender": "M",
             "hao": "六初",
-            "birth": "公元1932年壬申九月初九日午时",
-            "wife": "高氏有兰（公元1933年癸酉八月初十日亥时生）",
-            "death": "公殁于公元2007年丁亥十月初二日卯时；氏殁于公元2007年九月十九日酉时",
+            "birth": "1932年壬申九月初九日午时",
+            "wife": "高氏有兰",
+            "death": "公殁于2007丁亥十月初二日卯时",
             "note": "生子三：长兴建（出继良蔚）、次兴造（出继良曜）、幼兴创",
             "daughters": [
-              "长女南英（适本村）",
-              "次女培英（适南木冲程之照）"
+              "南英",
+              "培英"
             ],
             "children": [
               {
@@ -181,11 +156,11 @@ export const familyData = [
                 "zi": "幼南",
                 "gen": 112,
                 "gender": "M",
-                "birth": "公元1974年甲寅四月初九日卯时",
-                "wife": "程氏雪花（公元1976年丙辰九月廿三日辰时生）",
+                "birth": "1974年甲寅四月初九日卯时",
+                "wife": "程氏雪花",
                 "daughters": [
-                  "长女英珍（公元1990年庚申八月初十日申时生）",
-                  "次女爱珍（公元1992年壬申正月十七日巳时生，适本村祖发之子）"
+                  "英珍",
+                  "爱珍"
                 ],
                 "children": [
                   {
@@ -194,12 +169,9 @@ export const familyData = [
                     "zi": "国敏",
                     "gen": 113,
                     "gender": "M",
-                    "birth": "公元2001年辛巳十月初二日申时",
+                    "birth": "2001年辛巳十月初二日申时",
                     "children": [],
-                    "birthSolar": "2001-11-16",
-                    "birthOrder": "长子",
-                    "birthYear": "2001",
-                    "birthDisplay": "2001年（辛巳）十月初二日申时"
+                    "birthOrder": "长子"
                   },
                   {
                     "id": "w113_4",
@@ -207,32 +179,15 @@ export const familyData = [
                     "zi": "国锦",
                     "gen": 113,
                     "gender": "M",
-                    "birth": "公元2009年己丑九月十五日卯时",
+                    "birth": "2009年己丑九月十五日卯时",
                     "children": [],
-                    "birthSolar": "2009-11-01",
-                    "birthOrder": "幼子",
-                    "birthYear": "2009",
-                    "birthDisplay": "2009年（己丑）九月十五日卯时"
+                    "birthOrder": "幼子"
                   }
-                ],
-                "birthSolar": "1974-04-30",
-                "birthYear": "1974",
-                "birthDisplay": "1974年（甲寅）四月初九日卯时",
-                "wifeDisplay": "程氏雪花（1976年（丙辰）九月廿三日辰时生）"
+                ]
               }
-            ],
-            "birthSolar": "1932-10-08",
-            "birthYear": "1932",
-            "birthDisplay": "1932年（壬申）九月初九日午时",
-            "wifeDisplay": "高氏有兰（1933年（癸酉）八月初十日亥时生）",
-            "deathDisplay": "公殁于2007年（丁亥）十月初二日卯时；氏殁于2007年九月十九日酉时"
+            ]
           }
-        ],
-        "birthSolar": "1885-09-11",
-        "birthYear": "1885",
-        "birthDisplay": "光绪乙酉年（1885年）八月初三日巳时",
-        "wifeDisplay": "张氏宝娇（光绪甲午年（1894年）五月廿一日亥时生）",
-        "deathDisplay": "张氏歿于光绪丙午年（1906年）五月初六日未时，葬三角尖；公歿于1942年（壬午）四月廿八日申时，葬庵背；氏歿于1961年（辛丑）七月初十日巳时，葬栎山上"
+        ]
       }
     ]
   },
@@ -257,10 +212,7 @@ export const familyData = [
           "birth": "光绪辛巳年八月廿八日午时",
           "note": "幼歿",
           "children": [],
-          "birthSolar": "1881-10-20",
-          "birthOrder": "长子",
-          "birthYear": "1881",
-          "birthDisplay": "光绪辛巳年（1881年）八月廿八日午时"
+          "birthOrder": "长子"
         },
         {
           "id": "l111_11",
@@ -282,8 +234,8 @@ export const familyData = [
               "gen": 112,
               "gender": "M",
               "birth": "光绪丁未年九月廿二日子时",
-              "wife": "程氏长凤（出醮）",
-              "death": "公歿于公元1942年壬午六月廿七日未时，葬庵背东西向",
+              "wife": "程氏长凤",
+              "death": "歿于1942壬午六月廿七日未时葬庵背东西向",
               "children": [
                 {
                   "id": "w113_10",
@@ -291,10 +243,10 @@ export const familyData = [
                   "zi": "国基",
                   "gen": 113,
                   "gender": "M",
-                  "birth": "公元1941年辛巳九月二十日",
-                  "wife": "张氏龙英（公元1947年丁亥正月初二日亥时生）",
+                  "birth": "1941年辛巳九月二十日",
+                  "wife": "张氏龙英",
                   "daughters": [
-                    "金桂（公元1983年癸亥生）"
+                    "金桂"
                   ],
                   "children": [
                     {
@@ -310,11 +262,7 @@ export const familyData = [
                         "次女吴蒙（公元1991年辛未生）"
                       ],
                       "children": [],
-                      "birthSolar": "1968-03-25",
-                      "birthOrder": "长子",
-                      "birthYear": "1968",
-                      "birthDisplay": "1968年（戊申）二月廿七日亥时",
-                      "wifeDisplay": "曹氏雪花（1968年（戊申）生）"
+                      "birthOrder": "长子"
                     },
                     {
                       "id": "b114_11",
@@ -328,11 +276,7 @@ export const familyData = [
                         "吴清（公元1996年丙子生）"
                       ],
                       "children": [],
-                      "birthSolar": "1969-11-10",
-                      "birthOrder": "次子",
-                      "birthYear": "1969",
-                      "birthDisplay": "1969年（己酉）十月初一日亥时",
-                      "wifeDisplay": "程氏赛英（1972年（壬子）生）"
+                      "birthOrder": "次子"
                     },
                     {
                       "id": "b114_12",
@@ -340,8 +284,8 @@ export const familyData = [
                       "zi": "玉水",
                       "gen": 114,
                       "gender": "M",
-                      "birth": "公元1973年癸丑十一月廿一日酉时",
-                      "wife": "郑氏秋秀（公元1975年乙卯生）",
+                      "birth": "1973癸丑十一月廿一日酉时",
+                      "wife": "郑氏秋秀",
                       "children": [
                         {
                           "id": "g115_1",
@@ -349,12 +293,9 @@ export const familyData = [
                           "zi": "家亮",
                           "gen": 115,
                           "gender": "M",
-                          "birth": "公元1999年己卯十一月廿七日丑时",
+                          "birth": "1999己卯十一月廿七日丑时",
                           "children": [],
-                          "birthSolar": "2000-01-03",
-                          "birthOrder": "长子",
-                          "birthYear": "1999",
-                          "birthDisplay": "1999年（己卯）十一月廿七日丑时"
+                          "birthOrder": "长子"
                         },
                         {
                           "id": "g115_2",
@@ -362,19 +303,12 @@ export const familyData = [
                           "zi": "家建",
                           "gen": 115,
                           "gender": "M",
-                          "birth": "公元2003年癸未九月初九日巳时",
+                          "birth": "2003癸未九月初九日巳时",
                           "children": [],
-                          "birthSolar": "2003-10-04",
-                          "birthOrder": "幼子",
-                          "birthYear": "2003",
-                          "birthDisplay": "2003年（癸未）九月初九日巳时"
+                          "birthOrder": "幼子"
                         }
                       ],
-                      "birthSolar": "1973-12-15",
-                      "birthOrder": "三子",
-                      "birthYear": "1973",
-                      "birthDisplay": "1973年（癸丑）十一月廿一日酉时",
-                      "wifeDisplay": "郑氏秋秀（1975年（乙卯）生）"
+                      "birthOrder": "三子"
                     },
                     {
                       "id": "b114_13",
@@ -391,16 +325,10 @@ export const familyData = [
                           "gen": 115,
                           "gender": "M",
                           "birth": "公元2000年庚辰四月廿九日午时",
-                          "children": [],
-                          "birthSolar": "2000-06-01",
-                          "birthYear": "2000",
-                          "birthDisplay": "2000年（庚辰）四月廿九日午时"
+                          "children": []
                         }
                       ],
-                      "birthSolar": "1975-10-20",
-                      "birthOrder": "四子",
-                      "birthYear": "1975",
-                      "birthDisplay": "1975年（乙卯）九月十六日戌时"
+                      "birthOrder": "四子"
                     },
                     {
                       "id": "b114_14",
@@ -418,30 +346,23 @@ export const familyData = [
                           "gen": 115,
                           "gender": "M",
                           "birth": "公元2000年庚辰八月十三日酉时",
-                          "children": [],
-                          "birthSolar": "2000-09-10",
-                          "birthYear": "2000",
-                          "birthDisplay": "2000年（庚辰）八月十三日酉时"
+                          "children": []
                         }
                       ],
-                      "birthSolar": "1979-08-25",
-                      "birthOrder": "幼子",
-                      "birthYear": "1979",
-                      "birthDisplay": "1979年（己未）七月初三日午时",
-                      "wifeDisplay": "张氏群（1979年（己未）生）"
+                      "birthOrder": "幼子"
+                    },
+                    {
+                      "id": "n_202",
+                      "name": "金桂",
+                      "gen": 114,
+                      "gender": "F",
+                      "children": [],
+                      "birth": "1983年癸亥二月廿六日子时"
                     }
-                  ],
-                  "birthSolar": "1941-11-08",
-                  "birthYear": "1941",
-                  "birthDisplay": "1941年（辛巳）九月二十日",
-                  "wifeDisplay": "张氏龙英（1947年（丁亥）正月初二日亥时生）"
+                  ]
                 }
               ],
-              "birthSolar": "1907-10-28",
-              "birthOrder": "长子",
-              "birthYear": "1907",
-              "birthDisplay": "光绪丁未年（1907年）九月廿二日子时",
-              "deathDisplay": "公歿于1942年（壬午）六月廿七日未时，葬庵背东西向"
+              "birthOrder": "长子"
             },
             {
               "id": "x112_11",
@@ -500,10 +421,7 @@ export const familyData = [
                               "gender": "M",
                               "birth": "公元2011年辛卯腊月十三日申时",
                               "children": [],
-                              "birthSolar": "2012-01-06",
-                              "birthOrder": "长子",
-                              "birthYear": "2011",
-                              "birthDisplay": "2011年（辛卯）腊月十三日申时"
+                              "birthOrder": "长子"
                             },
                             {
                               "id": "c116_2",
@@ -513,17 +431,10 @@ export const familyData = [
                               "gender": "M",
                               "birth": "公元2005年乙酉七月十一日子时",
                               "children": [],
-                              "birthSolar": "2005-08-15",
-                              "birthOrder": "幼子",
-                              "birthYear": "2005",
-                              "birthDisplay": "2005年（乙酉）七月十一日子时"
+                              "birthOrder": "幼子"
                             }
                           ],
-                          "birthSolar": "1989-07-24",
-                          "birthOrder": "长子",
-                          "birthYear": "1989",
-                          "birthDisplay": "1989年（己巳）六月廿二日戌时",
-                          "wifeDisplay": "程氏秀平（1989年（己巳）生）"
+                          "birthOrder": "长子"
                         },
                         {
                           "id": "g115_11",
@@ -545,23 +456,13 @@ export const familyData = [
                               "gen": 116,
                               "gender": "M",
                               "birth": "公元2014年甲午正月十一日戌时",
-                              "children": [],
-                              "birthSolar": "2014-02-10",
-                              "birthYear": "2014",
-                              "birthDisplay": "2014年（甲午）正月十一日戌时"
+                              "children": []
                             }
                           ],
-                          "birthSolar": "1992-04-28",
-                          "birthOrder": "幼子",
-                          "birthYear": "1992",
-                          "birthDisplay": "1992年（壬申）三月廿六日未时",
-                          "wifeDisplay": "团林乡江氏玉婷（1991年生）"
+                          "birthOrder": "幼子"
                         }
                       ],
-                      "birthSolar": "1967-12-04",
-                      "birthOrder": "长子",
-                      "birthYear": "1967",
-                      "birthDisplay": "1967年（丁未）十一月初三日丑时"
+                      "birthOrder": "长子"
                     },
                     {
                       "id": "b114_21",
@@ -579,17 +480,10 @@ export const familyData = [
                           "gen": 115,
                           "gender": "M",
                           "birth": "公元1998年戊寅四月十七日未时",
-                          "children": [],
-                          "birthSolar": "1998-05-12",
-                          "birthYear": "1998",
-                          "birthDisplay": "1998年（戊寅）四月十七日未时"
+                          "children": []
                         }
                       ],
-                      "birthSolar": "1973-05-25",
-                      "birthOrder": "次子",
-                      "birthYear": "1973",
-                      "birthDisplay": "1973年（癸丑）四月廿三日寅时",
-                      "wifeDisplay": "黄氏超萌（1975年（乙卯）生）"
+                      "birthOrder": "次子"
                     },
                     {
                       "id": "b114_22",
@@ -610,25 +504,13 @@ export const familyData = [
                           "gen": 115,
                           "gender": "M",
                           "birth": "公元2005年乙酉生",
-                          "children": [],
-                          "birthSolar": "2005",
-                          "birthYear": "2005",
-                          "birthDisplay": "2005年（乙酉）生"
+                          "children": []
                         }
                       ],
-                      "birthSolar": "1977-07-22",
-                      "birthOrder": "幼子",
-                      "birthYear": "1977",
-                      "birthDisplay": "1977年（丁巳）六月初七日丑时",
-                      "wifeDisplay": "胡氏丽霞（1978年（戊午）生）"
+                      "birthOrder": "幼子"
                     }
                   ],
-                  "birthSolar": "1941-01-31",
-                  "birthOrder": "长子",
-                  "birthYear": "1941",
-                  "birthDisplay": "1941年（辛巳）正月初五日亥时",
-                  "wifeDisplay": "王氏换娥（1942年（壬午）生）",
-                  "deathDisplay": "公歿于2012年（壬辰）十月初四日，葬对门"
+                  "birthOrder": "长子"
                 },
                 {
                   "id": "w113_21",
@@ -661,17 +543,10 @@ export const familyData = [
                           "gen": 115,
                           "gender": "M",
                           "birth": "公元2013年癸巳九月初一日未时",
-                          "children": [],
-                          "birthSolar": "2013-10-05",
-                          "birthYear": "2013",
-                          "birthDisplay": "2013年（癸巳）九月初一日未时"
+                          "children": []
                         }
                       ],
-                      "birthSolar": "1988-04-19",
-                      "birthOrder": "长子",
-                      "birthYear": "1988",
-                      "birthDisplay": "1988年（戊辰）三月初四日亥时",
-                      "wifeDisplay": "胡氏敏（1989年（己巳）生）"
+                      "birthOrder": "长子"
                     },
                     {
                       "id": "b114_31",
@@ -689,24 +564,13 @@ export const familyData = [
                           "gen": 115,
                           "gender": "M",
                           "birth": "公元2018年戊戌十月廿八日寅时",
-                          "children": [],
-                          "birthSolar": "2018-12-05",
-                          "birthYear": "2018",
-                          "birthDisplay": "2018年（戊戌）十月廿八日寅时"
+                          "children": []
                         }
                       ],
-                      "birthSolar": "1991-05-17",
-                      "birthOrder": "幼子",
-                      "birthYear": "1991",
-                      "birthDisplay": "1991年（辛未）四月初四日辰时",
-                      "wifeDisplay": "本埠常颖（1992年（壬申）生）"
+                      "birthOrder": "幼子"
                     }
                   ],
-                  "birthSolar": "1953-11-14",
-                  "birthOrder": "次子",
-                  "birthYear": "1953",
-                  "birthDisplay": "1953年（癸巳）十月初八日亥时",
-                  "wifeDisplay": "胡氏香桂（1962年（壬寅）生）"
+                  "birthOrder": "次子"
                 },
                 {
                   "id": "w113_22",
@@ -747,23 +611,12 @@ export const familyData = [
                           "gender": "M",
                           "birth": "公元2017年丁酉腊月十六日",
                           "children": [],
-                          "birthSolar": "2018-02-01",
-                          "birthOrder": "幼子",
-                          "birthYear": "2017",
-                          "birthDisplay": "2017年（丁酉）腊月十六日"
+                          "birthOrder": "幼子"
                         }
-                      ],
-                      "birthSolar": "1987-10-06",
-                      "birthYear": "1987",
-                      "birthDisplay": "1987年（丁卯）八月十四日丑时",
-                      "wifeDisplay": "本村吴氏方花号吴金妹（1993年生）"
+                      ]
                     }
                   ],
-                  "birthSolar": "1958-04-16",
-                  "birthOrder": "三子",
-                  "birthYear": "1958",
-                  "birthDisplay": "1958年（戊戌）二月廿八日戌时",
-                  "wifeDisplay": "张氏幼枝（1963年（癸卯）生）"
+                  "birthOrder": "三子"
                 },
                 {
                   "id": "w113_23",
@@ -786,10 +639,7 @@ export const familyData = [
                         "嘉萱"
                       ],
                       "children": [],
-                      "birthSolar": "1989-11-07",
-                      "birthOrder": "长子",
-                      "birthYear": "1989",
-                      "birthDisplay": "1989年（己巳）十月初十日寅时"
+                      "birthOrder": "长子"
                     },
                     {
                       "id": "b114_51",
@@ -799,17 +649,10 @@ export const familyData = [
                       "gender": "M",
                       "birth": "公元1996年丙子十二月十五日卯时",
                       "children": [],
-                      "birthSolar": "1997-01-23",
-                      "birthOrder": "幼子",
-                      "birthYear": "1996",
-                      "birthDisplay": "1996年（丙子）十二月十五日卯时"
+                      "birthOrder": "幼子"
                     }
                   ],
-                  "birthSolar": "1962-12-05",
-                  "birthOrder": "四子",
-                  "birthYear": "1962",
-                  "birthDisplay": "1962年（壬寅）十一月初九日子时",
-                  "wifeDisplay": "孙坊张氏欢莲（1968年（戊申）生）"
+                  "birthOrder": "四子"
                 },
                 {
                   "id": "w113_24",
@@ -839,30 +682,15 @@ export const familyData = [
                           "gen": 115,
                           "gender": "M",
                           "birth": "公元2024年甲辰十月十九日巳时",
-                          "children": [],
-                          "birthSolar": "2024-11-19",
-                          "birthYear": "2024",
-                          "birthDisplay": "2024年（甲辰）十月十九日巳时"
+                          "children": []
                         }
-                      ],
-                      "birthSolar": "1994-02-27",
-                      "birthYear": "1994",
-                      "birthDisplay": "1994年（甲戌）正月十八日寅时",
-                      "wifeDisplay": "浙江义乌黄氏（1996年（丙子）生）"
+                      ]
                     }
                   ],
-                  "birthSolar": "1967-09-12",
-                  "birthOrder": "幼子",
-                  "birthYear": "1967",
-                  "birthDisplay": "1967年（丁未）八月初九日丑时"
+                  "birthOrder": "幼子"
                 }
               ],
-              "birthSolar": "1912-01-31",
-              "birthOrder": "次子",
-              "birthYear": "1911",
-              "birthDisplay": "1911年（辛亥）十二月十三日申时",
-              "wifeDisplay": "胡氏转英（1920年（庚申）生）",
-              "deathDisplay": "公歿于1997年（丁丑）十二月初七日酉时，葬对门南北向"
+              "birthOrder": "次子"
             },
             {
               "id": "x112_12",
@@ -875,19 +703,9 @@ export const familyData = [
               "birthOrder": "幼子"
             }
           ],
-          "birthSolar": "1886-01-13",
-          "birthOrder": "幼子",
-          "birthYear": "1885",
-          "birthDisplay": "光绪乙酉年（1885年）十二月初九日卯时",
-          "wifeDisplay": "王氏连菊（光绪戊子年（1888年）九月廿五日亥时生）",
-          "deathDisplay": "公歿于1954年（甲午）十二月十六日"
+          "birthOrder": "幼子"
         }
-      ],
-      "birthSolar": "1857-06-23",
-      "birthYear": "1857",
-      "birthDisplay": "咸丰丁巳年（1857年）又五月初二日午时",
-      "wifeDisplay": "杨氏（幼歿）；继娶胡氏秋香（同治壬戌年（1862年）七月廿五日辰时生）",
-      "deathDisplay": "公歿于1934年（甲戌）八月初九日巳时，葬莲华山庵"
+      ]
     },
     "siblings": [
       {
@@ -962,17 +780,10 @@ export const familyData = [
                             "gen": 115,
                             "gender": "M",
                             "birth": "公元2000年庚辰六月十四日申时",
-                            "children": [],
-                            "birthSolar": "2000-07-15",
-                            "birthYear": "2000",
-                            "birthDisplay": "2000年（庚辰）六月十四日申时"
+                            "children": []
                           }
                         ],
-                        "birthSolar": "1976-11-11",
-                        "birthOrder": "长子",
-                        "birthYear": "1976",
-                        "birthDisplay": "1976年（丙辰）九月二十日巳时",
-                        "wifeDisplay": "戴氏先娥（1976年（丙辰）生）"
+                        "birthOrder": "长子"
                       },
                       {
                         "id": "b114_71",
@@ -995,24 +806,13 @@ export const familyData = [
                             "gen": 115,
                             "gender": "M",
                             "birth": "公元2011年辛卯七月初三日亥时",
-                            "children": [],
-                            "birthSolar": "2011-08-02",
-                            "birthYear": "2011",
-                            "birthDisplay": "2011年（辛卯）七月初三日亥时"
+                            "children": []
                           }
                         ],
-                        "birthSolar": "1978-12-07",
-                        "birthOrder": "幼子",
-                        "birthYear": "1978",
-                        "birthDisplay": "1978年（戊午）十一月初八日酉时",
-                        "wifeDisplay": "张氏饶花（1979年（己未）生）"
+                        "birthOrder": "幼子"
                       }
                     ],
-                    "birthSolar": "1952-09-07",
-                    "birthOrder": "长子",
-                    "birthYear": "1952",
-                    "birthDisplay": "1952年（壬辰）七月十九日巳时",
-                    "wifeDisplay": "王氏想枝（1957年（丁酉）生）"
+                    "birthOrder": "长子"
                   },
                   {
                     "id": "w113_31",
@@ -1034,17 +834,10 @@ export const familyData = [
                         "gender": "M",
                         "hao": "见球",
                         "birth": "公元1990年庚午三月廿一日亥时",
-                        "children": [],
-                        "birthSolar": "1990-04-16",
-                        "birthYear": "1990",
-                        "birthDisplay": "1990年（庚午）三月廿一日亥时"
+                        "children": []
                       }
                     ],
-                    "birthSolar": "1952-09-07",
-                    "birthOrder": "次子",
-                    "birthYear": "1952",
-                    "birthDisplay": "1952年（壬辰）七月十九日午时",
-                    "wifeDisplay": "吴氏三妹（1950年（庚寅）生）"
+                    "birthOrder": "次子"
                   },
                   {
                     "id": "w113_32",
@@ -1059,10 +852,7 @@ export const familyData = [
                       "吴姬"
                     ],
                     "children": [],
-                    "birthSolar": "1955-10-26",
-                    "birthOrder": "三子",
-                    "birthYear": "1955",
-                    "birthDisplay": "1955年（乙未）九月十一日巳时"
+                    "birthOrder": "三子"
                   },
                   {
                     "id": "w113_33",
@@ -1088,17 +878,10 @@ export const familyData = [
                         "gen": 114,
                         "gender": "M",
                         "birth": "公元2017年丁酉八月十二日",
-                        "children": [],
-                        "birthSolar": "2017-10-01",
-                        "birthYear": "2017",
-                        "birthDisplay": "2017年（丁酉）八月十二日"
+                        "children": []
                       }
                     ],
-                    "birthSolar": "1958-09-18",
-                    "birthOrder": "四子",
-                    "birthYear": "1958",
-                    "birthDisplay": "1958年（戊戌）八月初六日寅时",
-                    "wifeDisplay": "广东五华县陈氏春芳（1978年（戊午）生）"
+                    "birthOrder": "四子"
                   },
                   {
                     "id": "w113_34",
@@ -1109,30 +892,13 @@ export const familyData = [
                     "birth": "公元1963年癸卯二月廿三日午时",
                     "note": "幼歿",
                     "children": [],
-                    "birthSolar": "1963-03-18",
-                    "birthOrder": "幼子",
-                    "birthYear": "1963",
-                    "birthDisplay": "1963年（癸卯）二月廿三日午时"
+                    "birthOrder": "幼子"
                   }
-                ],
-                "birthSolar": "1919-03-08",
-                "birthYear": "1919",
-                "birthDisplay": "1919年（己未）二月初七日亥时",
-                "wifeDisplay": "邵氏辰贵（幼歿）；继娶邵氏元贵（1922年（壬戌）生）",
-                "deathDisplay": "公歿于1980年（庚申）八月廿三日丑时，葬庵背东西向"
+                ]
               }
-            ],
-            "birthSolar": "1898-05-10",
-            "birthYear": "1898",
-            "birthDisplay": "光绪戊戌年（1898年）又三月二十日子时",
-            "deathDisplay": "公歿于1961年（辛丑）"
+            ]
           }
-        ],
-        "birthSolar": "1860-07-15",
-        "birthYear": "1860",
-        "birthDisplay": "咸丰庚申年（1860年）五月廿七日亥时",
-        "wifeDisplay": "石氏幼莲（光绪乙亥年（1875年）生）",
-        "deathDisplay": "公歿于1933年（癸酉）九月廿一日巳时"
+        ]
       },
       {
         "id": "m110_12",
@@ -1222,17 +988,10 @@ export const familyData = [
                             "gen": 115,
                             "gender": "M",
                             "birth": "公元2006年丙戌闰七月十六日巳时",
-                            "children": [],
-                            "birthSolar": "2006-09-08",
-                            "birthYear": "2006",
-                            "birthDisplay": "2006年（丙戌）闰七月十六日巳时"
+                            "children": []
                           }
                         ],
-                        "birthSolar": "1983-12-21",
-                        "birthOrder": "长子",
-                        "birthYear": "1983",
-                        "birthDisplay": "1983年（癸亥）十一月十八日未时",
-                        "wifeDisplay": "湖南醴陵锺清（1983年（癸亥）生）"
+                        "birthOrder": "长子"
                       },
                       {
                         "id": "b114_81",
@@ -1254,24 +1013,13 @@ export const familyData = [
                             "gen": 115,
                             "gender": "M",
                             "birth": "公元2016年丙申八月十八日未时",
-                            "children": [],
-                            "birthSolar": "2016-09-18",
-                            "birthYear": "2016",
-                            "birthDisplay": "2016年（丙申）八月十八日未时"
+                            "children": []
                           }
                         ],
-                        "birthSolar": "1986-03-23",
-                        "birthOrder": "幼子",
-                        "birthYear": "1986",
-                        "birthDisplay": "1986年（丙寅）二月十四日申时",
-                        "wifeDisplay": "慕礼张氏细影（1987年生）"
+                        "birthOrder": "幼子"
                       }
                     ],
-                    "birthSolar": "1959-04-27",
-                    "birthOrder": "长子",
-                    "birthYear": "1959",
-                    "birthDisplay": "1959年（己亥）三月二十日巳时",
-                    "wifeDisplay": "吴氏年枝（1963年（癸卯）生）"
+                    "birthOrder": "长子"
                   },
                   {
                     "id": "w113_41",
@@ -1303,22 +1051,12 @@ export const familyData = [
                             "gen": 115,
                             "gender": "M",
                             "birth": "公元2021年辛丑七月十二日未时",
-                            "children": [],
-                            "birthSolar": "2021-08-19",
-                            "birthYear": "2021",
-                            "birthDisplay": "2021年（辛丑）七月十二日未时"
+                            "children": []
                           }
-                        ],
-                        "birthSolar": "1987-10-11",
-                        "birthYear": "1987",
-                        "birthDisplay": "1987年（丁卯）八月十九日亥时"
+                        ]
                       }
                     ],
-                    "birthSolar": "1963-02-28",
-                    "birthOrder": "次子",
-                    "birthYear": "1963",
-                    "birthDisplay": "1963年（癸卯）二月初五日卯时",
-                    "wifeDisplay": "程氏华玉（1966年（丙午）生）"
+                    "birthOrder": "次子"
                   },
                   {
                     "id": "w113_42",
@@ -1344,25 +1082,13 @@ export const familyData = [
                           "梓衣（公元2020年庚子生）",
                           "次女（公元2021年辛丑生）"
                         ],
-                        "children": [],
-                        "birthSolar": "1999-11-01",
-                        "birthYear": "1999",
-                        "birthDisplay": "1999年（己卯）九月廿四日子时"
+                        "children": []
                       }
                     ],
-                    "birthSolar": "1968-06-18",
-                    "birthOrder": "幼子",
-                    "birthYear": "1968",
-                    "birthDisplay": "1968年（戊申）五月廿三日辰时",
-                    "wifeDisplay": "何氏启云（1972年（壬子）生）"
+                    "birthOrder": "幼子"
                   }
                 ],
-                "birthSolar": "1933-09-02",
-                "birthOrder": "三子",
-                "birthYear": "1933",
-                "birthDisplay": "1933年（癸酉）七月十三日亥时",
-                "wifeDisplay": "戴氏金妹（1935年（乙亥）生）",
-                "deathDisplay": "公歿于2011年（辛巳），葬江家林南北向"
+                "birthOrder": "三子"
               },
               {
                 "id": "x112_33",
@@ -1408,17 +1134,10 @@ export const familyData = [
                             "gen": 115,
                             "gender": "M",
                             "birth": "公元2014年甲午正月十五日巳时",
-                            "children": [],
-                            "birthSolar": "2014-02-14",
-                            "birthYear": "2014",
-                            "birthDisplay": "2014年（甲午）正月十五日巳时"
+                            "children": []
                           }
                         ],
-                        "birthSolar": "1988-08-06",
-                        "birthOrder": "长子",
-                        "birthYear": "1988",
-                        "birthDisplay": "1988年（戊辰）六月廿四日巳时",
-                        "wifeDisplay": "王氏海梅（1989年（己巳）生）"
+                        "birthOrder": "长子"
                       },
                       {
                         "id": "b114_91",
@@ -1429,17 +1148,10 @@ export const familyData = [
                         "hao": "吴丰",
                         "birth": "公元1991年辛未二月十一日子时",
                         "children": [],
-                        "birthSolar": "1991-03-26",
-                        "birthOrder": "幼子",
-                        "birthYear": "1991",
-                        "birthDisplay": "1991年（辛未）二月十一日子时"
+                        "birthOrder": "幼子"
                       }
                     ],
-                    "birthSolar": "1962-10-08",
-                    "birthOrder": "长子",
-                    "birthYear": "1962",
-                    "birthDisplay": "1962年（壬寅）九月初十日丑时",
-                    "wifeDisplay": "徐氏长鸾（1967年（丁未）生）"
+                    "birthOrder": "长子"
                   },
                   {
                     "id": "w113_51",
@@ -1454,10 +1166,7 @@ export const familyData = [
                       "夏蔓"
                     ],
                     "children": [],
-                    "birthSolar": "1964-12-20",
-                    "birthOrder": "次子",
-                    "birthYear": "1964",
-                    "birthDisplay": "1964年（甲辰）十一月十七日亥时"
+                    "birthOrder": "次子"
                   },
                   {
                     "id": "w113_52",
@@ -1478,16 +1187,10 @@ export const familyData = [
                         "gen": 114,
                         "gender": "M",
                         "birth": "公元1989年己巳正月初二日卯时",
-                        "children": [],
-                        "birthSolar": "1989-02-07",
-                        "birthYear": "1989",
-                        "birthDisplay": "1989年（己巳）正月初二日卯时"
+                        "children": []
                       }
                     ],
-                    "birthSolar": "1967-11-05",
-                    "birthOrder": "三子",
-                    "birthYear": "1967",
-                    "birthDisplay": "1967年（丁未）十月初四日亥时"
+                    "birthOrder": "三子"
                   },
                   {
                     "id": "w113_53",
@@ -1511,10 +1214,7 @@ export const familyData = [
                         "hao": "宇飞",
                         "birth": "公元2006年丙戌七月廿一日未时",
                         "children": [],
-                        "birthSolar": "2006-08-14",
-                        "birthOrder": "长子",
-                        "birthYear": "2006",
-                        "birthDisplay": "2006年（丙戌）七月廿一日未时"
+                        "birthOrder": "长子"
                       },
                       {
                         "id": "b114_94",
@@ -1524,33 +1224,16 @@ export const familyData = [
                         "gender": "M",
                         "birth": "公元2013年癸巳二月初六日巳时",
                         "children": [],
-                        "birthSolar": "2013-03-17",
-                        "birthOrder": "幼子",
-                        "birthYear": "2013",
-                        "birthDisplay": "2013年（癸巳）二月初六日巳时"
+                        "birthOrder": "幼子"
                       }
                     ],
-                    "birthSolar": "1978-04-15",
-                    "birthOrder": "幼子",
-                    "birthYear": "1978",
-                    "birthDisplay": "1978年（戊午）三月初九日子时",
-                    "wifeDisplay": "张氏群芳（1984年（甲子）生）"
+                    "birthOrder": "幼子"
                   }
                 ],
-                "birthSolar": "1938-10-25",
-                "birthOrder": "幼子",
-                "birthYear": "1938",
-                "birthDisplay": "1938年（戊寅）九月初三日丑时",
-                "wifeDisplay": "徐氏细鸾（1942年（壬午）生）",
-                "deathDisplay": "公歿于2001年（辛巳），葬江家林南北向"
+                "birthOrder": "幼子"
               }
             ],
-            "birthSolar": "1901-10-16",
-            "birthOrder": "长子",
-            "birthYear": "1901",
-            "birthDisplay": "光绪辛丑年（1901年）九月初五日寅时",
-            "wifeDisplay": "李氏长妹（光绪辛丑年（1901年）生）",
-            "deathDisplay": "公殁于1987年（丁卯），葬对门南北向"
+            "birthOrder": "长子"
           },
           {
             "id": "l111_31",
@@ -1614,11 +1297,7 @@ export const familyData = [
                             "children": []
                           }
                         ],
-                        "birthSolar": "1984-12-21",
-                        "birthOrder": "长子",
-                        "birthYear": "1984",
-                        "birthDisplay": "1984年（甲子）又十月廿九日申时",
-                        "wifeDisplay": "毛氏红霞（1987年（丁卯）生）"
+                        "birthOrder": "长子"
                       },
                       {
                         "id": "b114_101",
@@ -1643,18 +1322,10 @@ export const familyData = [
                             "children": []
                           }
                         ],
-                        "birthSolar": "1987-04-29",
-                        "birthOrder": "幼子",
-                        "birthYear": "1987",
-                        "birthDisplay": "1987年（丁卯）四月初二日卯时",
-                        "wifeDisplay": "张氏梅芳（1990年（庚午）生）"
+                        "birthOrder": "幼子"
                       }
                     ],
-                    "birthSolar": "1957-05-05",
-                    "birthOrder": "长子",
-                    "birthYear": "1957",
-                    "birthDisplay": "1957年（丁酉）四月初六日午时",
-                    "wifeDisplay": "张氏华美（1958年（戊戌）生）"
+                    "birthOrder": "长子"
                   },
                   {
                     "id": "w113_61",
@@ -1679,17 +1350,10 @@ export const familyData = [
                         "daughters": [
                           "开洋（公元2022年壬寅生）"
                         ],
-                        "children": [],
-                        "birthSolar": "1992-04-04",
-                        "birthYear": "1992",
-                        "birthDisplay": "1992年（壬申）三月初二日寅时"
+                        "children": []
                       }
                     ],
-                    "birthSolar": "1964-10-22",
-                    "birthOrder": "次子",
-                    "birthYear": "1964",
-                    "birthDisplay": "1964年（甲辰）九月十七日卯时",
-                    "wifeDisplay": "张氏想梅（1966年（丙午）生）"
+                    "birthOrder": "次子"
                   },
                   {
                     "id": "w113_62",
@@ -1708,25 +1372,13 @@ export const familyData = [
                         "gender": "M",
                         "hao": "子睿",
                         "birth": "公元2012年壬辰七月廿八日亥时",
-                        "children": [],
-                        "birthSolar": "2012-09-13",
-                        "birthYear": "2012",
-                        "birthDisplay": "2012年（壬辰）七月廿八日亥时"
+                        "children": []
                       }
                     ],
-                    "birthSolar": "1973-07-20",
-                    "birthOrder": "幼子",
-                    "birthYear": "1973",
-                    "birthDisplay": "1973年（癸丑）六月廿一日巳时",
-                    "wifeDisplay": "四川李氏萍（1991年生）"
+                    "birthOrder": "幼子"
                   }
                 ],
-                "birthSolar": "1935-02-03",
-                "birthOrder": "长子",
-                "birthYear": "1934",
-                "birthDisplay": "1934年（甲戌）十二月三十日辰时",
-                "wifeDisplay": "王氏春娥（1936年（丙子）生）",
-                "deathDisplay": "公歿于1991年（辛未）"
+                "birthOrder": "长子"
               },
               {
                 "id": "x112_41",
@@ -1771,28 +1423,14 @@ export const familyData = [
                             "gen": 115,
                             "gender": "M",
                             "birth": "公元2022年壬寅农历三月初一戌时",
-                            "children": [],
-                            "birthSolar": "2022-04-01",
-                            "birthYear": "2022",
-                            "birthDisplay": "2022年（壬寅）三月初一戌时"
+                            "children": []
                           }
-                        ],
-                        "birthSolar": "1992-09-17",
-                        "birthYear": "1992",
-                        "birthDisplay": "1992年（壬申）八月廿一日未时"
+                        ]
                       }
-                    ],
-                    "birthSolar": "1969-10-25",
-                    "birthYear": "1969",
-                    "birthDisplay": "1969年（己酉）九月十五日辰时"
+                    ]
                   }
                 ],
-                "birthSolar": "1937-11-07",
-                "birthOrder": "次子",
-                "birthYear": "1937",
-                "birthDisplay": "1937年（丁丑）十月初五日酉时",
-                "wifeDisplay": "王氏妹娥（1949年（己丑）生）",
-                "deathDisplay": "氏殁于2008年，葬上海昆山火化"
+                "birthOrder": "次子"
               },
               {
                 "id": "x112_42",
@@ -1828,16 +1466,10 @@ export const familyData = [
                         "gen": 114,
                         "gender": "M",
                         "birth": "公元1997年丁丑十月十四日巳时",
-                        "children": [],
-                        "birthSolar": "1997-11-13",
-                        "birthYear": "1997",
-                        "birthDisplay": "1997年（丁丑）十月十四日巳时"
+                        "children": []
                       }
                     ],
-                    "birthSolar": "1966-12-31",
-                    "birthOrder": "长子",
-                    "birthYear": "1966",
-                    "birthDisplay": "1966年（丙午）十一月二十日辰时"
+                    "birthOrder": "长子"
                   },
                   {
                     "id": "w113_65",
@@ -1852,19 +1484,10 @@ export const familyData = [
                       "钰馨（公元2017年丁酉生）"
                     ],
                     "children": [],
-                    "birthSolar": "1981-08-15",
-                    "birthOrder": "幼子",
-                    "birthYear": "1981",
-                    "birthDisplay": "1981年（辛酉）七月十六日未时",
-                    "wifeDisplay": "张氏小霞（出殊）；续娶湖南周氏娟珠（1988年（戊辰）生）"
+                    "birthOrder": "幼子"
                   }
                 ],
-                "birthSolar": "1942-10-22",
-                "birthOrder": "三子",
-                "birthYear": "1942",
-                "birthDisplay": "1942年（壬午）九月十三日辰时",
-                "wifeDisplay": "张氏牡凤（1946年（丙戌）生）",
-                "deathDisplay": "公殁于2012年（壬辰）闰四月廿九日寅时，葬堂众山前南北向；氏殁于1986年（丙寅），葬江家林南北向"
+                "birthOrder": "三子"
               },
               {
                 "id": "x112_43",
@@ -1877,17 +1500,9 @@ export const familyData = [
                 "birthOrder": "幼子"
               }
             ],
-            "birthSolar": "1908-10-11",
-            "birthOrder": "幼子",
-            "birthYear": "1908",
-            "birthDisplay": "光绪戊申年（1908年）九月十七日寅时",
-            "deathDisplay": "公歿于1934年（甲戌）十二月三十日辰时"
+            "birthOrder": "幼子"
           }
-        ],
-        "birthSolar": "1871-02-24",
-        "birthYear": "1871",
-        "birthDisplay": "同治辛未年（1871年）正月初六日未时",
-        "wifeDisplay": "张氏福娇（光绪壬午年（1882年）生）"
+        ]
       }
     ]
   },
@@ -1979,23 +1594,12 @@ export const familyData = [
                               "gen": 116,
                               "gender": "M",
                               "birth": "公元2016年丙申十月十八日午时",
-                              "children": [],
-                              "birthSolar": "2016-11-17",
-                              "birthYear": "2016",
-                              "birthDisplay": "2016年（丙申）十月十八日午时"
+                              "children": []
                             }
-                          ],
-                          "birthSolar": "1993-02-18",
-                          "birthYear": "1993",
-                          "birthDisplay": "1993年（癸酉）正月廿七日寅时",
-                          "wifeDisplay": "吴氏敏琴（1997年（丁丑）生）"
+                          ]
                         }
                       ],
-                      "birthSolar": "1973-01-05",
-                      "birthOrder": "长子",
-                      "birthYear": "1972",
-                      "birthDisplay": "1972年（壬子）十二月初二日酉时",
-                      "wifeDisplay": "吴氏冬梅（1973年（癸丑）生）"
+                      "birthOrder": "长子"
                     },
                     {
                       "id": "b114_111",
@@ -2017,10 +1621,7 @@ export const familyData = [
                           "gender": "M",
                           "birth": "公元1998年戊寅九月十九日寅时",
                           "children": [],
-                          "birthSolar": "1998-11-07",
-                          "birthOrder": "长子",
-                          "birthYear": "1998",
-                          "birthDisplay": "1998年（戊寅）九月十九日寅时"
+                          "birthOrder": "长子"
                         },
                         {
                           "id": "g115_92",
@@ -2030,24 +1631,13 @@ export const familyData = [
                           "gender": "M",
                           "birth": "公元2023年癸卯五月初三日戌时",
                           "children": [],
-                          "birthSolar": "2023-06-20",
-                          "birthOrder": "幼子",
-                          "birthYear": "2023",
-                          "birthDisplay": "2023年（癸卯）五月初三日戌时"
+                          "birthOrder": "幼子"
                         }
                       ],
-                      "birthSolar": "1975",
-                      "birthOrder": "幼子",
-                      "birthYear": "1975",
-                      "birthDisplay": "1975年（乙卯）五月三十日未时",
-                      "wifeDisplay": "程氏爱梅（1976年（丙辰）生）"
+                      "birthOrder": "幼子"
                     }
                   ],
-                  "birthSolar": "1947-06-12",
-                  "birthOrder": "长子",
-                  "birthYear": "1947",
-                  "birthDisplay": "1947年（丁亥）四月廿四日巳时",
-                  "wifeDisplay": "王氏金凤（1949年（己丑）生）"
+                  "birthOrder": "长子"
                 },
                 {
                   "id": "w113_71",
@@ -2081,17 +1671,10 @@ export const familyData = [
                           "daughters": [
                             "吴瑶（公元2003年癸未生）"
                           ],
-                          "children": [],
-                          "birthSolar": "2001",
-                          "birthYear": "2001",
-                          "birthDisplay": "2001年（辛巳）生"
+                          "children": []
                         }
                       ],
-                      "birthSolar": "1979-07-22",
-                      "birthOrder": "长子",
-                      "birthYear": "1979",
-                      "birthDisplay": "1979年（乙未）六月廿九日申时",
-                      "wifeDisplay": "张氏红梅（1980年（庚申）生）"
+                      "birthOrder": "长子"
                     },
                     {
                       "id": "b114_113",
@@ -2112,24 +1695,13 @@ export const familyData = [
                           "gen": 115,
                           "gender": "M",
                           "birth": "公元2004年甲申九月初六日丑时",
-                          "children": [],
-                          "birthSolar": "2004-10-19",
-                          "birthYear": "2004",
-                          "birthDisplay": "2004年（甲申）九月初六日丑时"
+                          "children": []
                         }
                       ],
-                      "birthSolar": "1981-03-17",
-                      "birthOrder": "幼子",
-                      "birthYear": "1981",
-                      "birthDisplay": "1981年（辛酉）二月十二日亥时",
-                      "wifeDisplay": "石氏秀芳（1982年（壬戌）生）"
+                      "birthOrder": "幼子"
                     }
                   ],
-                  "birthSolar": "1954-01-08",
-                  "birthOrder": "次子",
-                  "birthYear": "1953",
-                  "birthDisplay": "1953年（癸巳）十二月初四日卯时",
-                  "wifeDisplay": "张氏调菊（1956年（丙申）生）"
+                  "birthOrder": "次子"
                 },
                 {
                   "id": "w113_72",
@@ -2160,31 +1732,15 @@ export const familyData = [
                           "gen": 115,
                           "gender": "M",
                           "birth": "公元2011年辛卯十一月初八日子时",
-                          "children": [],
-                          "birthSolar": "2011-12-02",
-                          "birthYear": "2011",
-                          "birthDisplay": "2011年（辛卯）十一月初八日子时"
+                          "children": []
                         }
-                      ],
-                      "birthSolar": "1988-10-02",
-                      "birthYear": "1988",
-                      "birthDisplay": "1988年（戊辰）八月廿二日亥时",
-                      "wifeDisplay": "邵氏秀兰（1989年（己巳）生）"
+                      ]
                     }
                   ],
-                  "birthSolar": "1960-11-01",
-                  "birthOrder": "幼子",
-                  "birthYear": "1960",
-                  "birthDisplay": "1960年（庚子）九月十三日寅时",
-                  "wifeDisplay": "王氏芳枝（1959年（己亥）生）"
+                  "birthOrder": "幼子"
                 }
               ],
-              "birthSolar": "1920-06-28",
-              "birthOrder": "长子",
-              "birthYear": "1920",
-              "birthDisplay": "1920年（庚申）五月十三日申时",
-              "wifeDisplay": "何氏水枝（1921年（辛酉）生）",
-              "deathDisplay": "公歿于2006年（丙戌）又七月廿六日巳时；氏歿于1997年（丁丑），夫妇合葬对门"
+              "birthOrder": "长子"
             },
             {
               "id": "x112_51",
@@ -2234,25 +1790,12 @@ export const familyData = [
                           "gender": "M",
                           "children": []
                         }
-                      ],
-                      "birthSolar": "1987-09-25",
-                      "birthYear": "1987",
-                      "birthDisplay": "1987年（丁卯）八月初三日酉时",
-                      "wifeDisplay": "南培胡氏芳平（1990年（庚午）生）"
+                      ]
                     }
-                  ],
-                  "birthSolar": "1962-09-22",
-                  "birthYear": "1962",
-                  "birthDisplay": "1962年（壬寅）八月廿四日丑时",
-                  "wifeDisplay": "程氏荷莲（1965年（乙巳）生）"
+                  ]
                 }
               ],
-              "birthSolar": "1933-07-27",
-              "birthOrder": "次子",
-              "birthYear": "1933",
-              "birthDisplay": "1933年（癸酉）六月初五日酉时",
-              "wifeDisplay": "杨氏林花（1933年（癸酉）生）",
-              "deathDisplay": "公歿于1996年（丙子）十二月初三日酉时，葬江家林"
+              "birthOrder": "次子"
             },
             {
               "id": "x112_52",
@@ -2287,36 +1830,16 @@ export const familyData = [
                       "gen": 114,
                       "gender": "M",
                       "birth": "公元2002年壬午五月十一日亥时",
-                      "children": [],
-                      "birthSolar": "2002-06-21",
-                      "birthYear": "2002",
-                      "birthDisplay": "2002年（壬午）五月十一日亥时"
+                      "children": []
                     }
-                  ],
-                  "birthSolar": "1978-11-18",
-                  "birthYear": "1978",
-                  "birthDisplay": "1978年（戊午）十月十八日子时",
-                  "wifeDisplay": "张氏爱花（1980年（庚申）生）"
+                  ]
                 }
               ],
-              "birthSolar": "1937-12-25",
-              "birthOrder": "幼子",
-              "birthYear": "1937",
-              "birthDisplay": "1937年（丁丑）十一月廿三日酉时",
-              "wifeDisplay": "张氏美翠（1944年（甲申）生）",
-              "deathDisplay": "公歿于2020年（庚子）农历腊月廿一日酉时，葬周家山公墓"
+              "birthOrder": "幼子"
             }
-          ],
-          "birthSolar": "1900-10-01",
-          "birthYear": "1900",
-          "birthDisplay": "光绪庚子年（1900年）又八月初八日酉时",
-          "wifeDisplay": "杨氏贵香（光绪辛丑年（1901年）生）"
+          ]
         }
-      ],
-      "birthSolar": "1864-06-01",
-      "birthYear": "1864",
-      "birthDisplay": "同治甲子年（1864年）四月廿七日巳时",
-      "wifeDisplay": "张氏凤娇（同治癸亥年（1863年）生）"
+      ]
     },
     "siblings": [
       {
@@ -2389,22 +1912,12 @@ export const familyData = [
                             "gen": 115,
                             "gender": "M",
                             "birth": "公元2015年乙未十一月十五日未时",
-                            "children": [],
-                            "birthSolar": "2015-12-25",
-                            "birthYear": "2015",
-                            "birthDisplay": "2015年（乙未）十一月十五日未时"
+                            "children": []
                           }
-                        ],
-                        "birthSolar": "1997-08-21",
-                        "birthYear": "1997",
-                        "birthDisplay": "1997年（丁丑）七月十九日巳时"
+                        ]
                       }
                     ],
-                    "birthSolar": "1977-03-20",
-                    "birthOrder": "长子",
-                    "birthYear": "1977",
-                    "birthDisplay": "1977年（丁巳）二月初一日子时",
-                    "wifeDisplay": "石氏群枝（1978年（戊午）生）"
+                    "birthOrder": "长子"
                   },
                   {
                     "id": "w113_76",
@@ -2414,18 +1927,10 @@ export const familyData = [
                     "gender": "M",
                     "birth": "公元1989年己巳八月十一日戌时",
                     "children": [],
-                    "birthSolar": "1989-09-10",
-                    "birthOrder": "幼子",
-                    "birthYear": "1989",
-                    "birthDisplay": "1989年（己巳）八月十一日戌时"
+                    "birthOrder": "幼子"
                   }
                 ],
-                "birthSolar": "1944-11-14",
-                "birthOrder": "长子",
-                "birthYear": "1944",
-                "birthDisplay": "1944年（甲申）九月廿九日申时",
-                "wifeDisplay": "刘氏桂英（1949年（己丑）生）",
-                "deathDisplay": "公歿于2011年（辛卯），葬江家陵南北向"
+                "birthOrder": "长子"
               },
               {
                 "id": "x112_54",
@@ -2436,24 +1941,11 @@ export const familyData = [
                 "hao": "邦来",
                 "birth": "公元1955年乙未十月初八日亥时",
                 "children": [],
-                "birthSolar": "1955-11-21",
-                "birthOrder": "幼子",
-                "birthYear": "1955",
-                "birthDisplay": "1955年（乙未）十月初八日亥时"
+                "birthOrder": "幼子"
               }
-            ],
-            "birthSolar": "1911-06-20",
-            "birthYear": "1911",
-            "birthDisplay": "1911年（辛亥）五月廿四日辰时",
-            "wifeDisplay": "张氏爱环（1914年（甲寅）生）",
-            "deathDisplay": "公歿于1992年；氏歿于1990年（庚午），葬江家林南北向"
+            ]
           }
-        ],
-        "birthSolar": "1881-03-11",
-        "birthYear": "1881",
-        "birthDisplay": "光绪辛巳年（1881年）二月十二日戌时",
-        "wifeDisplay": "张氏二娇（光绪乙酉年（1885年）生）",
-        "deathDisplay": "公歿于1911年（辛亥）十月廿五日申时，葬庵背东西向"
+        ]
       }
     ]
   },
@@ -2500,19 +1992,10 @@ export const familyData = [
                   "gender": "M",
                   "children": []
                 }
-              ],
-              "birthSolar": "1920-07-29",
-              "birthYear": "1920",
-              "birthDisplay": "1920年（庚申）六月十四日未时",
-              "wifeDisplay": "张氏余凤（1921年（辛酉）十月十九日戌时生）"
+              ]
             }
           ],
-          "birthSolar": "1904-05-23",
-          "birthOrder": "长子",
-          "birthYear": "1904",
-          "birthDisplay": "光绪甲辰年（1904年）四月初九日午时",
-          "wifeDisplay": "张氏长梅（光绪戊申年（1908年）七月三十日申时生）",
-          "deathDisplay": "公歿于1986年（丙寅）十月十一日申时，葬对门东西向；氏歿于1979年（己未）六月廿一日戌时，葬对门东西向"
+          "birthOrder": "长子"
         },
         {
           "id": "l111_61",
@@ -2559,17 +2042,10 @@ export const familyData = [
                       "gen": 114,
                       "gender": "M",
                       "birth": "公元2007年丁亥二月廿九日午时",
-                      "children": [],
-                      "birthSolar": "2007-04-16",
-                      "birthYear": "2007",
-                      "birthDisplay": "2007年（丁亥）二月廿九日午时"
+                      "children": []
                     }
                   ],
-                  "birthSolar": "1982-12-07",
-                  "birthOrder": "长子",
-                  "birthYear": "1982",
-                  "birthDisplay": "1982年（壬戌）十月廿三日午时",
-                  "wifeDisplay": "彭家徐氏荷花（1983年（癸亥）六月廿六日寅时生）"
+                  "birthOrder": "长子"
                 },
                 {
                   "id": "w113_81",
@@ -2587,24 +2063,13 @@ export const familyData = [
                       "gen": 114,
                       "gender": "M",
                       "birth": "公元2012年壬辰正月廿七日辰时",
-                      "children": [],
-                      "birthSolar": "2012-02-18",
-                      "birthYear": "2012",
-                      "birthDisplay": "2012年（壬辰）正月廿七日辰时"
+                      "children": []
                     }
                   ],
-                  "birthSolar": "1984-12-09",
-                  "birthOrder": "幼子",
-                  "birthYear": "1984",
-                  "birthDisplay": "1984年（甲子）又十月十七日戌时",
-                  "wifeDisplay": "莲青徐家徐五（1983年十月十四日辰时生）"
+                  "birthOrder": "幼子"
                 }
               ],
-              "birthSolar": "1951-11-25",
-              "birthOrder": "长子",
-              "birthYear": "1951",
-              "birthDisplay": "1951年（辛卯）十月廿七日丑时",
-              "wifeDisplay": "戴氏仁枝（1954年（甲午）十月十三日未时生）"
+              "birthOrder": "长子"
             },
             {
               "id": "x112_62",
@@ -2637,17 +2102,10 @@ export const familyData = [
                       "gen": 114,
                       "gender": "M",
                       "birth": "公元2011年壬辰正月廿二日戌时",
-                      "children": [],
-                      "birthSolar": "2011-02-24",
-                      "birthYear": "2011",
-                      "birthDisplay": "2011年（壬辰）正月廿二日戌时"
+                      "children": []
                     }
                   ],
-                  "birthSolar": "1982-02-24",
-                  "birthOrder": "长子",
-                  "birthYear": "1982",
-                  "birthDisplay": "1982年（壬戌）二月初一日戌时",
-                  "wifeDisplay": "张氏红梅（1986年二月十三日辰时生）"
+                  "birthOrder": "长子"
                 },
                 {
                   "id": "w113_83",
@@ -2657,10 +2115,7 @@ export const familyData = [
                   "gender": "M",
                   "birth": "公元1983年癸亥七月十五日午时",
                   "children": [],
-                  "birthSolar": "1983-08-23",
-                  "birthOrder": "次子",
-                  "birthYear": "1983",
-                  "birthDisplay": "1983年（癸亥）七月十五日午时"
+                  "birthOrder": "次子"
                 },
                 {
                   "id": "w113_84",
@@ -2670,17 +2125,10 @@ export const familyData = [
                   "gender": "M",
                   "birth": "公元1985年乙丑七月十五日丑时",
                   "children": [],
-                  "birthSolar": "1985-08-30",
-                  "birthOrder": "幼子",
-                  "birthYear": "1985",
-                  "birthDisplay": "1985年（乙丑）七月十五日丑时"
+                  "birthOrder": "幼子"
                 }
               ],
-              "birthSolar": "1953-10-24",
-              "birthOrder": "次子",
-              "birthYear": "1953",
-              "birthDisplay": "1953年（癸巳）九月十七日亥时",
-              "wifeDisplay": "李氏青云（1957年（丁酉）又八月十二日丑时生）"
+              "birthOrder": "次子"
             },
             {
               "id": "x112_63",
@@ -2715,23 +2163,12 @@ export const familyData = [
                       "gen": 114,
                       "gender": "M",
                       "birth": "公元2006年丙戌三月初十日巳时",
-                      "children": [],
-                      "birthSolar": "2006-04-07",
-                      "birthYear": "2006",
-                      "birthDisplay": "2006年（丙戌）三月初十日巳时"
+                      "children": []
                     }
-                  ],
-                  "birthSolar": "1984-05-03",
-                  "birthYear": "1984",
-                  "birthDisplay": "1984年（甲子）四月初三日辰时",
-                  "wifeDisplay": "张氏成兰（1982年（壬戌）二月十三日申时生）"
+                  ]
                 }
               ],
-              "birthSolar": "1956-09-20",
-              "birthOrder": "三子",
-              "birthYear": "1956",
-              "birthDisplay": "1956年（丙申）八月十六日卯时",
-              "wifeDisplay": "张氏先英（1960年（庚子）六月初一日未时生）"
+              "birthOrder": "三子"
             },
             {
               "id": "x112_64",
@@ -2759,10 +2196,7 @@ export const familyData = [
                       "gender": "M",
                       "birth": "公元2012年壬辰四月卅日未时",
                       "children": [],
-                      "birthSolar": "2012-05-20",
-                      "birthOrder": "长子",
-                      "birthYear": "2012",
-                      "birthDisplay": "2012年（壬辰）四月卅日未时"
+                      "birthOrder": "长子"
                     },
                     {
                       "id": "b114_125",
@@ -2772,17 +2206,10 @@ export const familyData = [
                       "gender": "M",
                       "birth": "公元2012年壬辰四月卅日未时",
                       "children": [],
-                      "birthSolar": "2012-05-20",
-                      "birthOrder": "幼子",
-                      "birthYear": "2012",
-                      "birthDisplay": "2012年（壬辰）四月卅日未时"
+                      "birthOrder": "幼子"
                     }
                   ],
-                  "birthSolar": "1987-05-08",
-                  "birthOrder": "长子",
-                  "birthYear": "1987",
-                  "birthDisplay": "1987年（丁卯）四月十一日亥时",
-                  "wifeDisplay": "张氏晓燕（1991年（辛未）八月初五日辰时生）"
+                  "birthOrder": "长子"
                 },
                 {
                   "id": "w113_87",
@@ -2804,37 +2231,18 @@ export const familyData = [
                       "gen": 115,
                       "gender": "M",
                       "birth": "公元2023年癸卯农历八月十二日酉时",
-                      "children": [],
-                      "birthSolar": "2023-09-26",
-                      "birthYear": "2023",
-                      "birthDisplay": "2023年（癸卯）八月十二日酉时"
+                      "children": []
                     }
                   ],
-                  "birthSolar": "1988-10-28",
-                  "birthOrder": "幼子",
-                  "birthYear": "1988",
-                  "birthDisplay": "1988年（戊辰）九月十八日酉时",
-                  "wifeDisplay": "程氏雨敏；继娶曹莹（1988年（戊辰）生）"
+                  "birthOrder": "幼子"
                 }
               ],
-              "birthSolar": "1966-07-02",
-              "birthOrder": "幼子",
-              "birthYear": "1966",
-              "birthDisplay": "1966年（丙午）五月十四日亥时",
-              "wifeDisplay": "王氏爱华（1967年（丁未）三月初一日巳时生）"
+              "birthOrder": "幼子"
             }
           ],
-          "birthSolar": "1922-05-26",
-          "birthOrder": "幼子",
-          "birthYear": "1922",
-          "birthDisplay": "1922年（壬戌）四月三十日亥时",
-          "deathDisplay": "公歿于1974年（甲寅）正月十四日巳时，葬对门向"
+          "birthOrder": "幼子"
         }
-      ],
-      "birthSolar": "1874-11-10",
-      "birthYear": "1874",
-      "birthDisplay": "同治甲戌年（1874年）十月初二日戌时",
-      "deathDisplay": "公歿于1939年（己卯）四月廿七日巳时，葬江家林南北向；氏歿于1960年（庚子）十月初七日申时，葬江家林南北向"
+      ]
     },
     "siblings": []
   },
@@ -2849,11 +2257,7 @@ export const familyData = [
       "birth": "道光丁未年九月初六日",
       "wife": "王氏宝兰（道光戊申年生，出醮）",
       "death": "公歿年未详",
-      "children": [],
-      "birthSolar": "1847-10-14",
-      "birthYear": "1847",
-      "birthDisplay": "道光丁未年（1847年）九月初六日",
-      "wifeDisplay": "王氏宝兰（道光戊申年（1848年）生，出醮）"
+      "children": []
     },
     "siblings": [
       {
@@ -2879,17 +2283,9 @@ export const familyData = [
             "gender": "M",
             "birth": "光绪乙酉年九月十九日亥时",
             "note": "幼歿",
-            "children": [],
-            "birthSolar": "1885-10-26",
-            "birthYear": "1885",
-            "birthDisplay": "光绪乙酉年（1885年）九月十九日亥时"
+            "children": []
           }
-        ],
-        "birthSolar": "1853-01-27",
-        "birthYear": "1852",
-        "birthDisplay": "咸丰壬子年（1852年）十二月十九日酉时",
-        "wifeDisplay": "张氏聪环（咸丰乙卯年（1855年）生）",
-        "deathDisplay": "公歿年未详；氏歿于1923年（癸亥），葬庵西边"
+        ]
       }
     ]
   },
@@ -2964,10 +2360,7 @@ export const familyData = [
                           "gender": "M",
                           "birth": "公元2005年乙酉正月二十日午时",
                           "children": [],
-                          "birthSolar": "2005-02-28",
-                          "birthOrder": "长子",
-                          "birthYear": "2005",
-                          "birthDisplay": "2005年（乙酉）正月二十日午时"
+                          "birthOrder": "长子"
                         },
                         {
                           "id": "g115_7",
@@ -2979,11 +2372,7 @@ export const familyData = [
                           "birthOrder": "幼子"
                         }
                       ],
-                      "birthSolar": "1979-12-13",
-                      "birthOrder": "长子",
-                      "birthYear": "1979",
-                      "birthDisplay": "1979年（己未）十月廿四日丑时",
-                      "wifeDisplay": "邵氏秀霞（1982年（壬戌）十一月十五日亥时生）"
+                      "birthOrder": "长子"
                     },
                     {
                       "id": "b114_7",
@@ -3004,29 +2393,15 @@ export const familyData = [
                           "gen": 115,
                           "gender": "M",
                           "birth": "公元2018年戊戌农历七月初四巳时",
-                          "children": [],
-                          "birthSolar": "2018-08-14",
-                          "birthYear": "2018",
-                          "birthDisplay": "2018年（戊戌）七月初四巳时"
+                          "children": []
                         }
                       ],
-                      "birthSolar": "1985-11-23",
-                      "birthOrder": "幼子",
-                      "birthYear": "1985",
-                      "birthDisplay": "1985年（乙丑）十月十二日未时",
-                      "wifeDisplay": "东乡县艾氏菊芳（1989年（己巳）三月十八日申时生）"
+                      "birthOrder": "幼子"
                     }
-                  ],
-                  "birthSolar": "1954-12-29",
-                  "birthYear": "1954",
-                  "birthDisplay": "1954年（甲午）十二月初五日亥时",
-                  "wifeDisplay": "王氏调玉（1960年（庚子）六月廿三日卯时生）"
+                  ]
                 }
               ],
-              "birthSolar": "1915-09-29",
-              "birthOrder": "长子",
-              "birthYear": "1915",
-              "birthDisplay": "1915年（乙卯）八月廿一日午时"
+              "birthOrder": "长子"
             },
             {
               "id": "x112_7",
@@ -3073,28 +2448,14 @@ export const familyData = [
                           "gender": "M",
                           "hao": "星辰",
                           "birth": "公元2008年戊子三月初九日申时",
-                          "children": [],
-                          "birthSolar": "2008-04-14",
-                          "birthYear": "2008",
-                          "birthDisplay": "2008年（戊子）三月初九日申时"
+                          "children": []
                         }
-                      ],
-                      "birthSolar": "1986-01-26",
-                      "birthYear": "1985",
-                      "birthDisplay": "1985年（乙丑）十二月十七日午时",
-                      "wifeDisplay": "李氏海燕（1987年（丁卯）腊月廿三日辰时生）"
+                      ]
                     }
-                  ],
-                  "birthSolar": "1958-03-12",
-                  "birthYear": "1958",
-                  "birthDisplay": "1958年（戊戌）正月廿三日辰时",
-                  "wifeDisplay": "张氏谋云（1964年（甲辰）二月十六日亥时生）"
+                  ]
                 }
               ],
-              "birthSolar": "1918-07-24",
-              "birthOrder": "次子",
-              "birthYear": "1918",
-              "birthDisplay": "1918年（戊午）六月十七日辰时"
+              "birthOrder": "次子"
             },
             {
               "id": "x112_8",
@@ -3132,36 +2493,16 @@ export const familyData = [
                       "gen": 114,
                       "gender": "M",
                       "birth": "公元2003年癸未四月廿七日申时",
-                      "children": [],
-                      "birthSolar": "2003-05-27",
-                      "birthYear": "2003",
-                      "birthDisplay": "2003年（癸未）四月廿七日申时"
+                      "children": []
                     }
-                  ],
-                  "birthSolar": "1977-04-04",
-                  "birthYear": "1977",
-                  "birthDisplay": "1977年（丁巳）二月十六日亥时"
+                  ]
                 }
               ],
-              "birthSolar": "1930-10-24",
-              "birthOrder": "幼子",
-              "birthYear": "1930",
-              "birthDisplay": "1930年（庚午）九月初三日卯时",
-              "wifeDisplay": "毛氏四英（1937年（丁丑）五月廿三日子时生）",
-              "deathDisplay": "公歿于2001年（辛巳）九月廿三日子时"
+              "birthOrder": "幼子"
             }
-          ],
-          "birthSolar": "1887-11-27",
-          "birthYear": "1887",
-          "birthDisplay": "光绪丁亥年（1887年）十月十三日辰时",
-          "wifeDisplay": "王氏三贵（光绪辛卯年（1891年）九月十七日子时生）"
+          ]
         }
-      ],
-      "birthSolar": "1862-05-12",
-      "birthYear": "1862",
-      "birthDisplay": "同治壬戌年（1862年）四月十四日亥时",
-      "wifeDisplay": "张氏冬娥（同治甲子年（1864年）十月廿八日卯时生）",
-      "deathDisplay": "公歿于光绪辛卯年（1891年）五月初六日辰时，葬三角尖东西向"
+      ]
     },
     "siblings": [
       {
@@ -3175,11 +2516,7 @@ export const familyData = [
         "wife": "李氏凤娇（幼歿）",
         "death": "公歿于光绪庚寅年七月廿八日酉时，葬栎树下庚山甲向",
         "adoptNote": "入继良淇双祧为嗣",
-        "children": [],
-        "birthSolar": "1869-01-17",
-        "birthYear": "1868",
-        "birthDisplay": "同治戊辰年（1868年）十二月初五日辰时",
-        "deathDisplay": "公歿于光绪庚寅年（1890年）七月廿八日酉时，葬栎树下庚山甲向"
+        "children": []
       }
     ]
   },
@@ -3199,12 +2536,7 @@ export const familyData = [
         "玉菊",
         "雪菊"
       ],
-      "children": [],
-      "birthSolar": "1854-07-02",
-      "birthYear": "1854",
-      "birthDisplay": "咸丰甲寅年（1854年）六月初八日戌时",
-      "wifeDisplay": "鲍氏常贞（殁于光绪丙子年（1876年））；继娶张氏梅俚（光绪乙酉年（1885年）生）",
-      "deathDisplay": "公歿未详；氏殁于1921年（辛酉）"
+      "children": []
     },
     "siblings": [
       {
@@ -3257,17 +2589,10 @@ export const familyData = [
                         "gen": 114,
                         "gender": "M",
                         "birth": "公元2016年乙未二月廿三日未时",
-                        "children": [],
-                        "birthSolar": "2016-03-31",
-                        "birthYear": "2016",
-                        "birthDisplay": "2016年（乙未）二月廿三日未时"
+                        "children": []
                       }
                     ],
-                    "birthSolar": "1995-03-14",
-                    "birthOrder": "长子",
-                    "birthYear": "1995",
-                    "birthDisplay": "1995年（乙亥）二月十四日巳时",
-                    "wifeDisplay": "吴氏丽君（1998年（戊寅）生）"
+                    "birthOrder": "长子"
                   },
                   {
                     "id": "w113_9b",
@@ -3278,29 +2603,13 @@ export const familyData = [
                     "hao": "吴轩",
                     "birth": "公元2004年癸未八月初五日巳时",
                     "children": [],
-                    "birthSolar": "2004-09-18",
-                    "birthOrder": "幼子",
-                    "birthYear": "2004",
-                    "birthDisplay": "2004年（癸未）八月初五日巳时"
+                    "birthOrder": "幼子"
                   }
-                ],
-                "birthSolar": "1971-08-25",
-                "birthYear": "1971",
-                "birthDisplay": "1971年（辛亥）七月初五日亥时",
-                "wifeDisplay": "吴氏柳金（1972年（壬子）生）"
+                ]
               }
-            ],
-            "birthSolar": "1932-09-06",
-            "birthYear": "1932",
-            "birthDisplay": "1932年（壬申）八月初六日辰时",
-            "wifeDisplay": "王氏牡枝（1935年（乙亥）生）"
+            ]
           }
-        ],
-        "birthSolar": "1863-11-01",
-        "birthYear": "1863",
-        "birthDisplay": "同治癸亥年（1863年）九月二十日戌时",
-        "wifeDisplay": "张氏娇娥（歿于1917年（丁巳））；继娶陶氏春香（光绪壬辰年（1892年）生）",
-        "deathDisplay": "公歿于2001年（辛巳），葬对门南北向"
+        ]
       },
       {
         "id": "m110_9c",
@@ -3311,11 +2620,7 @@ export const familyData = [
         "birth": "同治癸酉年六月廿三日丑时",
         "wife": "徐氏冬妹（出醮）",
         "death": "公歿于光绪戊申年五月初四日未时，葬庵背东西向",
-        "children": [],
-        "birthSolar": "1873-07-17",
-        "birthYear": "1873",
-        "birthDisplay": "同治癸酉年（1873年）六月廿三日丑时",
-        "deathDisplay": "公歿于光绪戊申年（1908年）五月初四日未时，葬庵背东西向"
+        "children": []
       }
     ]
   },
@@ -3330,10 +2635,7 @@ export const familyData = [
       "birth": "咸丰辛酉年六月十八日亥时",
       "wife": "朱氏赛凤（出醮）",
       "note": "嗣子；后嗣信息不完整",
-      "children": [],
-      "birthSolar": "1861-07-25",
-      "birthYear": "1861",
-      "birthDisplay": "咸丰辛酉年（1861年）六月十八日亥时"
+      "children": []
     },
     "siblings": []
   },
@@ -3347,10 +2649,7 @@ export const familyData = [
       "gender": "M",
       "birth": "咸丰乙卯年八月廿五日卯时",
       "note": "幼歿",
-      "children": [],
-      "birthSolar": "1855-10-05",
-      "birthYear": "1855",
-      "birthDisplay": "咸丰乙卯年（1855年）八月廿五日卯时"
+      "children": []
     },
     "siblings": [
       {
@@ -3420,17 +2719,10 @@ export const familyData = [
                         "gen": 114,
                         "gender": "M",
                         "birth": "公元1989年己巳十月十五日未时",
-                        "children": [],
-                        "birthSolar": "1989-11-12",
-                        "birthYear": "1989",
-                        "birthDisplay": "1989年（己巳）十月十五日未时"
+                        "children": []
                       }
                     ],
-                    "birthSolar": "1957-10-17",
-                    "birthOrder": "长子",
-                    "birthYear": "1957",
-                    "birthDisplay": "1957年（丁酉）又八月廿四日申时",
-                    "wifeDisplay": "张氏秀华（1966年（丙午）生）"
+                    "birthOrder": "长子"
                   },
                   {
                     "id": "w113_30b",
@@ -3457,10 +2749,7 @@ export const familyData = [
                           "紫涵"
                         ],
                         "children": [],
-                        "birthSolar": "1990-03-30",
-                        "birthOrder": "长子",
-                        "birthYear": "1990",
-                        "birthDisplay": "1990年（庚午）三月初四日丑时"
+                        "birthOrder": "长子"
                       },
                       {
                         "id": "b114_30c",
@@ -3471,38 +2760,16 @@ export const familyData = [
                         "birth": "公元1997年丁丑四月十三日午时",
                         "wife": "德兴市泗州镇王越（公元1998年戊寅生）",
                         "children": [],
-                        "birthSolar": "1997-05-19",
-                        "birthOrder": "幼子",
-                        "birthYear": "1997",
-                        "birthDisplay": "1997年（丁丑）四月十三日午时",
-                        "wifeDisplay": "德兴市泗州镇王越（1998年（戊寅）生）"
+                        "birthOrder": "幼子"
                       }
                     ],
-                    "birthSolar": "1966-09-28",
-                    "birthOrder": "幼子",
-                    "birthYear": "1966",
-                    "birthDisplay": "1966年（丙午）八月十四日丑时",
-                    "wifeDisplay": "吴氏华凤（1969年（己酉）生）"
+                    "birthOrder": "幼子"
                   }
-                ],
-                "birthSolar": "1928-08-26",
-                "birthYear": "1928",
-                "birthDisplay": "1928年（戊辰）七月十二日戌时",
-                "wifeDisplay": "张氏转环（1930年（庚午）生）",
-                "deathDisplay": "氏歿于2017年（丁酉）十月廿六日戌时，葬江家陵朝东南向"
+                ]
               }
-            ],
-            "birthSolar": "1904-10-01",
-            "birthYear": "1904",
-            "birthDisplay": "光绪甲辰年（1904年）八月廿二日未时",
-            "wifeDisplay": "张氏初娇（光绪癸卯年（1903年）生）",
-            "deathDisplay": "公歿于1920年（庚申）九月三十日亥时，葬庵西边"
+            ]
           }
-        ],
-        "birthSolar": "1857-08-23",
-        "birthYear": "1857",
-        "birthDisplay": "咸丰丁巳年（1857年）七月初四日亥时",
-        "deathDisplay": "公歿于1921年（辛酉）九月廿一日，葬老屋场何宅山东西向"
+        ]
       },
       {
         "id": "m110_30c",
@@ -3565,16 +2832,10 @@ export const familyData = [
                         "gen": 114,
                         "gender": "M",
                         "birth": "公元1988年戊辰二月廿三日丑时",
-                        "children": [],
-                        "birthSolar": "1988-04-09",
-                        "birthYear": "1988",
-                        "birthDisplay": "1988年（戊辰）二月廿三日丑时"
+                        "children": []
                       }
                     ],
-                    "birthSolar": "1957-12-26",
-                    "birthOrder": "长子",
-                    "birthYear": "1957",
-                    "birthDisplay": "1957年（丁酉）十一月初六日"
+                    "birthOrder": "长子"
                   },
                   {
                     "id": "w113_30d",
@@ -3588,17 +2849,10 @@ export const familyData = [
                       "若婵字乐晨（公元1996年丙子生）"
                     ],
                     "children": [],
-                    "birthSolar": "1962-09-08",
-                    "birthOrder": "幼子",
-                    "birthYear": "1962",
-                    "birthDisplay": "1962年（壬寅）八月初十日"
+                    "birthOrder": "幼子"
                   }
                 ],
-                "birthSolar": "1933-10-08",
-                "birthOrder": "长子",
-                "birthYear": "1933",
-                "birthDisplay": "1933年（癸酉）八月十九日寅时",
-                "wifeDisplay": "高氏素萍（1938年（戊寅）生）"
+                "birthOrder": "长子"
               },
               {
                 "id": "x112_30c",
@@ -3621,25 +2875,13 @@ export const familyData = [
                     "gender": "M",
                     "birth": "公元1991年辛未二月初二日寅时",
                     "death": "公元1992年壬申溺亡",
-                    "children": [],
-                    "birthSolar": "1991-03-17",
-                    "birthYear": "1991",
-                    "birthDisplay": "1991年（辛未）二月初二日寅时",
-                    "deathDisplay": "1992年（壬申）溺亡"
+                    "children": []
                   }
                 ],
-                "birthSolar": "1949-02-18",
-                "birthOrder": "幼子",
-                "birthYear": "1949",
-                "birthDisplay": "1949年（己丑）正月廿一日巳时"
+                "birthOrder": "幼子"
               }
             ],
-            "birthSolar": "1907-09-06",
-            "birthOrder": "长子",
-            "birthYear": "1907",
-            "birthDisplay": "光绪丁未年（1907年）七月廿九日丑时",
-            "wifeDisplay": "张氏银妹（光绪戊申年（1908年）生）",
-            "deathDisplay": "公歿于1958年（戊戌）五月十八日巳时"
+            "birthOrder": "长子"
           },
           {
             "id": "l111_30c",
@@ -3707,16 +2949,10 @@ export const familyData = [
                             "gen": 115,
                             "gender": "M",
                             "birth": "公元2016年正月廿八日巳时",
-                            "children": [],
-                            "birthSolar": "2016-03-06",
-                            "birthYear": "2016",
-                            "birthDisplay": "2016年正月廿八日巳时"
+                            "children": []
                           }
                         ],
-                        "birthSolar": "1990-12-25",
-                        "birthOrder": "长子",
-                        "birthYear": "1990",
-                        "birthDisplay": "1990年（庚寅）十一月初九日戌时"
+                        "birthOrder": "长子"
                       },
                       {
                         "id": "b114_30f",
@@ -3731,23 +2967,12 @@ export const familyData = [
                           "映清"
                         ],
                         "children": [],
-                        "birthSolar": "1993-08-28",
-                        "birthOrder": "幼子",
-                        "birthYear": "1993",
-                        "birthDisplay": "1993年（癸酉）七月十一日巳时"
+                        "birthOrder": "幼子"
                       }
-                    ],
-                    "birthSolar": "1968-01-20",
-                    "birthYear": "1967",
-                    "birthDisplay": "1967年（丁未）十二月廿一日亥时",
-                    "wifeDisplay": "徐氏荣鸾（1969年（己酉）生）"
+                    ]
                   }
                 ],
-                "birthSolar": "1938-04-25",
-                "birthOrder": "长子",
-                "birthYear": "1938",
-                "birthDisplay": "1938年（戊寅）三月廿五日午时",
-                "wifeDisplay": "邵氏金玉（1947年（丁亥）生）"
+                "birthOrder": "长子"
               },
               {
                 "id": "x112_30e",
@@ -3788,22 +3013,12 @@ export const familyData = [
                         "gender": "M",
                         "hao": "取军",
                         "birth": "公元2008年九月廿日未时",
-                        "children": [],
-                        "birthSolar": "2008-10-18",
-                        "birthYear": "2008",
-                        "birthDisplay": "2008年九月廿日未时"
+                        "children": []
                       }
-                    ],
-                    "birthSolar": "1973-10-06",
-                    "birthYear": "1973",
-                    "birthDisplay": "1973年（癸丑）九月十一日子时"
+                    ]
                   }
                 ],
-                "birthSolar": "1945-10-21",
-                "birthOrder": "次子",
-                "birthYear": "1945",
-                "birthDisplay": "1945年（乙酉）九月十六日酉时",
-                "deathDisplay": "公歿于2016年（丙申）八月四日酉时"
+                "birthOrder": "次子"
               },
               {
                 "id": "x112_30f",
@@ -3815,18 +3030,10 @@ export const familyData = [
                 "birth": "公元1950年庚寅正月初七日辰时",
                 "note": "万紫双祧入继",
                 "children": [],
-                "birthSolar": "1950-02-23",
-                "birthOrder": "幼子",
-                "birthYear": "1950",
-                "birthDisplay": "1950年（庚寅）正月初七日辰时"
+                "birthOrder": "幼子"
               }
             ],
-            "birthSolar": "1910-09-04",
-            "birthOrder": "次子",
-            "birthYear": "1910",
-            "birthDisplay": "1910年（庚戌）八月初一日酉时",
-            "wifeDisplay": "戴氏二缘（1908年（戊申）生）",
-            "deathDisplay": "公殁于1999年（己卯），葬江家林"
+            "birthOrder": "次子"
           },
           {
             "id": "l111_30d",
@@ -3870,18 +3077,10 @@ export const familyData = [
                     "daughters": [
                       "乐婧"
                     ],
-                    "children": [],
-                    "birthSolar": "1971-01-19",
-                    "birthYear": "1970",
-                    "birthDisplay": "1970年（庚戌）十二月廿三日酉时"
+                    "children": []
                   }
                 ],
-                "birthSolar": "1933-11-27",
-                "birthOrder": "长子",
-                "birthYear": "1933",
-                "birthDisplay": "1933年（癸酉）十月初十日辰时",
-                "wifeDisplay": "陈氏国英（1937年（丁丑）生）",
-                "deathDisplay": "公歿于2000年（庚子）"
+                "birthOrder": "长子"
               },
               {
                 "id": "x112_30h",
@@ -3912,10 +3111,7 @@ export const familyData = [
                         "gender": "M",
                         "birth": "公元1997年丁丑三月初五日卯时",
                         "children": [],
-                        "birthSolar": "1997-04-11",
-                        "birthOrder": "长子",
-                        "birthYear": "1997",
-                        "birthDisplay": "1997年（丁丑）三月初五日卯时"
+                        "birthOrder": "长子"
                       },
                       {
                         "id": "b114_30i",
@@ -3925,16 +3121,10 @@ export const familyData = [
                         "gender": "M",
                         "birth": "公元1998年戊寅九月初三日午时",
                         "children": [],
-                        "birthSolar": "1998-10-22",
-                        "birthOrder": "幼子",
-                        "birthYear": "1998",
-                        "birthDisplay": "1998年（戊寅）九月初三日午时"
+                        "birthOrder": "幼子"
                       }
                     ],
-                    "birthSolar": "1968-10-11",
-                    "birthOrder": "长子",
-                    "birthYear": "1968",
-                    "birthDisplay": "1968年（戊申）八月二十日戌时"
+                    "birthOrder": "长子"
                   },
                   {
                     "id": "w113_30j",
@@ -3955,16 +3145,10 @@ export const familyData = [
                         "gen": 114,
                         "gender": "M",
                         "birth": "公元2001年辛巳四月廿五日寅时",
-                        "children": [],
-                        "birthSolar": "2001-05-17",
-                        "birthYear": "2001",
-                        "birthDisplay": "2001年（辛巳）四月廿五日寅时"
+                        "children": []
                       }
                     ],
-                    "birthSolar": "1970-09-04",
-                    "birthOrder": "次子",
-                    "birthYear": "1970",
-                    "birthDisplay": "1970年（庚戌）八月初四日戌时"
+                    "birthOrder": "次子"
                   },
                   {
                     "id": "w113_30k",
@@ -3981,23 +3165,13 @@ export const familyData = [
                         "gen": 114,
                         "gender": "M",
                         "birth": "公元2004年甲申八月廿九日子时",
-                        "children": [],
-                        "birthSolar": "2004-10-12",
-                        "birthYear": "2004",
-                        "birthDisplay": "2004年（甲申）八月廿九日子时"
+                        "children": []
                       }
                     ],
-                    "birthSolar": "1976-03-11",
-                    "birthOrder": "幼子",
-                    "birthYear": "1976",
-                    "birthDisplay": "1976年（丙辰）二月十一日丑时"
+                    "birthOrder": "幼子"
                   }
                 ],
-                "birthSolar": "1937-07-27",
-                "birthOrder": "次子",
-                "birthYear": "1937",
-                "birthDisplay": "1937年（丁丑）六月二十日戌时",
-                "wifeDisplay": "张氏莲翠（1946年（丙戌）生）"
+                "birthOrder": "次子"
               },
               {
                 "id": "x112_30i",
@@ -4033,10 +3207,7 @@ export const familyData = [
                         "hao": "吴炜",
                         "birth": "公元2008年戊子六月初七日寅时",
                         "children": [],
-                        "birthSolar": "2008-07-09",
-                        "birthOrder": "长子",
-                        "birthYear": "2008",
-                        "birthDisplay": "2008年（戊子）六月初七日寅时"
+                        "birthOrder": "长子"
                       },
                       {
                         "id": "b114_30m",
@@ -4047,37 +3218,17 @@ export const familyData = [
                         "hao": "吴烨",
                         "birth": "公元2010年庚寅九月十七日寅时",
                         "children": [],
-                        "birthSolar": "2010-10-24",
-                        "birthOrder": "幼子",
-                        "birthYear": "2010",
-                        "birthDisplay": "2010年（庚寅）九月十七日寅时"
+                        "birthOrder": "幼子"
                       }
-                    ],
-                    "birthSolar": "1984-12-10",
-                    "birthYear": "1984",
-                    "birthDisplay": "1984年（甲子）又十月十八日亥时"
+                    ]
                   }
                 ],
-                "birthSolar": "1954-05-09",
-                "birthOrder": "幼子",
-                "birthYear": "1954",
-                "birthDisplay": "1954年（甲午）四月初七日寅时",
-                "wifeDisplay": "程氏美香（1962年（壬寅）生）"
+                "birthOrder": "幼子"
               }
             ],
-            "birthSolar": "1912-09-11",
-            "birthOrder": "幼子",
-            "birthYear": "1912",
-            "birthDisplay": "1912年（壬子）八月初一日子时",
-            "wifeDisplay": "程氏细娥（1914年（甲寅）生）",
-            "deathDisplay": "公歿于2001年（辛巳），葬江家林南北向"
+            "birthOrder": "幼子"
           }
-        ],
-        "birthSolar": "1860-03-18",
-        "birthYear": "1860",
-        "birthDisplay": "咸丰庚申年（1860年）二月廿六日寅时",
-        "wifeDisplay": "邵氏金玉（同治庚午年（1870年）二月廿六日卯时生）",
-        "deathDisplay": "公歿于1938年（戊寅）七月初二日酉时，葬小后坚王村背"
+        ]
       },
       {
         "id": "m110_30d",
@@ -4087,10 +3238,7 @@ export const familyData = [
         "gender": "M",
         "birth": "同治壬戌年十月廿三日未时",
         "note": "幼歿",
-        "children": [],
-        "birthSolar": "1862-12-14",
-        "birthYear": "1862",
-        "birthDisplay": "同治壬戌年（1862年）十月廿三日未时"
+        "children": []
       },
       {
         "id": "m110_30e",
@@ -4100,10 +3248,7 @@ export const familyData = [
         "gender": "M",
         "birth": "同治甲子年九月十四日酉时",
         "note": "幼歿",
-        "children": [],
-        "birthSolar": "1864-10-14",
-        "birthYear": "1864",
-        "birthDisplay": "同治甲子年（1864年）九月十四日酉时"
+        "children": []
       }
     ]
   },
@@ -4175,11 +3320,7 @@ export const familyData = [
                       "birth": "公元1990年庚午二月初八日丑时",
                       "wife": "张氏海茵（公元1994年甲戌生）",
                       "children": [],
-                      "birthSolar": "1990-03-04",
-                      "birthOrder": "长子",
-                      "birthYear": "1990",
-                      "birthDisplay": "1990年（庚午）二月初八日丑时",
-                      "wifeDisplay": "张氏海茵（1994年（甲戌）生）"
+                      "birthOrder": "长子"
                     },
                     {
                       "id": "b114_40b",
@@ -4190,18 +3331,10 @@ export const familyData = [
                       "birth": "公元1996年丙子正月十一日申时",
                       "wife": "林氏凤枝（公元2000年庚辰生）",
                       "children": [],
-                      "birthSolar": "1996-02-29",
-                      "birthOrder": "幼子",
-                      "birthYear": "1996",
-                      "birthDisplay": "1996年（丙子）正月十一日申时",
-                      "wifeDisplay": "林氏凤枝（2000年（庚辰）生）"
+                      "birthOrder": "幼子"
                     }
                   ],
-                  "birthSolar": "1956-02-21",
-                  "birthOrder": "长子",
-                  "birthYear": "1956",
-                  "birthDisplay": "1956年（丙申）正月初十日辰时",
-                  "wifeDisplay": "徐氏雪翠（1959年（己亥）生）"
+                  "birthOrder": "长子"
                 },
                 {
                   "id": "w113_40b",
@@ -4224,24 +3357,13 @@ export const familyData = [
                       "gen": 114,
                       "gender": "M",
                       "birth": "公元2002年壬午二月初七日辰时",
-                      "children": [],
-                      "birthSolar": "2002-03-20",
-                      "birthYear": "2002",
-                      "birthDisplay": "2002年（壬午）二月初七日辰时"
+                      "children": []
                     }
                   ],
-                  "birthSolar": "1974-01-17",
-                  "birthOrder": "幼子",
-                  "birthYear": "1973",
-                  "birthDisplay": "1973年（癸丑）十二月廿五日亥时",
-                  "wifeDisplay": "吴氏江美（1973年（癸丑）生）"
+                  "birthOrder": "幼子"
                 }
               ],
-              "birthSolar": "1930-01-28",
-              "birthOrder": "长子",
-              "birthYear": "1929",
-              "birthDisplay": "1929年（己巳）十二月廿九日亥时",
-              "wifeDisplay": "王氏长英（1932年（壬申）生）"
+              "birthOrder": "长子"
             },
             {
               "id": "x112_40b",
@@ -4279,18 +3401,10 @@ export const familyData = [
                       "daughters": [
                         "潭雪（公元2008年戊子生）"
                       ],
-                      "children": [],
-                      "birthSolar": "1985-02-01",
-                      "birthYear": "1984",
-                      "birthDisplay": "1984年（甲子）十二月十二日巳时",
-                      "wifeDisplay": "本梓小娟（1986年（乙丑）生）"
+                      "children": []
                     }
                   ],
-                  "birthSolar": "1959-06-23",
-                  "birthOrder": "长子",
-                  "birthYear": "1959",
-                  "birthDisplay": "1959年（己亥）五月十八日午时",
-                  "wifeDisplay": "张氏才玉（1963年（癸卯）生）"
+                  "birthOrder": "长子"
                 },
                 {
                   "id": "w113_40d",
@@ -4310,17 +3424,10 @@ export const familyData = [
                       "gen": 114,
                       "gender": "M",
                       "birth": "公元1987年丁卯十月廿四日丑时",
-                      "children": [],
-                      "birthSolar": "1987-12-14",
-                      "birthYear": "1987",
-                      "birthDisplay": "1987年（丁卯）十月廿四日丑时"
+                      "children": []
                     }
                   ],
-                  "birthSolar": "1965-09-28",
-                  "birthOrder": "次子",
-                  "birthYear": "1965",
-                  "birthDisplay": "1965年（乙巳）九月初四日卯时",
-                  "deathDisplay": "公歿于1995年又八月初四日"
+                  "birthOrder": "次子"
                 },
                 {
                   "id": "w113_40e",
@@ -4341,38 +3448,17 @@ export const familyData = [
                       "gen": 114,
                       "gender": "M",
                       "birth": "公元1997年丁丑五月初九日申时",
-                      "children": [],
-                      "birthSolar": "1997-06-13",
-                      "birthYear": "1997",
-                      "birthDisplay": "1997年（丁丑）五月初九日申时"
+                      "children": []
                     }
                   ],
-                  "birthSolar": "1968-03-23",
-                  "birthOrder": "幼子",
-                  "birthYear": "1968",
-                  "birthDisplay": "1968年（戊申）二月廿五日午时"
+                  "birthOrder": "幼子"
                 }
               ],
-              "birthSolar": "1933-01-15",
-              "birthOrder": "幼子",
-              "birthYear": "1932",
-              "birthDisplay": "1932年（壬申）十二月二十日戌时",
-              "wifeDisplay": "徐氏梁香（1936年（丙子）生）",
-              "deathDisplay": "公歿于1995年（乙亥），葬江家林南北向"
+              "birthOrder": "幼子"
             }
-          ],
-          "birthSolar": "1900-06-04",
-          "birthYear": "1900",
-          "birthDisplay": "光绪庚子年（1900年）五月初八日午时",
-          "wifeDisplay": "黄氏等菊（歿于1919年）；继娶王氏望菊（出殊）；再娶段氏望枝（1910年（庚戌）生）",
-          "deathDisplay": "公歿于1958年（戊戌），葬栎山上"
+          ]
         }
-      ],
-      "birthSolar": "1865-09-05",
-      "birthYear": "1865",
-      "birthDisplay": "同治乙丑年（1865年）七月十六日辰时",
-      "wifeDisplay": "张氏秋娇（同治己巳年（1869年）生）",
-      "deathDisplay": "公歿于光绪丁未年（1907年）十一月二十日巳时，葬道观前；氏歿于1937年（丁丑），葬庵西"
+      ]
     },
     "siblings": [
       {
@@ -4462,10 +3548,7 @@ export const familyData = [
                           "梓桐"
                         ],
                         "children": [],
-                        "birthSolar": "1984-10-15",
-                        "birthOrder": "长子",
-                        "birthYear": "1984",
-                        "birthDisplay": "1984年（甲子）九月廿一日"
+                        "birthOrder": "长子"
                       },
                       {
                         "id": "b114_40h",
@@ -4476,17 +3559,10 @@ export const familyData = [
                         "birth": "公元1991年辛未十月廿九日亥时",
                         "wife": "石氏秀华",
                         "children": [],
-                        "birthSolar": "1991-12-04",
-                        "birthOrder": "幼子",
-                        "birthYear": "1991",
-                        "birthDisplay": "1991年（辛未）十月廿九日亥时"
+                        "birthOrder": "幼子"
                       }
                     ],
-                    "birthSolar": "1962-12-03",
-                    "birthOrder": "长子",
-                    "birthYear": "1962",
-                    "birthDisplay": "1962年（壬寅）十一月初七日亥时",
-                    "wifeDisplay": "程氏早翠（1961年（辛丑）生）"
+                    "birthOrder": "长子"
                   },
                   {
                     "id": "w113_40g",
@@ -4516,16 +3592,10 @@ export const familyData = [
                             "gen": 115,
                             "gender": "M",
                             "birth": "公元2021年辛丑六月初七日寅时",
-                            "children": [],
-                            "birthSolar": "2021-07-16",
-                            "birthYear": "2021",
-                            "birthDisplay": "2021年（辛丑）六月初七日寅时"
+                            "children": []
                           }
                         ],
-                        "birthSolar": "1991-03-06",
-                        "birthOrder": "长子",
-                        "birthYear": "1991",
-                        "birthDisplay": "1991年（辛未）正月二十日未时"
+                        "birthOrder": "长子"
                       },
                       {
                         "id": "b114_40j",
@@ -4535,34 +3605,17 @@ export const familyData = [
                         "gender": "M",
                         "birth": "公元1993年癸酉月廿二日子时",
                         "children": [],
-                        "birthSolar": "1993",
-                        "birthOrder": "幼子",
-                        "birthYear": "1993",
-                        "birthDisplay": "1993年（癸酉）月廿二日子时"
+                        "birthOrder": "幼子"
                       }
                     ],
-                    "birthSolar": "1967-01-15",
-                    "birthOrder": "幼子",
-                    "birthYear": "1966",
-                    "birthDisplay": "1966年（丙午）十二月初五日寅时"
+                    "birthOrder": "幼子"
                   }
-                ],
-                "birthSolar": "1940-11-02",
-                "birthYear": "1940",
-                "birthDisplay": "1940年（庚辰）十月初三日午时",
-                "wifeDisplay": "李氏腊梅（1942年（壬午）生）"
+                ]
               }
             ],
-            "birthSolar": "1914-10-10",
-            "birthOrder": "幼子",
-            "birthYear": "1914",
-            "birthDisplay": "1914年（甲寅）八月廿一日申时",
-            "deathDisplay": "公歿于1992年（壬申），葬江家林南北向"
+            "birthOrder": "幼子"
           }
-        ],
-        "birthSolar": "1902-10-08",
-        "wifeDisplay": "张氏翠英（光绪癸未年（1883年）生）",
-        "deathDisplay": "公歿于1915年（乙卯）十一月十三日辰时，葬对门南北向"
+        ]
       },
       {
         "id": "m110_40d",
@@ -4572,10 +3625,7 @@ export const familyData = [
         "gender": "M",
         "birth": "光绪乙亥年十二月廿九日寅时",
         "note": "幼歿",
-        "children": [],
-        "birthSolar": "1876-01-25",
-        "birthYear": "1875",
-        "birthDisplay": "光绪乙亥年（1875年）十二月廿九日寅时"
+        "children": []
       }
     ]
   },
@@ -4649,24 +3699,12 @@ export const familyData = [
                           "gen": 115,
                           "gender": "M",
                           "birth": "公元2015年乙未正月廿日未时",
-                          "children": [],
-                          "birthSolar": "2015-03-10",
-                          "birthYear": "2015",
-                          "birthDisplay": "2015年（乙未）正月廿日未时"
+                          "children": []
                         }
-                      ],
-                      "birthSolar": "1988-11-03",
-                      "birthYear": "1988",
-                      "birthDisplay": "1988年（戊辰）九月廿四日卯时",
-                      "wifeDisplay": "鄱阳洪家巷张氏名婷（1993年生）"
+                      ]
                     }
                   ],
-                  "birthSolar": "1961-05-21",
-                  "birthOrder": "长子",
-                  "birthYear": "1961",
-                  "birthDisplay": "1961年（辛丑）四月初七日午时",
-                  "wifeDisplay": "曹氏想花（1962年（壬寅）生）",
-                  "deathDisplay": "公歿于2011年（辛卯）十一月初十日申时，葬对门东西向"
+                  "birthOrder": "长子"
                 },
                 {
                   "id": "w113_70b",
@@ -4696,16 +3734,10 @@ export const familyData = [
                           "gen": 115,
                           "gender": "M",
                           "birth": "公元2019年乙丑生",
-                          "children": [],
-                          "birthSolar": "2019",
-                          "birthYear": "2019",
-                          "birthDisplay": "2019年（乙丑）生"
+                          "children": []
                         }
                       ],
-                      "birthSolar": "1983-10-26",
-                      "birthOrder": "长子",
-                      "birthYear": "1983",
-                      "birthDisplay": "1983年（癸亥）九月二十一日辰时"
+                      "birthOrder": "长子"
                     },
                     {
                       "id": "b114_70c",
@@ -4726,16 +3758,10 @@ export const familyData = [
                           "gen": 115,
                           "gender": "M",
                           "birth": "公元2019年乙亥生",
-                          "children": [],
-                          "birthSolar": "2019",
-                          "birthYear": "2019",
-                          "birthDisplay": "2019年（乙亥）生"
+                          "children": []
                         }
                       ],
-                      "birthSolar": "1986-10-02",
-                      "birthOrder": "次子",
-                      "birthYear": "1986",
-                      "birthDisplay": "1986年（丙寅）八月廿九日午时"
+                      "birthOrder": "次子"
                     },
                     {
                       "id": "b114_70d",
@@ -4754,10 +3780,7 @@ export const familyData = [
                           "gender": "M",
                           "birth": "公元2017年丁酉生",
                           "children": [],
-                          "birthSolar": "2017",
-                          "birthOrder": "长子",
-                          "birthYear": "2017",
-                          "birthDisplay": "2017年（丁酉）生"
+                          "birthOrder": "长子"
                         },
                         {
                           "id": "g115_70e",
@@ -4767,23 +3790,13 @@ export const familyData = [
                           "gender": "M",
                           "birth": "公元2019年乙亥生",
                           "children": [],
-                          "birthSolar": "2019",
-                          "birthOrder": "幼子",
-                          "birthYear": "2019",
-                          "birthDisplay": "2019年（乙亥）生"
+                          "birthOrder": "幼子"
                         }
                       ],
-                      "birthSolar": "1989-01-07",
-                      "birthOrder": "幼子",
-                      "birthYear": "1988",
-                      "birthDisplay": "1988年（戊辰）十一月三十日午时"
+                      "birthOrder": "幼子"
                     }
                   ],
-                  "birthSolar": "1963-07-17",
-                  "birthOrder": "次子",
-                  "birthYear": "1963",
-                  "birthDisplay": "1963年（癸卯）五月廿七日戌时",
-                  "wifeDisplay": "程氏饶玉（1962年（壬寅）生）"
+                  "birthOrder": "次子"
                 },
                 {
                   "id": "w113_70c",
@@ -4813,17 +3826,10 @@ export const familyData = [
                           "gen": 115,
                           "gender": "M",
                           "birth": "公元2015年乙未生",
-                          "children": [],
-                          "birthSolar": "2015",
-                          "birthYear": "2015",
-                          "birthDisplay": "2015年（乙未）生"
+                          "children": []
                         }
                       ],
-                      "birthSolar": "1988-11-10",
-                      "birthOrder": "长子",
-                      "birthYear": "1988",
-                      "birthDisplay": "1988年（戊辰）十月初二日申时",
-                      "wifeDisplay": "熊氏名燕（1989年（己巳）生）"
+                      "birthOrder": "长子"
                     },
                     {
                       "id": "b114_70f",
@@ -4842,10 +3848,7 @@ export const familyData = [
                           "gender": "M",
                           "birth": "公元2011年辛卯生",
                           "children": [],
-                          "birthSolar": "2011",
-                          "birthOrder": "长子",
-                          "birthYear": "2011",
-                          "birthDisplay": "2011年（辛卯）生"
+                          "birthOrder": "长子"
                         },
                         {
                           "id": "g115_70h",
@@ -4857,18 +3860,10 @@ export const familyData = [
                           "birthOrder": "幼子"
                         }
                       ],
-                      "birthSolar": "1990-01-02",
-                      "birthOrder": "幼子",
-                      "birthYear": "1989",
-                      "birthDisplay": "1989年（己巳）十二月初六日巳时",
-                      "wifeDisplay": "余氏兰珍（1992年（壬申）生）"
+                      "birthOrder": "幼子"
                     }
                   ],
-                  "birthSolar": "1968-02-20",
-                  "birthOrder": "三子",
-                  "birthYear": "1968",
-                  "birthDisplay": "1968年（戊申）正月廿二日亥时",
-                  "wifeDisplay": "张氏荣花（1969年（己酉）生）"
+                  "birthOrder": "三子"
                 },
                 {
                   "id": "w113_70d",
@@ -4889,17 +3884,10 @@ export const familyData = [
                       "gen": 114,
                       "gender": "M",
                       "birth": "公元1996年丙子四月初五日丑时",
-                      "children": [],
-                      "birthSolar": "1996-05-21",
-                      "birthYear": "1996",
-                      "birthDisplay": "1996年（丙子）四月初五日丑时"
+                      "children": []
                     }
                   ],
-                  "birthSolar": "1970-04-08",
-                  "birthOrder": "四子",
-                  "birthYear": "1970",
-                  "birthDisplay": "1970年（庚戌）三月初三日戌时",
-                  "wifeDisplay": "李氏丽平（1972年（壬子）生）"
+                  "birthOrder": "四子"
                 },
                 {
                   "id": "w113_70e",
@@ -4925,36 +3913,16 @@ export const familyData = [
                       "daughters": [
                         "吴优（公元2022年壬寅生）"
                       ],
-                      "children": [],
-                      "birthSolar": "1997-10-10",
-                      "birthYear": "1997",
-                      "birthDisplay": "1997年（丁丑）九月初九日未时",
-                      "wifeDisplay": "张兰（1998年（戊寅）生）"
+                      "children": []
                     }
                   ],
-                  "birthSolar": "1971-12-29",
-                  "birthOrder": "幼子",
-                  "birthYear": "1971",
-                  "birthDisplay": "1971年（辛亥）十一月十二日亥时",
-                  "wifeDisplay": "石氏华枝（1972年（壬子）生）"
+                  "birthOrder": "幼子"
                 }
-              ],
-              "birthSolar": "1934-01-31",
-              "birthYear": "1933",
-              "birthDisplay": "1933年（癸酉）十二月十七日卯时",
-              "wifeDisplay": "石氏银环（1935年（辛未）生）",
-              "deathDisplay": "公歿于2002年（壬午）十一月十四日辰时，葬对门南北向"
+              ]
             }
-          ],
-          "birthSolar": "1920-10-08",
-          "birthYear": "1920",
-          "birthDisplay": "1920年（庚申）八月廿七日丑时"
+          ]
         }
-      ],
-      "birthSolar": "1859",
-      "birthYear": "1859",
-      "birthDisplay": "咸丰己未年（1859年）月十三日巳时",
-      "deathDisplay": "公歿于1937年（丁丑）七月廿三日卯时"
+      ]
     },
     "siblings": [
       {
@@ -5021,42 +3989,17 @@ export const familyData = [
                             "gen": 115,
                             "gender": "M",
                             "birth": "公元2011年辛卯八月廿二日子时",
-                            "children": [],
-                            "birthSolar": "2011-09-19",
-                            "birthYear": "2011",
-                            "birthDisplay": "2011年（辛卯）八月廿二日子时"
+                            "children": []
                           }
-                        ],
-                        "birthSolar": "1982-07-10",
-                        "birthYear": "1982",
-                        "birthDisplay": "1982年（壬戌）五月二十日午时",
-                        "wifeDisplay": "李氏李芳（1978年（戊午）生）"
+                        ]
                       }
-                    ],
-                    "birthSolar": "1961-02-15",
-                    "birthYear": "1961",
-                    "birthDisplay": "1961年（辛丑）正月初一日子时",
-                    "wifeDisplay": "张氏爱云（1957年（丁酉）生）"
+                    ]
                   }
-                ],
-                "birthSolar": "1923-12-08",
-                "birthYear": "1923",
-                "birthDisplay": "1923年（癸亥）十一月初一日巳时",
-                "wifeDisplay": "余氏鸣凤（1925年（乙丑）生）",
-                "deathDisplay": "公歿于1962年（壬寅）十月十四日，葬对门南北向；氏歿于2012年（壬辰），公氏合葬"
+                ]
               }
-            ],
-            "birthSolar": "1897-08-27",
-            "birthYear": "1897",
-            "birthDisplay": "光绪丁酉年（1897年）七月三十日卯时",
-            "wifeDisplay": "张氏黑妹（光绪戊戌年（1898年）生）"
+            ]
           }
-        ],
-        "birthSolar": "1862-01-21",
-        "birthYear": "1861",
-        "birthDisplay": "咸丰辛酉年（1861年）十二月廿二日戌时",
-        "wifeDisplay": "朱氏铁妹（同治壬申年（1872年）生）",
-        "deathDisplay": "氏殁于光绪戊戌年（1898年）九月廿三日酉时，葬三角尖"
+        ]
       },
       {
         "id": "m110_70c",
@@ -5154,16 +4097,10 @@ export const familyData = [
                         "沛萱",
                         "梦茜"
                       ],
-                      "children": [],
-                      "birthSolar": "1990-10-21",
-                      "birthYear": "1990",
-                      "birthDisplay": "1990年（庚午）九月初四日酉时"
+                      "children": []
                     }
                   ],
-                  "birthSolar": "1962-02-17",
-                  "birthOrder": "长子",
-                  "birthYear": "1962",
-                  "birthDisplay": "1962年（壬寅）正月十三日寅时"
+                  "birthOrder": "长子"
                 },
                 {
                   "id": "w113_80b",
@@ -5193,22 +4130,12 @@ export const familyData = [
                           "gen": 115,
                           "gender": "M",
                           "birth": "公元2016年丙申腊月十八日卯时",
-                          "children": [],
-                          "birthSolar": "2017-01-15",
-                          "birthYear": "2016",
-                          "birthDisplay": "2016年（丙申）腊月十八日卯时"
+                          "children": []
                         }
-                      ],
-                      "birthSolar": "1994-01-12",
-                      "birthYear": "1993",
-                      "birthDisplay": "1993年（癸酉）十二月初一日酉时"
+                      ]
                     }
                   ],
-                  "birthSolar": "1969-12-04",
-                  "birthOrder": "次子",
-                  "birthYear": "1969",
-                  "birthDisplay": "1969年（己酉）十月廿五日亥时",
-                  "wifeDisplay": "吴氏常梅（1968年（戊申）生）"
+                  "birthOrder": "次子"
                 },
                 {
                   "id": "w113_80c",
@@ -5230,24 +4157,13 @@ export const familyData = [
                       "gen": 114,
                       "gender": "M",
                       "birth": "公元1999年己卯二月初二日辰时",
-                      "children": [],
-                      "birthSolar": "1999-03-19",
-                      "birthYear": "1999",
-                      "birthDisplay": "1999年（己卯）二月初二日辰时"
+                      "children": []
                     }
                   ],
-                  "birthSolar": "1972-06-22",
-                  "birthOrder": "幼子",
-                  "birthYear": "1972",
-                  "birthDisplay": "1972年（壬子）五月十二日巳时",
-                  "deathDisplay": "公歿于2000年（庚辰），葬对门南北向"
+                  "birthOrder": "幼子"
                 }
               ],
-              "birthSolar": "1934-12-06",
-              "birthOrder": "长子",
-              "birthYear": "1934",
-              "birthDisplay": "1934年（甲戌）十月三十日亥时",
-              "wifeDisplay": "张氏翠环（1936年（丙子）生）、臧氏金贵"
+              "birthOrder": "长子"
             },
             {
               "id": "x112_80b",
@@ -5274,10 +4190,7 @@ export const familyData = [
                     "琳慧"
                   ],
                   "children": [],
-                  "birthSolar": "1974-05-05",
-                  "birthOrder": "长子",
-                  "birthYear": "1974",
-                  "birthDisplay": "1974年（甲寅）四月十四日巳时"
+                  "birthOrder": "长子"
                 },
                 {
                   "id": "w113_80e",
@@ -5309,24 +4222,13 @@ export const familyData = [
                       "gender": "M",
                       "birth": "公元2013年癸巳生",
                       "children": [],
-                      "birthSolar": "2013",
-                      "birthOrder": "幼子",
-                      "birthYear": "2013",
-                      "birthDisplay": "2013年（癸巳）生"
+                      "birthOrder": "幼子"
                     }
                   ],
-                  "birthSolar": "1979-10-13",
-                  "birthOrder": "幼子",
-                  "birthYear": "1979",
-                  "birthDisplay": "1979年（己未）八月廿三日未时",
-                  "deathDisplay": "公歿于2020年（庚子）"
+                  "birthOrder": "幼子"
                 }
               ],
-              "birthSolar": "1942-07-21",
-              "birthOrder": "次子",
-              "birthYear": "1942",
-              "birthDisplay": "1942年（壬午）六月初九日巳时",
-              "wifeDisplay": "张氏秋兰（1949年（己丑）生）"
+              "birthOrder": "次子"
             },
             {
               "id": "x112_80c",
@@ -5359,17 +4261,10 @@ export const familyData = [
                       "gender": "M",
                       "birth": "公元1990年庚午七月初五日申时",
                       "death": "歿于公元2004年甲申溺亡广东汕头",
-                      "children": [],
-                      "birthSolar": "1990-08-24",
-                      "birthYear": "1990",
-                      "birthDisplay": "1990年（庚午）七月初五日申时",
-                      "deathDisplay": "歿于2004年（甲申）溺亡广东汕头"
+                      "children": []
                     }
                   ],
-                  "birthSolar": "1967-11-05",
-                  "birthOrder": "长子",
-                  "birthYear": "1967",
-                  "birthDisplay": "1967年（丁未）十月初四日申时"
+                  "birthOrder": "长子"
                 },
                 {
                   "id": "w113_80g",
@@ -5392,10 +4287,7 @@ export const familyData = [
                       "hao": "吴超",
                       "birth": "公元2002年壬午生",
                       "children": [],
-                      "birthSolar": "2002",
-                      "birthOrder": "长子",
-                      "birthYear": "2002",
-                      "birthDisplay": "2002年（壬午）生"
+                      "birthOrder": "长子"
                     },
                     {
                       "id": "b114_80h",
@@ -5405,16 +4297,10 @@ export const familyData = [
                       "gender": "M",
                       "birth": "公元2007年丁亥生",
                       "children": [],
-                      "birthSolar": "2007",
-                      "birthOrder": "幼子",
-                      "birthYear": "2007",
-                      "birthDisplay": "2007年（丁亥）生"
+                      "birthOrder": "幼子"
                     }
                   ],
-                  "birthSolar": "1969-10-06",
-                  "birthOrder": "次子",
-                  "birthYear": "1969",
-                  "birthDisplay": "1969年（己酉）八月廿五日卯时"
+                  "birthOrder": "次子"
                 },
                 {
                   "id": "w113_80h",
@@ -5425,11 +4311,7 @@ export const familyData = [
                   "birth": "公元1973年癸丑十一月初五日辰时",
                   "death": "公元2012年壬辰歿，葬对门",
                   "children": [],
-                  "birthSolar": "1973-11-29",
-                  "birthOrder": "三子",
-                  "birthYear": "1973",
-                  "birthDisplay": "1973年（癸丑）十一月初五日辰时",
-                  "deathDisplay": "2012年（壬辰）歿，葬对门"
+                  "birthOrder": "三子"
                 },
                 {
                   "id": "w113_80i",
@@ -5440,30 +4322,14 @@ export const familyData = [
                   "birth": "公元1977年丁巳十月三十日亥时",
                   "death": "公元2002年壬午歿，葬对门南北向",
                   "children": [],
-                  "birthSolar": "1977-12-10",
-                  "birthOrder": "幼子",
-                  "birthYear": "1977",
-                  "birthDisplay": "1977年（丁巳）十月三十日亥时",
-                  "deathDisplay": "2002年（壬午）歿，葬对门南北向"
+                  "birthOrder": "幼子"
                 }
               ],
-              "birthSolar": "1945-10-28",
-              "birthOrder": "幼子",
-              "birthYear": "1945",
-              "birthDisplay": "1945年（乙酉）九月廿三日午时",
-              "deathDisplay": "氏殁于1983年（癸亥），葬对门南北向"
+              "birthOrder": "幼子"
             }
-          ],
-          "birthSolar": "1906-11-13",
-          "birthYear": "1906",
-          "birthDisplay": "1906年（丙午）九月廿七日丑时",
-          "wifeDisplay": "胡氏菊妹；史氏龙娇（1911年（辛亥）生）",
-          "deathDisplay": "公歿于1989年（己巳）十一月初八日申时，葬对门南北向"
+          ]
         }
-      ],
-      "birthSolar": "1906-07-04",
-      "wifeDisplay": "胡氏秋莲（同治己巳年（1869年）生）",
-      "deathDisplay": "公歿于1941年（辛巳）又七月十七日寅时，葬道观前"
+      ]
     },
     "siblings": []
   },
@@ -5477,10 +4343,7 @@ export const familyData = [
       "gender": "M",
       "birth": "咸丰丙辰年六月廿八日子时",
       "note": "幼歿",
-      "children": [],
-      "birthSolar": "1856-07-29",
-      "birthYear": "1856",
-      "birthDisplay": "咸丰丙辰年（1856年）六月廿八日子时"
+      "children": []
     },
     "siblings": [
       {
@@ -5513,16 +4376,9 @@ export const familyData = [
             "wife": "孔氏银菊",
             "death": "公氏歿葬未详",
             "children": [],
-            "birthSolar": "1908-10-11",
-            "birthOrder": "幼子",
-            "birthYear": "1908",
-            "birthDisplay": "光绪戊申年（1908年）九月十七日辰时"
+            "birthOrder": "幼子"
           }
-        ],
-        "birthSolar": "1891-10-15",
-        "birthYear": "1891",
-        "birthDisplay": "光绪辛卯年（1891年）九月十三日午时",
-        "deathDisplay": "公歿于光绪丙午年（1906年）六月初七日巳时，葬王家背"
+        ]
       }
     ]
   },
@@ -5538,11 +4394,7 @@ export const familyData = [
       "wife": "张氏登秀（出醮）",
       "death": "公歿于光绪丁丑年七月初九日子时，葬道观",
       "note": "后嗣信息不完整",
-      "children": [],
-      "birthSolar": "1861-11-22",
-      "birthYear": "1861",
-      "birthDisplay": "咸丰辛酉年（1861年）十月二十日辰时",
-      "deathDisplay": "公歿于光绪丁丑年（1877年）七月初九日子时，葬道观"
+      "children": []
     },
     "siblings": []
   }

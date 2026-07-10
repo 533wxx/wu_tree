@@ -15,15 +15,10 @@
       字{{ person.zi }}<template v-if="person.hao"> 号{{ person.hao }}</template>
     </div>
     <div class="detail">
-      <div v-if="person.birthDisplay">生于 {{ person.birthDisplay }}</div>
-      <div v-else-if="person.birth">生于 {{ person.birth }}</div>
-      <div v-if="person.wifeDisplay || person.wife" class="highlight">
-        {{ person.wifeDisplay || person.wife }}
-      </div>
+      <div v-if="person.birth">生于 {{ person.birth }}</div>
+      <div v-if="person.wife" class="highlight">{{ person.wife }}</div>
       <div v-if="person.adoptNote" class="adopt-badge">{{ person.adoptNote }}</div>
-      <div v-if="person.deathDisplay || person.death" style="color:var(--text-dim)">
-        {{ person.deathDisplay || person.death }}
-      </div>
+      <div v-if="person.death" style="color:var(--text-dim)">{{ person.death }}</div>
     </div>
     <div
       v-if="hasChildren"
