@@ -25,8 +25,9 @@ async function fetchData(force = false) {
 
   try {
     // 公开仓库直接用 raw.githubusercontent.com，无需 token
-    const rawUrl = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/${DATA_PATH}`
-    let res = await fetch(rawUrl)
+    // 加时间戳绕过 CDN 缓存
+    const rawUrl = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/${DATA_PATH}?t=${Date.now()}`
+    let res = await fetch(rawUrl, { cache: 'no-store' })
 
     // 如果 raw 返回 404，尝试用 API（支持私有仓库 + token）
     if (!res.ok) {
